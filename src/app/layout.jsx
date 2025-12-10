@@ -6,19 +6,19 @@ import "./globals.css";
 // ...existing code...
 
 // Dynamic import for ResponsiveNavbar
-const ResponsiveNavbar = dynamic(
-  () => import("../components/Navbar/ResponsiveNavbar.jsx"),
-  {
-    loading: () => <div className="h-16 bg-black animate-pulse" />,
-    ssr: true,
-  }
-);
+// const ResponsiveNavbar = dynamic(
+//   () => import("../components/Navbar/ResponsiveNavbar.jsx"),
+//   {
+//     loading: () => <div className="h-16 bg-black animate-pulse" />,
+//     ssr: true,
+//   }
+// );
 
 // Dynamic import for Footer
-const Footer = dynamic(() => import("../components/Footer/Footer.jsx"), {
-  loading: () => <div className="h-32 bg-gray-100 animate-pulse" />,
-  ssr: true,
-});
+// const Footer = dynamic(() => import("../components/Footer/Footer.jsx"), {
+//   loading: () => <div className="h-32 bg-gray-100 animate-pulse" />,
+//   ssr: true,
+// });
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -126,9 +126,9 @@ export default function RootLayout({ children }) {
         </noscript>
         {/* End Google Tag Manager (noscript) */}
 
-        <ResponsiveNavbar />
+        {/* <ResponsiveNavbar /> */}
         <main className="pt-20">{children}</main>
-        <Footer />
+        {/* <Footer /> */}
 
         {/* Google Ads gtag */}
         <Script
