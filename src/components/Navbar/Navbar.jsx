@@ -57,7 +57,12 @@ export default function Navbar() {
                 { name: "CHFI Course", link: "/chfi-course-in-mumbai" },
                 { name: "WAPT Course", link: "/wapt-course-in-mumbai" },
                 { name: "Cyber Security Analyst Course", link: "/cyber-security-analyst-course-in-mumbai" },
-            ]
+                { name: "Data Science Course", link: "/data-science-course-in-mumbai" },
+                { name: "Data Analytics Course", link: "/data-analytics-course-in-mumbai" },
+                { name: "Advanced Excel Course", link: "/advanced-excel-course-in-mumbai" },
+                { name: "Python Course", link: "/python-course-in-mumbai" },
+                { name: "Full Stack Java Course", link: "/full-stack-java-course-in-mumbai" },
+                ]
         },
     ];
 
