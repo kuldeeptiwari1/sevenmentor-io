@@ -2,6 +2,8 @@ import dynamic from "next/dynamic";
 import Script from "next/script";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 
 // ...existing code...
 
@@ -44,7 +46,7 @@ export default function RootLayout({ children }) {
 
 
 
- <head>
+      <head>
         {/* Preload critical fonts */}
         <link
           rel="preload"
@@ -53,9 +55,10 @@ export default function RootLayout({ children }) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
-        
+
         {/* Inline critical CSS */}
-        <style dangerouslySetInnerHTML={{ __html: `
+        <style dangerouslySetInnerHTML={{
+          __html: `
           /* Critical CSS for above-the-fold content */
           body {
             display: block;
@@ -126,9 +129,9 @@ export default function RootLayout({ children }) {
         </noscript>
         {/* End Google Tag Manager (noscript) */}
 
-        {/* <ResponsiveNavbar /> */}
+        <Navbar />
         <main className="">{children}</main>
-        {/* <Footer /> */}
+        <Footer />
 
         {/* Google Ads gtag */}
         <Script
@@ -239,7 +242,8 @@ export default function RootLayout({ children }) {
 
 
 
-  <script dangerouslySetInnerHTML={{ __html: `
+        <script dangerouslySetInnerHTML={{
+          __html: `
           // Prevent Flash of Unstyled Content
           document.documentElement.classList.add('js');
           
@@ -298,7 +302,7 @@ export default function RootLayout({ children }) {
 
 
 
-          {/* Load analytics scripts with lowest priority */}
+        {/* Load analytics scripts with lowest priority */}
         {/* <Script
           src="https://www.googletagmanager.com/gtag/js"
           strategy="afterInteractive"
@@ -309,7 +313,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'YOUR-ID');
           }}
         /> */}
-       
+
         <Script id="quora-pixel" strategy="afterInteractive">
           {`
             !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');

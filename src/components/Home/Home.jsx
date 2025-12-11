@@ -1,12 +1,11 @@
 "use client"
+import React, { useState, useEffect } from "react"
+import { ChevronLeft, ChevronRight, Menu, X, Star, CheckCircle, Award, Users, BookOpen } from "lucide-react"
 
-import { useState } from "react"
-import { ChevronLeft, ChevronRight, Search } from "lucide-react"
-
-export default function Home() {
+export default function HomeSection() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [currentTrendingSlide, setCurrentTrendingSlide] = useState(0)
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -15,87 +14,85 @@ export default function Home() {
     course: "",
   })
 
+  // Courses Data
   const courses = [
-    { id: 1, name: "CCNA", image: "/ccna-logo.jpg" },
-    { id: 2, name: "Linux", image: "/linux-penguin-logo.jpg" },
-    { id: 3, name: "Python", image: "/python-logo.png" },
-    { id: 4, name: "Salesforce", image: "/salesforce-logo.png" },
-    { id: 5, name: "IPA", image: "/ipa-logo.jpg" },
-    { id: 6, name: "Data Science", image: "/data-science-logo.png" },
-    { id: 7, name: "Fullstack", image: "/fullstack-logo.jpg" },
-    { id: 8, name: "Java", image: "/java-logo.png" },
-    { id: 9, name: "AWS", image: "/aws-logo.png" },
-    { id: 10, name: "AI", image: "/artificial-intelligence-logo.jpg" },
-    { id: 11, name: "Machine Learning", image: "/machine-learning-logo.jpg" },
-    { id: 12, name: "DevOps", image: "/devops-logo.jpg" },
+    { id: 1, name: "Python Course", image: "/placeholder.svg?height=60&width=60" },
+    { id: 2, name: "Data Science Course", image: "/placeholder.svg?height=60&width=60" },
+    { id: 3, name: "Java Course", image: "/placeholder.svg?height=60&width=60" },
+    { id: 4, name: "Power BI Course", image: "/placeholder.svg?height=60&width=60" },
+    { id: 5, name: "AWS Course", image: "/placeholder.svg?height=60&width=60" },
+    { id: 6, name: "Full Stack Course", image: "/placeholder.svg?height=60&width=60" },
+    { id: 7, name: "Software Testing Course", image: "/placeholder.svg?height=60&width=60" },
+    { id: 8, name: "CCNA Course", image: "/placeholder.svg?height=60&width=60" },
   ]
 
-  const trendingCourses = [
-    {
-      id: 1,
-      title: "AutoCAD 2D & 3D",
-      rating: 5,
-      description:
-        "What is AutoCAD? Computer-Aided Design (CAD) refers to using a computer application to assist draft designs and technical 2-dimensional or 3-dimensional drawings rather than having to draw detailed plans by...",
-    },
-    {
-      id: 2,
-      title: "Interior Designing",
-      rating: 5,
-      description:
-        "Interior Designing is basically a CREATIVITY of designing ideas and inspiration to match your consumer design style in your proficient way of designing. In addition to that decorating spaces with...",
-    },
-    {
-      id: 3,
-      title: "Python",
-      rating: 5,
-      description:
-        "Python could be a completely practical programming language that will do something virtually like the other language can do, at comparable speeds. Python is capable of threading and GPU processing just...",
-    },
-    {
-      id: 4,
-      title: "Data Science",
-      rating: 5,
-      description:
-        "Data Science is the study of data to extract meaningful information for business use. It is a multidisciplinary approach that combines principles, practices, and techniques...",
-    },
-  ]
-
+  // Benefits Data
   const benefits = [
     {
-      title: "Global Certification",
+      title: "Practical Training",
+      icon: "💻",
       description:
-        "For the bright Future and job purpose, we have a facility for Global Certification Exams to ensure your job Guarantee for sure in MNCs and more.",
-      icon: "📋",
+        "The training provided by Seven Mentor is completely practical oriented. We provide a mix of theory as well as practical knowledge to our students.",
     },
     {
-      title: "Free Wi-Fi",
+      title: "Real Time Projects",
+      icon: "📊",
       description:
-        "We understand how the internet is important for students, thus we have provided free internet service to students to learn confidently.",
-      icon: "📡",
+        "Along with the practical training we also provide real time projects to our students. This helps them to understand the concepts in a better way.",
     },
     {
-      title: "In-House Company",
-      description: "The student will get direct benefits of on-going USA projects.",
-      icon: "🏢",
+      title: "Certification",
+      icon: "🎓",
+      description:
+        "We provide a certification to our students after the completion of the course. This certification is valid all over the world.",
     },
   ]
 
+  // Stats Data
   const stats = [
-    { number: "52 +", label: "Classroom" },
-    { number: "72000 +", label: "Successful Career made" },
-    { number: "75+", label: "Total Mentors" },
-    { number: "200 +", label: "Online/Offline Courses" },
+    { number: "2000+", label: "Batches Completed" },
+    { number: "100000+", label: "Students Trained" },
+    { number: "2500+", label: "Corporate Training" },
+    { number: "100%", label: "Job Placement" },
   ]
 
+  // Course Categories
   const courseCategories = [
-    { name: "Networking Courses", phone: "022-48904395" },
-    { name: "Software Courses", phone: "022-48904395" },
-    { name: "HR Training Courses", phone: "022-48904395" },
-    { name: "Interior and Fashion Courses", phone: "022-48904395" },
-    { name: "Python-Data Science", phone: "022-48904395" },
-    { name: "Language Courses", phone: "022-48904395" },
-    { name: "SAP Courses", phone: "022-48904395" },
+    { name: "Networking", phone: "020-711-73125" },
+    { name: "Software", phone: "020-711-73125" },
+    { name: "SAP", phone: "020-711-73125" },
+    { name: "HR/Finance", phone: "020-711-73125" },
+    { name: "Cad/Cam", phone: "020-711-73125" },
+    { name: "Digital Marketing", phone: "020-711-73125" },
+    { name: "Languages", phone: "020-711-73125" },
+  ]
+
+  // Trending Courses Data
+  const trendingCourses = [
+    {
+      title: "Software Testing Course",
+      rating: 5,
+      description:
+        "Software testing is an investigation conducted to provide stakeholders with information about the quality of the software product or...",
+    },
+    {
+      title: "Python Course",
+      rating: 5,
+      description:
+        "Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes...",
+    },
+    {
+      title: "Data Science Course",
+      rating: 5,
+      description:
+        "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights...",
+    },
+    {
+      title: "Java Course",
+      rating: 5,
+      description:
+        "Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to...",
+    },
   ]
 
   const nextSlide = () => {
@@ -107,154 +104,63 @@ export default function Home() {
   }
 
   const nextTrendingSlide = () => {
-    setCurrentTrendingSlide((prev) => (prev + 1) % (trendingCourses.length - 2))
+    setCurrentTrendingSlide((prev) => (prev + 1) % trendingCourses.length)
   }
 
   const prevTrendingSlide = () => {
-    setCurrentTrendingSlide((prev) => (prev - 1 + (trendingCourses.length - 2)) % (trendingCourses.length - 2))
+    setCurrentTrendingSlide((prev) => (prev - 1 + trendingCourses.length) % trendingCourses.length)
   }
 
   return (
     <div className="min-h-screen bg-gray-50">
-    
 
-      {/* Navigation Header */}
-      <nav className="bg-white shadow-sm sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 py-3">
-          {/* Top Nav */}
-          <div className="flex items-center justify-between mb-3 text-xs">
-            <div className="flex gap-6">
-              <a href="#" className="text-blue-600 hover:text-blue-700 flex items-center gap-1">
-                📊 Job Fair
-              </a>
-              <a href="#" className="text-blue-600 hover:text-blue-700 flex items-center gap-1">
-                📅 Events
-              </a>
-              <a href="#" className="text-blue-600 hover:text-blue-700 flex items-center gap-1">
-                👤 Teach With US
-              </a>
-              <a href="#" className="text-blue-600 hover:text-blue-700 flex items-center gap-1">
-                🏢 Corporate Training
-              </a>
-              <a href="#" className="text-blue-600 hover:text-blue-700 flex items-center gap-1">
-                🔗 Franchise Opportunities
-              </a>
-              <a href="#" className="text-blue-600 hover:text-blue-700 flex items-center gap-1">
-                ✓ Placement & CRM
-              </a>
-              <a href="#" className="text-blue-600 hover:text-blue-700 flex items-center gap-1">
-                👥 Careers
-              </a>
-            </div>
-            <div className="flex gap-2 text-gray-500">
-              <a href="#" className="hover:text-gray-700">
-                f
-              </a>
-              <a href="#" className="hover:text-gray-700">
-                ▶
-              </a>
-              <a href="#" className="hover:text-gray-700">
-                in
-              </a>
-              <a href="#" className="hover:text-gray-700">
-                @
-              </a>
-            </div>
-          </div>
 
-          {/* Main Nav */}
-          <div className="flex items-center justify-between">
-            <div className="font-bold text-2xl text-orange-500">SevenMentor</div>
-            <nav className="flex gap-8 text-sm font-semibold">
-              <a href="#" className="text-gray-700 hover:text-gray-900">
-                Data Science
-              </a>
-              <a href="#" className="text-gray-700 hover:text-gray-900">
-                Cyber Security
-              </a>
-              <a href="#" className="text-gray-700 hover:text-gray-900">
-                Software Development
-              </a>
-              <a href="#" className="text-gray-700 hover:text-gray-900">
-                Cloud Computing
-              </a>
-              <a href="#" className="text-gray-700 hover:text-gray-900">
-                Blogs
-              </a>
-            </nav>
-          </div>
-        </div>
-      </nav>
+
 
       {/* Hero Section */}
       <section
-        className="relative bg-cover bg-center text-white py-32 px-4"
+        className="relative bg-cover bg-center text-white py-20 lg:py-32"
         style={{
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/placeholder.svg)",
+          backgroundImage:
+            'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80")',
         }}
       >
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="mb-12 flex justify-center">
-            <div className="relative w-full max-w-2xl">
-              <input type="text" placeholder="Search courses..." className="w-full px-6 py-3 text-gray-900 rounded-l bg-white" />
-              <button className="absolute right-0 top-0 bg-orange-500 hover:bg-orange-700 text-white px-8 py-[0.85rem] rounded-r">
-                <Search size={20} />
-              </button>
-            </div>
+        <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+              Best IT Training Institute In Pune
+            </h1>
+            <p className="text-lg text-gray-200 mb-8 max-w-xl">
+              SevenMentor is one of the leading IT Training Institutes in Pune. We provide the best training in various
+              IT technologies.
+            </p>
+            <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded transition-colors text-lg">
+              Explore Courses
+            </button>
           </div>
+        </div>
 
-          <h1 className="text-6xl font-bold mb-4 text-orange-500">SevenMentor & Training Pvt Ltd.</h1>
-          <div className="flex justify-center mb-8">
-            <div className="flex items-center gap-2">
-              <div className="h-1 w-16 bg-orange-500 rounded"></div>
-              <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-              <div className="h-1 w-16 bg-orange-500 rounded"></div>
+        {/* Floating Badges */}
+        <div className="hidden lg:block absolute top-[20%] right-[10%] bg-white p-4 rounded-lg shadow-lg text-gray-800 animate-bounce">
+          <div className="flex items-center gap-3">
+            <div className="bg-green-100 p-2 rounded-full">
+              <CheckCircle className="text-green-600" size={24} />
             </div>
-          </div>
-          <p className="text-2xl text-white mb-16">A Step Ahead In Education</p>
-
-          <div className="flex justify-center gap-16">
-            <div className="text-center">
-              <div className="text-4xl mb-2">💡</div>
-              <p className="text-xs text-gray-200">Expert Training</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-2">🎓</div>
-              <p className="text-xs text-gray-200">Certification</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-2">👥</div>
-              <p className="text-xs text-gray-200">Industry Mentors</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-2">💻</div>
-              <p className="text-xs text-gray-200">Hands-on Projects</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-2">🚀</div>
-              <p className="text-xs text-gray-200">Career Growth</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl mb-2">📊</div>
-              <p className="text-xs text-gray-200">Job Placement</p>
+            <div>
+              <p className="font-bold text-sm">100%</p>
+              <p className="text-xs text-gray-500">Placement</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="bg-gray-700 text-white py-20 px-4">
+      <section className="bg-white py-12 px-4 shadow-md relative z-10 -mt-10 mx-4 lg:mx-auto max-w-7xl rounded-lg">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Behind Every Successful Career</h2>
-            <div className="flex justify-center mb-6">
-              <div className="flex items-center gap-2">
-                <div className="h-1 w-16 bg-orange-500 rounded"></div>
-                <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-                <div className="h-1 w-16 bg-orange-500 rounded"></div>
-              </div>
-            </div>
-            <p className="text-gray-200 max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">SevenMentor</h2>
+            <div className="w-20 h-1 bg-orange-500 mx-auto mb-6"></div>
+            <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
               SevenMentor – A Renowned Brand For Quality Education And In- House Job Placement Services Since, Past
               Decades.
             </p>
@@ -616,262 +522,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white">
-        <div className="bg-orange-500 px-4 py-6">
-          <div className="max-w-7xl mx-auto flex items-center justify-between">
-            <h3 className="text-xl font-semibold text-white">For More, Follow Us On Our Social Sites:</h3>
-            <div className="flex gap-6">
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
-              >
-                <span className="text-lg font-bold">f</span>
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
-              >
-                <span className="text-lg font-bold">𝕏</span>
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
-              >
-                <span className="text-lg font-bold">▶</span>
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
-              >
-                <span className="text-lg font-bold">in</span>
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
-              >
-                <span className="text-lg font-bold">📷</span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-gray-950 px-4 py-6">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-6">
-              {/* About SevenMentor */}
-              <div>
-                <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
-                  About SevenMentor
-                </h4>
-                <ul className="space-y-3 mt-4">
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Enterprises Network Solution
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> HR Recruitment IT & Non-IT
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Network Consulting Services
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Top Corporate Training In Pune
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Terms of Use
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Training
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Networking Courses */}
-              <div>
-                <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
-                  Networking Courses
-                </h4>
-                <ul className="space-y-3 mt-4">
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Amazon Web Services
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Linux
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Azure
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Cyber Security
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> DevOps
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Salesforce
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Software Courses */}
-              <div>
-                <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
-                  Software Courses
-                </h4>
-                <ul className="space-y-3 mt-4">
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Artificial Intelligence
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Full Stack Training
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Java Certification
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> MERN Stack
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> UI/UX Design
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Python
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> React JS
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Other Courses */}
-              <div>
-                <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
-                  Other Courses
-                </h4>
-                <ul className="space-y-3 mt-4">
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> SAP FICO
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> SAP MM
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> SAP SD
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> SAP ABAP
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Spoken English
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Train the Trainer (TTT)
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> HR
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-400 hover:text-white transition flex items-center gap-2">
-                      <span className="text-orange-500">›</span> Personality Development
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Contact Details */}
-              <div>
-                <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
-                  Contact Details
-                </h4>
-                <div className="mt-4">
-                  <h5 className="text-white font-semibold mb-4 flex items-center gap-2">📍 Mumbai</h5>
-                  <p className="text-gray-400 text-sm leading-relaxed">
-                    Office no. 101 & part office no. 1, Civic Centre, MMGS Marg, Dadar East, Dadar, Mumbai, ,
-                    Maharashtra 400014
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-gray-950 px-4 py-6">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-6">
-              <div>
-                <h5 className="text-gray-500 text-sm font-semibold mb-2">Assistance</h5>
-                <p className="text-white font-semibold flex items-center gap-2">
-                  <span>📞</span> 022-48904395
-                </p>
-              </div>
-              <div>
-                <h5 className="text-gray-500 text-sm font-semibold mb-2">Sales</h5>
-                <p className="text-white font-semibold">sales@sevenmentor.com</p>
-              </div>
-              <div>
-                <h5 className="text-gray-500 text-sm font-semibold mb-2">Support</h5>
-                <p className="text-white font-semibold">support@sevenmentor.com</p>
-              </div>
-              <div>
-                <h5 className="text-gray-500 text-sm font-semibold mb-2">Jobs</h5>
-                <p className="text-white font-semibold">careers@sevenmentor.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
