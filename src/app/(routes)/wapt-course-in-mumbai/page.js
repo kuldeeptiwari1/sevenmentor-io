@@ -1064,6 +1064,11 @@ export default function WAPTCoursePage() {
                         </div>
                     </div>
                 </section>
+                <EnrollForm
+                mailTo="vivekmandiya178@gmail.com"
+                course='Web Application Penetration Testing (WAPT)'
+                contactNumber="022-48904395"
+                />
 
                 {/* Key Features */}
                 <section id="features" className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">

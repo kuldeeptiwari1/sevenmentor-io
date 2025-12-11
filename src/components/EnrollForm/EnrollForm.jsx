@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import { User, Mail, Phone, Award, MessageSquare, CheckCircle, XCircle } from "lucide-react";
 import axios from "axios";
 
-const EnrollForm = ({mailTo}) => {
+const EnrollForm = ({mailTo,course,contactNumber}) => {
   const [initialValues, setInitialValues] = useState({
     Name: "",
     Email: "",
@@ -33,10 +33,12 @@ const EnrollForm = ({mailTo}) => {
       const payload = {
         formData: values,
         to: mailTo,
-        contactNo: "",
-        bannerTitle: values.Course,
+        Course:course,
+        contactNo: contactNumber,
+        bannerTitle: course,
         mailSubject: "New Course Enrollment",
         userEmailSubject: "Thanks for Enrolling",
+
       };
 
       await axios.post("http://localhost:8080/api/main-form", payload);

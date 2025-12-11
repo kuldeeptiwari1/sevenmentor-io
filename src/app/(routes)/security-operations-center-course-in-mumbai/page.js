@@ -1019,6 +1019,11 @@ export default function SOCTrainingCoursePage() {
                         </div>
                     </div>
                 </section>
+                <EnrollForm
+                mailTo="vivekmandiya178@gmail.com"
+                course='Security Operations Center (SOC) Training'
+                contactNumber="022-48904395"
+                />
 
                 {/* Key Features */}
                 <section id="features" className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">

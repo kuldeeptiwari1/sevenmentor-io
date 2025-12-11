@@ -633,6 +633,8 @@ export default function CyberSecurityCoursePage() {
                 {/* Enrollment Form */}
                 <EnrollForm
                 mailTo="vivekmandiya178@gmail.com"
+                course='Cyber Security'
+                contactNumber="022-48904395"
                 />
                 
 

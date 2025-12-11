@@ -9,6 +9,7 @@ import {
     Building, GraduationCap, Zap, Terminal, X, MessageCircle,
     HardDrive, FileSearch, Fingerprint, Archive, Scale
 } from 'lucide-react';
+import EnrollForm from '../../../components/EnrollForm/EnrollForm';
 
 export default function CHFICoursePage() {
     const [expandedModule, setExpandedModule] = useState(1);
@@ -1026,6 +1027,12 @@ export default function CHFICoursePage() {
                         </div>
                     </div>
                 </section>
+                <EnrollForm
+                mailTo="vivekmandiya178@gmail.com"
+                course='Computer Hacking Forensic Investigator (CHFI)'
+                contactNumber="022-48904395"
+                />
+                
 
                 {/* Key Features */}
                 <section id="features" className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">

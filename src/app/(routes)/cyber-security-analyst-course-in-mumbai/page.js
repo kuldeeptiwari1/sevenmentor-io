@@ -10,7 +10,7 @@ import {
   FileText, Activity, Layers, Key, RefreshCw, Settings,
   BarChart, Bell, Crosshair, FileSearch, Radio, Scan
 } from 'lucide-react';
-
+import EnrollForm from "../../../components/EnrollForm/EnrollForm.jsx"
 export default function CyberSecurityAnalystCoursePage() {
   const [expandedModule, setExpandedModule] = useState(1);
   const [expandedFaq, setExpandedFaq] = useState(null);
@@ -1099,7 +1099,12 @@ export default function CyberSecurityAnalystCoursePage() {
             </div>
           </div>
         </section>
-
+        <EnrollForm
+                mailTo="vivekmandiya178@gmail.com"
+                course='Cyber Security Analyst Program'
+                contactNumber="022-48904395"
+                />
+                
         {/* Key Features */}
         <section id="features" className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
           <div className="bg-gradient-to-r from-purple-50 to-white p-6 border-b border-gray-100">
