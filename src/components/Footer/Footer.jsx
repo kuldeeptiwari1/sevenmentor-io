@@ -209,7 +209,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="/salesforce-adm+dev-pd-1+lwc-course-in-mumbai"
+                    href="/salesforce-admin-developer-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Salesforce ADM+DEV (PD-1+LWC)

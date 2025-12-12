@@ -37,7 +37,7 @@ export default function Navbar() {
     const navItems = [
       {
         name:"Home",
-        link:''
+        link:'/'
       },
       {
         name:"Contact us",
@@ -69,13 +69,13 @@ export default function Navbar() {
                 { name: "CCNA + Linux + CEH", link: "/ccna-linux-ceh-course-in-mumbai" },
                 { name: "Cyber Security Analyst Program", link: "/cyber-security-analyst-program-training-in-mumbai" },
                 { name: "CCNA + Linux + AWS + Devops", link: "/ccna-linux-aws-devops-course-in-mumbai" },
-                { name: "Salesforce ADM + DEV (PD-1+LWC)", link: "/salesforce-adm-dev-pd-1-lwc-course-in-mumbai" },
+                { name: "Salesforce ADM + DEV (PD-1+LWC)", link: "/salesforce-admin-developer-course-in-mumbai" },
                 { name: "DEVOPS", link: "/devops-course-in-mumbai" },
                 { name: "Cloud Computing", link: "/cloud-computing-course-in-mumbai" },
                 {name:"Certified Ethical Hacking (CEH v12) Course in Mumbai",link:"/ethical-hacking-training-in-mumbai"},
                 {name:"SOC Analyst Training Course in Mumbai",link:"soc-course-in-mumbai"},
-                {name:"Computer Hacking Forensic Investigator (CHFI) Training Course",link:""},
-                {namw:"Cyber Security Analyst Program ",link:"cyber-security-analyst-program-training-in-mumbai"}
+                {name:"Computer Hacking Forensic Investigator (CHFI) Training Course",link:"chfi-course-in-mumbai"},
+                {name:"Cyber Security Analyst Program ",link:"cyber-security-analyst-program-training-in-mumbai"}
             ]
         },
         {
@@ -141,47 +141,53 @@ export default function Navbar() {
 
                     {/* Desktop Menu */}
                     <div className="hidden lg:flex h-full items-center">
-    {navItems.map((item, idx) => (
-        <div key={idx} className="relative group h-full flex items-center">
-            <Link
-                href={item.link}
-                className={`
-                    flex items-center gap-3 px-2 h-10 rounded-md transition-all duration-300
-                    font-medium text-gray-700 hover:text-white hover:bg-[#009bf5]
-                    ${item.submenu ? 'group-hover:bg-[#009bf5] group-hover:text-white' : ''}
-                `}
-            >
-                {item.name}
-                {item.submenu && <ChevronDown size={14} />}
-            </Link>
+                    {navItems.map((item, idx) => (
+    <div key={idx} className="relative group h-full flex items-center">
+        <Link
+            href={item.link}
+            className={`
+                flex items-center gap-3 px-2 h-10 rounded-md transition-all duration-300
+                font-medium text-gray-700 hover:text-white hover:bg-[#009bf5]
+                ${item.submenu ? 'group-hover:bg-[#009bf5] group-hover:text-white' : ''}
+            `}
+        >
+            {item.name}
+            {item.submenu && <ChevronDown size={14} />}
+        </Link>
 
-            {/* Dropdown Menu */}
-            {item.submenu && (
-                <div
-                    className="overflow-hidden absolute top-full left-1/2 -translate-x-1/2 
-                    w-72 bg-white shadow-xl border-t-2 border-[#009bf5] 
+        {/* Dropdown Menu */}
+        {item.submenu && (
+            <div
+                className="
+                    absolute top-full left-1/2 -translate-x-1/2 
+                    w-72 bg-white shadow-xl border-t-2 border-[#009bf5]
                     opacity-0 invisible group-hover:opacity-100 group-hover:visible 
                     transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 
-                    z-50"
-                >
-                    <div className="py-2">
-                        {item.submenu.map((subItem, subIdx) => (
-                            <Link
-                                key={subIdx}
-                                href={subItem.link}
-                                className="flex items-center gap-2 px-6 py-3 text-sm text-gray-600 
+                    z-50
+                    max-h-80 overflow-y-auto
+                "
+            >
+                <div className="py-2">
+                    {item.submenu.map((subItem, subIdx) => (
+                        <Link
+                            key={subIdx}
+                            href={subItem.link}
+                            className="
+                                flex items-center gap-2 px-6 py-3 text-sm text-gray-600 
                                 hover:text-[#009bf5] hover:bg-gray-50 transition-colors 
-                                border-b border-gray-50 last:border-0"
-                            >
-                                <ChevronsRight size={14} className="text-orange-500" />
-                                {subItem.name}
-                            </Link>
-                        ))}
-                    </div>
+                                border-b border-gray-50 last:border-0
+                            "
+                        >
+                            <ChevronsRight size={14} className="text-orange-500" />
+                            {subItem.name}
+                        </Link>
+                    ))}
                 </div>
-            )}
-        </div>
-    ))}
+            </div>
+        )}
+    </div>
+))}
+
 </div>
 
                     {/* Mobile Menu Button */}

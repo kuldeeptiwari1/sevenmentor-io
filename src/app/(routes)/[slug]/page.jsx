@@ -8,7 +8,7 @@ import {
     User
 } from 'lucide-react';
 import EnrollForm from '../../../components/EnrollForm/EnrollForm.jsx';
-
+import PoupFormEnroll from "../../../components/EnrollForm/PoupFormEnroll.jsx"
 
 export default function CoursePage({ params }) {
     // Unwrap params using React.use()
@@ -25,7 +25,8 @@ export default function CoursePage({ params }) {
 
     const [expandedModule, setExpandedModule] = useState(null);
     const [expandedFaq, setExpandedFaq] = useState(null);
-
+    const [showForm, setShowForm] = useState(false);
+    console.log("showForm",showForm)
 
     const {
         heroData,
@@ -127,7 +128,9 @@ export default function CoursePage({ params }) {
 
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <button className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transform hover:scale-105 transition-all duration-300">
+                            <button className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transform hover:scale-105 transition-all duration-300"
+                            onClick={() => setShowForm(pre=>!pre)}
+                            >
                                 Enroll Now - Limited Seats
                             </button>
                            
@@ -280,7 +283,9 @@ export default function CoursePage({ params }) {
                         </div>
 
                         <div className="flex justify-center mt-8">
-    <button className="bg-gradient-to-r from-gray-200 to-gray-300 hover:from-gray-300 hover:to-gray-400 text-gray-800 px-10 py-4 rounded-xl font-bold text-lg shadow-lg transition-all duration-300 border border-gray-400">
+    <button className="bg-gradient-to-r from-gray-200 to-gray-300 hover:from-gray-300 hover:to-gray-400 text-gray-800 px-10 py-4 rounded-xl font-bold text-lg shadow-lg transition-all duration-300 border border-gray-400"
+    onClick={() => setShowForm(true)}
+    >
         Download Syllabus
     </button>
 </div>
@@ -594,6 +599,16 @@ export default function CoursePage({ params }) {
                     <p className="text-sm text-gray-500 mt-2">Best {courseName} Course | Professional Training | Certification | Mumbai</p>
                 </div>
             </footer>
+            {showForm && (
+  <PoupFormEnroll 
+  mailTo={contactEmail}
+  course={courseName}
+  contactNumber={contactNumber}
+    //  onClose={() => setShowForm(false)}
+  />
+)
+}
         </div>
+        
     );
 }
