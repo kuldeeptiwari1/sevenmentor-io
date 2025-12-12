@@ -1,3 +1,4 @@
+import { Instagram } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -10,34 +11,39 @@ export default function Footer() {
           </h3>
           <div className="flex gap-6">
             <a
-              href="#"
+              href="https://www.facebook.com/sevenmentor"
               className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
+              target="_blank"
             >
               <span className="text-lg font-bold">f</span>
             </a>
             <a
-              href="#"
+              href="https://x.com/SevenMentor"
               className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
+              target="_blank"
             >
               <span className="text-lg font-bold">𝕏</span>
             </a>
             <a
-              href="#"
+              href="https://www.youtube.com/@SevenMentor"
               className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
+              target="_blank"
             >
               <span className="text-lg font-bold">▶</span>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/sevenmentor"
               className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
+              target="_blank"
             >
               <span className="text-lg font-bold">in</span>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/sevenmentor_it_courses/?igsh=dTh6NjhpemF3Mndl"
               className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center hover:bg-white hover:text-orange-500 transition"
+              target="_blank"
             >
-              <span className="text-lg font-bold">📷</span>
+              <span className="text-lg font-bold"><Instagram size={18} /></span>
             </a>
           </div>
         </div>
@@ -98,7 +104,61 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-
+            <div>
+              <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
+              Data Science
+              </h4>
+              <ul className="space-y-3 mt-4">
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> Data Science
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> Data Analytics
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> Advance Excel
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>Python + SQL + Adv. Excel + Power BI
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>Python + Sql + Prob & Stat + DS(Machine Learning) + AI(Deep Learning) Power bi
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>Python +SQL+ Probability with statistics+Adv excel +Power bi
+                  </a>
+                </li>
+              </ul>
+            </div>
             {/* Networking Courses */}
             <div>
               <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
@@ -110,8 +170,9 @@ export default function Footer() {
                     href="#"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
-                    <span className="text-orange-500">›</span> Amazon Web
-                    Services
+                    <span className="text-orange-500">›</span> 
+CCNA + Linux + AWS
+
                   </a>
                 </li>
                 <li>
@@ -119,7 +180,7 @@ export default function Footer() {
                     href="#"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
-                    <span className="text-orange-500">›</span> Linux
+                    <span className="text-orange-500">›</span> CCNA
                   </a>
                 </li>
                 <li>
@@ -127,7 +188,7 @@ export default function Footer() {
                     href="#"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
-                    <span className="text-orange-500">›</span> Azure
+                    <span className="text-orange-500">›</span> CCNA + Linux + CEH
                   </a>
                 </li>
                 <li>
@@ -135,7 +196,39 @@ export default function Footer() {
                     href="#"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
-                    <span className="text-orange-500">›</span> Cyber Security
+                    <span className="text-orange-500">›</span>Cyber Security Analyst Program
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>Cyber Security Analyst Program
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>Salesforce ADM+DEV (PD-1+LWC)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>Devops
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>Cloud Computing
                   </a>
                 </li>
               </ul>
@@ -152,8 +245,7 @@ export default function Footer() {
                     href="#"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
-                    <span className="text-orange-500">›</span> Artificial
-                    Intelligence
+                    <span className="text-orange-500">›</span> Full Stack Java
                   </a>
                 </li>
                 <li>
@@ -161,8 +253,7 @@ export default function Footer() {
                     href="#"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
-                    <span className="text-orange-500">›</span> Full Stack
-                    Training
+                    <span className="text-orange-500">›</span> Full Stack Python
                   </a>
                 </li>
                 <li>
@@ -170,8 +261,7 @@ export default function Footer() {
                     href="#"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
-                    <span className="text-orange-500">›</span> Java
-                    Certification
+                    <span className="text-orange-500">›</span> Software Testing
                   </a>
                 </li>
                 <li>
@@ -179,12 +269,115 @@ export default function Footer() {
                     href="#"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
-                    <span className="text-orange-500">›</span> MERN Stack
+                    <span className="text-orange-500">›</span> UI UX
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> Web Full Stack
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> web development
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
+                SAP
+              </h4>
+              <ul className="space-y-3 mt-4">
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> SAP MM S4 HANA
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> SAP Fico S4 HANA
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> SAP FICO
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>SAP MM
                   </a>
                 </li>
               </ul>
             </div>
 
+            <div>
+              <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
+                Language
+              </h4>
+              <ul className="space-y-3 mt-4">
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> Softskill
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> Softskill & Personality Development
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> German A1 and A2
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>German A1
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>HR Generalist
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
             {/* Contact/Other */}
             <div>
               <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
