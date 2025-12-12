@@ -196,7 +196,7 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
                 </div>
 
                 {/* Course */}
-                {/* Name */}
+
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
                     Course *
@@ -207,7 +207,7 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
                       name="Course"
                       type="text"
                       className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-orange-500 outline-none"
-                      placeholder="Enter your full name"
+                      placeholder="Enter Course"
                     />
                   </div>
                   <ErrorMessage
