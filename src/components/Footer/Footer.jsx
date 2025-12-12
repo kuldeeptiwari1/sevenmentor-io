@@ -111,7 +111,7 @@ export default function Footer() {
               <ul className="space-y-3 mt-4">
                 <li>
                   <a
-                    href="#"
+                    href="/data-science-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Data Science
@@ -127,7 +127,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/data-analytics-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Advance Excel
@@ -135,7 +135,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/python-sql-excel-powerbi-complete-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Python + SQL + Adv. Excel + Power BI
@@ -143,7 +143,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/python-sql-prob-stat-ds-machine-learning-ai-deep-learning-power-bi"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Python + Sql + Prob & Stat + DS(Machine Learning) + AI(Deep Learning) Power bi
@@ -151,7 +151,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/python-sql-probability-with-statistics-advexcel-power-bi"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Python +SQL+ Probability with statistics+Adv excel +Power bi
@@ -167,7 +167,7 @@ export default function Footer() {
               <ul className="space-y-3 mt-4">
                 <li>
                   <a
-                    href="#"
+                    href="/ccna-linux-aws-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> 
@@ -177,7 +177,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/ccna-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> CCNA
@@ -185,7 +185,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/ccna-linux-ceh-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> CCNA + Linux + CEH
@@ -193,7 +193,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/cyber-security-analyst-program-training-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Cyber Security Analyst Program
@@ -201,7 +201,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/cyber-security-analyst-program-training-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Cyber Security Analyst Program
@@ -209,7 +209,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/salesforce-adm+dev-pd-1+lwc-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Salesforce ADM+DEV (PD-1+LWC)
@@ -217,7 +217,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/devops-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Devops
@@ -225,10 +225,18 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/cloud-computing-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Cloud Computing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/ethical-hacking-training-in-mumbai"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span>Certified Ethical Hacking (CEH v12) Course in Mumbai
                   </a>
                 </li>
               </ul>
@@ -242,7 +250,7 @@ CCNA + Linux + AWS
               <ul className="space-y-3 mt-4">
                 <li>
                   <a
-                    href="#"
+                    href="/full-stack-java-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Full Stack Java
@@ -250,7 +258,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/full-stack-python-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Full Stack Python
@@ -258,7 +266,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/software-testing-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Software Testing
@@ -266,7 +274,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/ui-ux-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> UI UX
@@ -274,7 +282,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/web-full-stack-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Web Full Stack
@@ -282,10 +290,18 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/web-development-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> web development
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/web-application-penetration-testing-course-in-mumbai"
+                    className="text-gray-400 hover:text-white transition flex items-center gap-2"
+                  >
+                    <span className="text-orange-500">›</span> Web Application Penetration Testing (WAPT) Training Course in Mumbai
                   </a>
                 </li>
               </ul>
@@ -297,7 +313,7 @@ CCNA + Linux + AWS
               <ul className="space-y-3 mt-4">
                 <li>
                   <a
-                    href="#"
+                    href="/sap-mm-s4-hana-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> SAP MM S4 HANA
@@ -305,7 +321,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/sap-fico-s4-hana-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> SAP Fico S4 HANA
@@ -313,7 +329,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/sap-fico-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> SAP FICO
@@ -321,7 +337,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/sap-mm-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>SAP MM
@@ -337,7 +353,7 @@ CCNA + Linux + AWS
               <ul className="space-y-3 mt-4">
                 <li>
                   <a
-                    href="#"
+                    href="/soft-skills-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Softskill
@@ -345,7 +361,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/soft-skills-personality-development-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Softskill & Personality Development
@@ -353,7 +369,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/german-a1-a2-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> German A1 and A2
@@ -361,7 +377,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/german-a1-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>German A1
@@ -369,7 +385,7 @@ CCNA + Linux + AWS
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/hr-generalist-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>HR Generalist

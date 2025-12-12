@@ -53,25 +53,29 @@ export default function Navbar() {
             submenu: [
                 { name: "Data Science Courses", link: "/data-science-course-in-mumbai" },
                 { name: "Data Analytics Course", link: "/data-analytics-course-in-mumbai" },
-                { name: "Advanced Excel Course", link: "/Advanced-Excel-course-in-mumbai" },
-                { name: "Python Course", link: "/Python-course-in-mumbai" },
-                { name: "Python + SQL + Adv. Excel + Power BI", link: "/python-sql-adv-excel-power-bi-course-in-mumbai" },
-                { name: "Python + Sql + Probability & statistics + DS(Machine Learning) + AI(Deep Learning) Power bi", link: "/python+sql+probability-and-statistics+ds-machine-learning-ai-deep-learning-Power-bi-course-in-mumbai" },
-                { name: "Python + SQL + Advanced Excel + Power BI", link: "/python-sql-adv-excel-power-bi-course-in-mumbai" },
+                { name: "Advanced Excel Course", link: "/advanced-excel-course-in-mumbai" },
+                { name: "Python Course", link:"/python-course-in-mumbai" },
+                { name: "Python + SQL + Adv. Excel + Power BI", link:"/python-sql-excel-powerbi-complete-course-in-mumbai" },
+                { name: "Python + Sql + Probability & statistics + DS(Machine Learning) + AI(Deep Learning) Power bi", link: "/python-sql-prob-stat-ds-machine-learning-ai-deep-learning-power-bi" },
+                { name: "Python +SQL+ Probability with statistics+Adv excel +Power bi", link: "/python-sql-probability-with-statistics-advexcel-power-bi" },
              ]
         },
         {
             name: "Cyber Security",
-            link: "#",
+            link: "cyber-security-courses-in-mumbai",
             submenu: [
                 { name: "CCNA + Linux + AWS", link: "/ccna-linux-aws-course-in-mumbai" },
                 { name: "CCNA", link: "/ccna-course-in-mumbai" },
                 { name: "CCNA + Linux + CEH", link: "/ccna-linux-ceh-course-in-mumbai" },
-                { name: "Cyber Security Analyst Program", link: "/cybe-security-analyst-program-course-in-mumbai" },
+                { name: "Cyber Security Analyst Program", link: "/cyber-security-analyst-program-training-in-mumbai" },
                 { name: "CCNA + Linux + AWS + Devops", link: "/ccna-linux-aws-devops-course-in-mumbai" },
-                { name: "Salesforce ADM + DEV (PD-1+LWC)", link: "/salesforce-adm+dev-pd-1+lwc-course-in-mumbai" },
+                { name: "Salesforce ADM + DEV (PD-1+LWC)", link: "/salesforce-adm-dev-pd-1-lwc-course-in-mumbai" },
                 { name: "DEVOPS", link: "/devops-course-in-mumbai" },
                 { name: "Cloud Computing", link: "/cloud-computing-course-in-mumbai" },
+                {name:"Certified Ethical Hacking (CEH v12) Course in Mumbai",link:"/ethical-hacking-training-in-mumbai"},
+                {name:"SOC Analyst Training Course in Mumbai",link:"soc-course-in-mumbai"},
+                {name:"Computer Hacking Forensic Investigator (CHFI) Training Course",link:""},
+                {namw:"Cyber Security Analyst Program ",link:"cyber-security-analyst-program-training-in-mumbai"}
             ]
         },
         {
@@ -84,26 +88,27 @@ export default function Navbar() {
                 { name: "UI UX", link: "/ui-ux-course-in-mumbai" },
                 { name: "Web Full Stack", link: "/web-full-stack-course-in-mumbai" },
                 { name: "Web Development", link: "/web-development-course-in-mumbai" },   
+                {name:"Web Application Penetration Testing (WAPT) Training Course in Mumbai",link:'/web-application-penetration-testing-course-in-mumbai'}
             ]
         },
         {
           name: "SAP",
           link: "#",
           submenu: [
-              { name: "SAP MM S4 HANA", link: "/full-stack-java-course-in-mumbai" },
-              { name: "SAP Fico S4 HANA", link: "/full-stack-python-course-in-mumbai" },
-              { name: "SAP FICO", link: "/software-testing-course-in-mumbai" },
-              { name: "SAP MM", link: "/ui-ux-course-in-mumbai" },
+              { name: "SAP MM S4 HANA", link: "/sap-mm-s4-hana-course-in-mumbai" },
+              { name: "SAP Fico S4 HANA", link: "/sap-fico-s4-hana-course-in-mumbai" },
+              { name: "SAP FICO", link: "/sap-fico-course-in-mumbai" },
+              { name: "SAP MM", link: "/sap-mm-course-in-mumbai" },
               ]
       },
       {
         name: "Language",
         link: "#",
         submenu: [
-            { name: "Softskill", link: "/full-stack-java-course-in-mumbai" },
-            { name: "Softskill & Personality Development", link: "/full-stack-python-course-in-mumbai" },
-            { name: "German A1 and A2", link: "/software-testing-course-in-mumbai" },
-            { name: "German A1", link: "/ui-ux-course-in-mumbai" },
+            { name: "Softskill", link: "/soft-skills-course-in-mumbai" },
+            { name: "Softskill & Personality Development", link: "/soft-skills-personality-development-course-in-mumbai" },
+            { name: "German A1 and A2", link: "/german-a1-a2-course-in-mumbai" },
+            { name: "German A1", link: "/german-a1-course-in-mumbai" },
             ]
     },
     {

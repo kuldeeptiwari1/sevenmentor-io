@@ -57,7 +57,7 @@ import {
 
 export const courses = [
     {
-        slug: 'cyber-security-course-in-mumbai',
+        slug: 'cyber-security-courses-in-mumbai',
         heroData: {
             title: 'Cyber Security Course in Mumbai',
             subtitle: 'Master Ethical Hacking, Network Security & Information Security',
@@ -423,7 +423,7 @@ export const courses = [
         whatsappMessage: 'Hi+I+am+looking+for+Cyber+Security+Course+in+Mumbai+course'
     },
     {
-    slug: 'certified-ethical-hacking-course-in-mumbai',
+    slug: 'ethical-hacking-training-in-mumbai',
     heroData: {
         title: 'Certified Ethical Hacking (CEH v12) Course in Mumbai',
         subtitle: 'Master Advanced Penetration Testing, Vulnerability Assessment & Cybersecurity',
@@ -2723,7 +2723,7 @@ export const courses = [
     whatsappMessage: 'Hi+I+am+looking+for+WAPT+Training+Course+in+Mumbai'
 },
 {
-    slug: 'cyber-security-analyst-program-in-mumbai',
+    slug: 'cyber-security-analyst-program-training-in-mumbai',
     heroData: {
         title: 'Cyber Security Analyst Program in Mumbai',
         subtitle: 'Master Threat Detection, Vulnerability Management, Incident Response & Security Operations',
@@ -4030,7 +4030,7 @@ export const courses = [
             },
             {
                 heading: 'Why Choose Data Analytics Career in Mumbai?',
-                content: 'Mumbai\'s corporate landscape has created explosive demand for Data Analysts with over 35,000 open positions in 2025 across banking (HDFC, ICICI, Kotak), consulting (Deloitte, EY, PwC, Accenture), e-commerce (Flipkart, Amazon), BFSI, retail, healthcare, and manufacturing sectors. Every department from marketing to operations to finance requires data analysts to make informed decisions. The demand has increased 350% in the last 3 years with organizations investing heavily in analytics. Entry-level Data Analysts in Mumbai earn ₹4-8 LPA, mid-level analysts earn ₹10-18 LPA, and senior Business Intelligence Analysts earn ₹20-35 LPA, making it one of the most lucrative non-coding careers.'
+                content: 'Mumbais corporate landscape has created explosive demand for Data Analysts with over 35,000 open positions in 2025 across banking (HDFC, ICICI, Kotak), consulting (Deloitte, EY, PwC, Accenture), e-commerce (Flipkart, Amazon), BFSI, retail, healthcare, and manufacturing sectors. Every department from marketing to operations to finance requires data analysts to make informed decisions. The demand has increased 350% in the last 3 years with organizations investing heavily in analytics. Entry-level Data Analysts in Mumbai earn ₹4-8 LPA, mid-level analysts earn ₹10-18 LPA, and senior Business Intelligence Analysts earn ₹20-35 LPA, making it one of the most lucrative non-coding careers.'
             },
             {
                 heading: 'Best Data Analytics Training Institute in Mumbai',
