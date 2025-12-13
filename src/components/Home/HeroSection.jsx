@@ -201,12 +201,12 @@ export default function HeroSection() {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-wrap gap-4">
+            {/* <div className="flex flex-wrap gap-4">
               <button className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-semibold text-base transition-all duration-300 shadow-lg transform hover:scale-105 flex items-center gap-2">
                 Explore All Courses
                 <Play className="w-5 h-5" />
               </button>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Content - Completely Redesigned Cards */}
