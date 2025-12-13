@@ -353,19 +353,19 @@ export default function AboutUsPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="tel:022-48904395"
+                    href="tel:02248904395"
                     className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition-all duration-300 transform hover:scale-105"
                   >
                     <Phone className="w-5 h-5" />
                     Call Now
                   </a>
-                  <a
+                  {/* <a
                     href="#contact"
                     className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-100 text-gray-900 px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition-all duration-300 transform hover:scale-105"
                   >
                     <MessageSquare className="w-5 h-5" />
                     Get in Touch
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -388,10 +388,10 @@ export default function AboutUsPage() {
                       <Clock className="w-5 h-5 text-orange-400" />
                       <span className="text-gray-300 font-medium">Mon - Sat: 9:00 AM - 7:00 PM</span>
                     </div>
-                    <div className="flex items-center gap-3">
+                    {/* <div className="flex items-center gap-3">
                       <Phone className="w-5 h-5 text-orange-400" />
                       <span className="text-white font-bold text-lg">022-48904395</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -402,7 +402,7 @@ export default function AboutUsPage() {
 
       <footer className="bg-gray-900 text-white py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gray-400">© 2025 SevenMentor - Premier Cyber Security Training Institute Mumbai. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 SevenMentor - Training Institute Mumbai. All rights reserved.</p>
         </div>
       </footer>
     </div>

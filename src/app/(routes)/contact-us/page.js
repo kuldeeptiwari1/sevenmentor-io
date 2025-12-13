@@ -151,7 +151,7 @@ export default function ContactUsPage() {
                 Maharashtra 400014
               </span>
             </p>
-            <a
+            {/* <a
               href="https://maps.google.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -159,7 +159,7 @@ export default function ContactUsPage() {
             >
               <Globe className="w-4 h-4" />
               Get Directions
-            </a>
+            </a> */}
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
@@ -172,10 +172,10 @@ export default function ContactUsPage() {
               answered.
             </p>
             <a
-              href="tel:022-48904395"
+              href="tel:02248904395"
               className="text-2xl font-bold text-orange-600 hover:text-orange-700 transition-colors block mb-2"
             >
-              022-48904395
+             022-48904395
             </a>
             <p className="text-sm text-gray-600">
               Mon - Sat: 9:00 AM - 7:00 PM
@@ -193,18 +193,18 @@ export default function ContactUsPage() {
               Quick response on WhatsApp for instant queries and course details.
             </p>
             <a
-              href="https://api.whatsapp.com/send?phone=+918421176876&text=Hi+I+am+looking+for+Cyber+Security+Training"
+              href="https://api.whatsapp.com/send?phone=+918421176876&text=Hi+I+am+looking+for+Training"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors block mb-2"
             >
-              +91 84211 76876
+              +91 8421176876
             </a>
             <p className="text-sm text-gray-600">Available 24/7</p>
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 mb-12">
+      <div className="grid lg:grid-cols-2 gap-12 mb-12">
           <section className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
             <div className="bg-gradient-to-r from-orange-50 to-white p-6 border-b border-gray-100">
               <div className="flex items-center gap-3">
@@ -221,6 +221,7 @@ export default function ContactUsPage() {
                 </div>
               </div>
             </div>
+
 
             <div className="p-8">
               <Formik
@@ -249,6 +250,7 @@ export default function ContactUsPage() {
                     />
                   </div>
 
+
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -270,6 +272,7 @@ export default function ContactUsPage() {
                       />
                     </div>
 
+
                     <div>
                       <label className="block text-sm font-semibold text-gray-700 mb-2">
                         Phone Number *
@@ -290,6 +293,7 @@ export default function ContactUsPage() {
                       />
                     </div>
                   </div>
+
 
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -326,6 +330,7 @@ export default function ContactUsPage() {
                     />
                   </div>
 
+
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
                       Message (Optional)
@@ -339,6 +344,7 @@ export default function ContactUsPage() {
                     />
                   </div>
 
+
                   <button
                     type="submit"
                     className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
@@ -351,147 +357,111 @@ export default function ContactUsPage() {
             </div>
           </section>
 
-          <div className="space-y-8">
-            <section className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-500 rounded-xl flex items-center justify-center">
-                  <Clock className="w-6 h-6 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900">
-                  Office Hours
-                </h3>
-              </div>
 
-              <div className="space-y-4">
-                <div className="flex justify-between items-center p-4 bg-orange-50 rounded-xl border border-orange-100">
-                  <span className="font-semibold text-gray-900">
-                    Monday - Friday
-                  </span>
-                  <span className="text-orange-600 font-bold">
-                    9:00 AM - 7:00 PM
-                  </span>
+          <div className="flex flex-col gap-8">
+            <section className="bg-gradient-to-br from-orange-500 via-orange-600 to-red-600 rounded-2xl shadow-2xl p-10 text-white relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-5 rounded-full -mr-32 -mt-32"></div>
+              <div className="absolute bottom-0 left-0 w-48 h-48 bg-white opacity-5 rounded-full -ml-24 -mb-24"></div>
+              
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 mb-8">
+                  <div className="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center">
+                    <CheckCircle className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-3xl font-bold">
+                    Why Choose SevenMentor?
+                  </h3>
                 </div>
-                <div className="flex justify-between items-center p-4 bg-orange-50 rounded-xl border border-orange-100">
-                  <span className="font-semibold text-gray-900">Saturday</span>
-                  <span className="text-orange-600 font-bold">
-                    9:00 AM - 5:00 PM
-                  </span>
-                </div>
-                <div className="flex justify-between items-center p-4 bg-gray-50 rounded-xl border border-gray-200">
-                  <span className="font-semibold text-gray-900">Sunday</span>
-                  <span className="text-gray-600 font-bold">Closed</span>
-                </div>
-              </div>
-            </section>
 
-            <section className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl shadow-xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-4">
-                Why Choose SevenMentor?
-              </h3>
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-1" />
-                  <div>
-                    <h4 className="font-bold text-lg mb-1">Expert Trainers</h4>
-                    <p className="text-orange-100 text-sm">
-                      Learn from industry professionals with 8+ years of
-                      experience
-                    </p>
+                <div className="space-y-6">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <CheckCircle className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-xl mb-2">Expert Trainers</h4>
+                        <p className="text-orange-50 leading-relaxed">
+                          Learn from industry professionals with 8+ years of
+                          experience in cybersecurity and IT training
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-1" />
-                  <div>
-                    <h4 className="font-bold text-lg mb-1">
-                      100% Placement Support
-                    </h4>
-                    <p className="text-orange-100 text-sm">
-                      Dedicated placement team to help you land your dream job
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-1" />
-                  <div>
-                    <h4 className="font-bold text-lg mb-1">
-                      Hands-on Training
-                    </h4>
-                    <p className="text-orange-100 text-sm">
-                      Practice with real tools and security platforms
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 flex-shrink-0 mt-1" />
-                  <div>
-                    <h4 className="font-bold text-lg mb-1">
-                      2000+ Students Trained
-                    </h4>
-                    <p className="text-orange-100 text-sm">
-                      Join our community of successful security professionals
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
 
-            <section className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Quick Links
-              </h3>
-              <div className="grid grid-cols-2 gap-4">
-                <a
-                  href="#"
-                  className="flex items-center gap-2 text-gray-700 hover:text-orange-600 transition-colors p-3 rounded-lg hover:bg-orange-50"
-                >
-                  <Target className="w-5 h-5" />
-                  <span className="font-medium">Courses</span>
-                </a>
-                <a
-                  href="#"
-                  className="flex items-center gap-2 text-gray-700 hover:text-orange-600 transition-colors p-3 rounded-lg hover:bg-orange-50"
-                >
-                  <Users className="w-5 h-5" />
-                  <span className="font-medium">About Us</span>
-                </a>
-                <a
-                  href="#"
-                  className="flex items-center gap-2 text-gray-700 hover:text-orange-600 transition-colors p-3 rounded-lg hover:bg-orange-50"
-                >
-                  <Briefcase className="w-5 h-5" />
-                  <span className="font-medium">Placements</span>
-                </a>
-                <a
-                  href="#"
-                  className="flex items-center gap-2 text-gray-700 hover:text-orange-600 transition-colors p-3 rounded-lg hover:bg-orange-50"
-                >
-                  <Shield className="w-5 h-5" />
-                  <span className="font-medium">Testimonials</span>
-                </a>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <CheckCircle className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-xl mb-2">
+                          100% Placement Support
+                        </h4>
+                        <p className="text-orange-50 leading-relaxed">
+                          Dedicated placement team with resume building, interview prep, and job assistance
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <CheckCircle className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-xl mb-2">
+                          Hands-on Training
+                        </h4>
+                        <p className="text-orange-50 leading-relaxed">
+                          Practice with real tools, live labs, and security platforms used by industry leaders
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <CheckCircle className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-xl mb-2">
+                          2000+ Students Trained
+                        </h4>
+                        <p className="text-orange-50 leading-relaxed">
+                          Join our thriving community of successful security professionals across India
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </section>
           </div>
         </div>
 
+
+
         <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white rounded-2xl shadow-xl overflow-hidden p-12">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to Start Your Cyber Security Journey?
+              Ready to Start Your Journey?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Join 2000+ students who have successfully launched their careers
-              in cyber security with SevenMentor
+              Join 2000+ students who have successfully launched their careers with SevenMentor
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:022-48904395"
+                href="tel:02248904395"
                 className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 <Phone className="w-5 h-5" />
                 Call Now
               </a>
               <a
-                href="https://api.whatsapp.com/send?phone=+918421176876&text=Hi+I+am+looking+for+Cyber+Security+Training"
+                href="https://api.whatsapp.com/send?phone=+918421176876&text=Hi+I+am+looking+for+Training"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition-all duration-300 transform hover:scale-105"
@@ -507,7 +477,7 @@ export default function ContactUsPage() {
       <footer className="bg-gray-900 text-white py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-400">
-            © 2025 SevenMentor - Premier Cyber Security Training Institute
+            © 2025 SevenMentor - Training Institute
             Mumbai. All rights reserved.
           </p>
         </div>
