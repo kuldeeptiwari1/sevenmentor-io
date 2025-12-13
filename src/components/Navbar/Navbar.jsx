@@ -104,7 +104,7 @@ export default function Navbar() {
             name: "Cyber Security",
             link: "#",
             submenu: [
-                { name: "Cyber Security", link: "cyber-security-courses-in-mumbai" },
+                { name: "Cyber Security", link: "/cyber-security-courses-in-mumbai" },
                 { name: "CCNA + Linux + AWS", link: "/ccna-linux-aws-course-in-mumbai" },
                 { name: "CCNA", link: "/ccna-course-in-mumbai" },
                 { name: "CCNA + Linux + CEH", link: "/ccna-linux-ceh-course-in-mumbai" },
@@ -114,7 +114,7 @@ export default function Navbar() {
                 { name: "DEVOPS", link: "/devops-course-in-mumbai" },
                 { name: "Cloud Computing", link: "/cloud-computing-course-in-mumbai" },
                 { name: "Certified Ethical Hacking (CEH v12) Course in Mumbai", link: "/ethical-hacking-training-in-mumbai" },
-                { name: "SOC Analyst Training Course in Mumbai", link: "soc-course-in-mumbai" },
+                { name: "SOC Analyst Training Course in Mumbai", link: "/soc-course-in-mumbai" },
                 { name: "Computer Hacking Forensic Investigator (CHFI) Training Course", link: "chfi-course-in-mumbai" },
                 // {name:"Cyber Security Analyst Program ",link:"cyber-security-analyst-program-training-in-mumbai"}
             ]
