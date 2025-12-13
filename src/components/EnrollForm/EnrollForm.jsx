@@ -46,10 +46,10 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
 
   const handleSubmit = async (values, { resetForm, setSubmitting }) => {
     setSubmitting(true);
-    
+
     try {
       console.log("Submitting form with values:", values);
-      
+
       const payload = {
         formData: values,
         to: mailTo,
@@ -61,9 +61,9 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
       };
 
       console.log("Sending payload:", payload);
-      
-      await axios.post("http://localhost:8080/api/main-form", payload);
-      
+
+      await axios.post("/api/main-form", payload);
+
       console.log("API Response:", response.data);
 
       // Show success popup
@@ -74,7 +74,6 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
       });
 
       resetForm();
-      
     } catch (err) {
       console.error("Form submission error:", err);
       console.error("Error details:", err.response?.data);
@@ -83,11 +82,13 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
       setPopup({
         show: true,
         type: "error",
-        message: err.response?.data?.message || "Something went wrong! Please try again.",
+        message:
+          err.response?.data?.message ||
+          "Something went wrong! Please try again.",
       });
     } finally {
       setSubmitting(false);
-      
+
       // Auto-hide popup after 3 seconds
       setTimeout(() => {
         setPopup((prev) => ({ ...prev, show: false }));
@@ -225,8 +226,12 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
                         <option value="">Select a Course</option>
                         <option value="Cyber Security">Cyber Security</option>
                         <option value="Ethical Hacking">Ethical Hacking</option>
-                        <option value="Network Security">Network Security</option>
-                        <option value="CEH Certification">CEH Certification</option>
+                        <option value="Network Security">
+                          Network Security
+                        </option>
+                        <option value="CEH Certification">
+                          CEH Certification
+                        </option>
                         {course && <option value={course}>{course}</option>}
                       </Field>
                     </div>
@@ -261,7 +266,7 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
                       isSubmitting ? "opacity-70 cursor-not-allowed" : ""
                     }`}
                   >
-                    {isSubmitting ? "Submitting..." : "Submit Enrollment"}
+                    {isSubmitting ? "Submitting..." : "Submit"}
                   </button>
                   <p className="text-sm text-gray-600">
                     Our team will contact you within 24 hours

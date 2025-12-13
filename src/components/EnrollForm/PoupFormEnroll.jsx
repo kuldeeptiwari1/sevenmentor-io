@@ -129,20 +129,29 @@ const PoupFormEnroll = ({ mailTo, course, contactNumber, onClose }) => {
           {/* ---------------- Success/Error Popup ---------------- */}
           {popup.show && (
             <div
-              className={`absolute top-0 left-0 right-0 p-4 transition-all duration-500 transform ${popup.show ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
-                }`}
+              className={`absolute top-0 left-0 right-0 p-4 transition-all duration-500 transform ${
+                popup.show
+                  ? "translate-y-0 opacity-100"
+                  : "-translate-y-full opacity-0"
+              }`}
             >
               <div
-                className={`mx-auto max-w-sm rounded-xl shadow-2xl overflow-hidden border ${popup.type === "success"
-                  ? "bg-white border-green-100"
-                  : "bg-white border-red-100"
-                  }`}
+                className={`mx-auto max-w-sm rounded-xl shadow-2xl overflow-hidden border ${
+                  popup.type === "success"
+                    ? "bg-white border-green-100"
+                    : "bg-white border-red-100"
+                }`}
               >
-                <div className={`h-1 w-full ${popup.type === "success" ? "bg-green-500" : "bg-red-500"}`} />
+                <div
+                  className={`h-1 w-full ${
+                    popup.type === "success" ? "bg-green-500" : "bg-red-500"
+                  }`}
+                />
                 <div className="p-4 flex items-center gap-4">
                   <div
-                    className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 ${popup.type === "success" ? "bg-green-100" : "bg-red-100"
-                      }`}
+                    className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 ${
+                      popup.type === "success" ? "bg-green-100" : "bg-red-100"
+                    }`}
                   >
                     {popup.type === "success" ? (
                       <CheckCircle className="w-5 h-5 text-green-600" />
@@ -152,15 +161,20 @@ const PoupFormEnroll = ({ mailTo, course, contactNumber, onClose }) => {
                   </div>
                   <div className="flex-1">
                     <h4
-                      className={`text-sm font-bold mb-1 ${popup.type === "success" ? "text-green-800" : "text-red-800"
-                        }`}
+                      className={`text-sm font-bold mb-1 ${
+                        popup.type === "success"
+                          ? "text-green-800"
+                          : "text-red-800"
+                      }`}
                     >
                       {popup.type === "success" ? "Success!" : "Error!"}
                     </h4>
                     <p className="text-sm text-gray-600">{popup.message}</p>
                   </div>
                   <button
-                    onClick={() => setPopup((prev) => ({ ...prev, show: false }))}
+                    onClick={() =>
+                      setPopup((prev) => ({ ...prev, show: false }))
+                    }
                     className="text-gray-400 hover:text-gray-600 transition-colors"
                   >
                     <XCircle className="w-5 h-5" />
@@ -288,8 +302,9 @@ const PoupFormEnroll = ({ mailTo, course, contactNumber, onClose }) => {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className={`bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-3 rounded-xl font-bold shadow-md flex items-center gap-2 ${isSubmitting ? "opacity-70 cursor-not-allowed" : ""
-                        }`}
+                      className={`bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-3 rounded-xl font-bold shadow-md flex items-center gap-2 ${
+                        isSubmitting ? "opacity-70 cursor-not-allowed" : ""
+                      }`}
                     >
                       {isSubmitting ? (
                         <>
@@ -297,7 +312,7 @@ const PoupFormEnroll = ({ mailTo, course, contactNumber, onClose }) => {
                           Submitting...
                         </>
                       ) : (
-                        "Submit Enrollment"
+                        "Submit"
                       )}
                     </button>
                   </div>
