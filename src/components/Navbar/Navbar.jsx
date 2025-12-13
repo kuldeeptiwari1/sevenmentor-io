@@ -22,6 +22,7 @@ import { usePathname } from 'next/navigation';
 
 
 
+
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [openDropdowns, setOpenDropdowns] = useState({});
@@ -30,7 +31,9 @@ export default function Navbar() {
 
 
 
+
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
 
 
 
@@ -42,20 +45,24 @@ export default function Navbar() {
     };
 
 
+
     const toggleDesktopDropdown = (index) => {
         setDesktopOpenDropdown(desktopOpenDropdown === index ? null : index);
     };
+
 
 
     const closeDesktopDropdown = () => {
         setDesktopOpenDropdown(null);
     };
 
+
     const handleMobileNavClick = (hasSubmenu) => {
         if (!hasSubmenu) {
             setIsMenuOpen(false);
         }
     };
+
 
 
 
@@ -87,8 +94,9 @@ export default function Navbar() {
         },
         {
             name: "Cyber Security",
-            link: "cyber-security-courses-in-mumbai",
+            link: "#",
             submenu: [
+                {name:"Cyber Security",link:"cyber-security-courses-in-mumbai"},
                 { name: "CCNA + Linux + AWS", link: "/ccna-linux-aws-course-in-mumbai" },
                 { name: "CCNA", link: "/ccna-course-in-mumbai" },
                 { name: "CCNA + Linux + CEH", link: "/ccna-linux-ceh-course-in-mumbai" },
@@ -146,7 +154,9 @@ export default function Navbar() {
 
 
 
+
     ];
+
 
 
 
@@ -164,9 +174,11 @@ export default function Navbar() {
             `}</style>
 
 
+
             <nav className="bg-white shadow-sm sticky top-0 z-50 font-sans">
                 {/* Top Bar - Hidden on Mobile */}
             
+
 
 
 
@@ -185,14 +197,22 @@ export default function Navbar() {
 
 
 
+
                         {/* Desktop Menu */}
                         <div className="hidden lg:flex h-full items-center">
                         {navItems.map((item, idx) => (
         <div key={idx} className="relative h-full flex items-center" onMouseEnter={() => item.submenu && setDesktopOpenDropdown(idx)} onMouseLeave={() => item.submenu && setDesktopOpenDropdown(null)}>
-            <Link href={item.link} className={`flex items-center gap-3 px-2 h-10 rounded-md transition-all duration-300 font-medium text-gray-700 hover:text-white hover:bg-[#009bf5] ${item.submenu && desktopOpenDropdown === idx ? 'bg-[#009bf5] text-white' : ''}`}>
-                {item.name}
-                {item.submenu && <ChevronDown size={14} />}
-            </Link>
+            {item.submenu ? (
+                <button className={`flex items-center gap-3 px-2 h-10 rounded-md transition-all duration-300 font-medium text-gray-700 hover:text-white hover:bg-[#009bf5] ${desktopOpenDropdown === idx ? 'bg-[#009bf5] text-white' : ''}`}>
+                    {item.name}
+                    <ChevronDown size={14} />
+                </button>
+            ) : (
+                <Link href={item.link} className="flex items-center gap-3 px-2 h-10 rounded-md transition-all duration-300 font-medium text-gray-700 hover:text-white hover:bg-[#009bf5]">
+                    {item.name}
+                </Link>
+            )}
+
 
 
 
@@ -214,7 +234,9 @@ export default function Navbar() {
 
 
 
+
     </div>
+
 
 
 
@@ -227,18 +249,23 @@ export default function Navbar() {
 
 
 
+
                 {/* Mobile Menu Overlay */}
                 {isMenuOpen && (
                     <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-100 max-h-[80vh] overflow-y-auto hide-scrollbar">
                         <div className="flex flex-col p-4">
                             {navItems.map((item, idx) => (
                                 <div key={idx} className="border-b border-gray-100 last:border-0">
-                                    <Link href={item.link} onClick={() => { if (item.submenu) { toggleDropdown(idx); } else { handleMobileNavClick(false); } }} className="w-full py-3 px-2 font-semibold text-gray-800 flex justify-between items-center bg-gray-50 rounded mt-2 hover:bg-gray-100 transition-colors">
-                                        {item.name}
-                                        {item.submenu && (
+                                    {item.submenu ? (
+                                        <button onClick={() => toggleDropdown(idx)} className="w-full py-3 px-2 font-semibold text-gray-800 flex justify-between items-center bg-gray-50 rounded mt-2 hover:bg-gray-100 transition-colors">
+                                            {item.name}
                                             <ChevronDown size={16} className={`transition-transform duration-200 ${openDropdowns[idx] ? 'rotate-180' : ''}`} />
-                                        )}
-                                    </Link>
+                                        </button>
+                                    ) : (
+                                        <Link href={item.link} onClick={() => handleMobileNavClick(false)} className="w-full py-3 px-2 font-semibold text-gray-800 flex justify-between items-center bg-gray-50 rounded mt-2 hover:bg-gray-100 transition-colors">
+                                            {item.name}
+                                        </Link>
+                                    )}
                                     {item.submenu && openDropdowns[idx] && (
                                         <div className="pl-4 pb-2 bg-white">
                                             {item.submenu.map((subItem, subIdx) => (
