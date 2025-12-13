@@ -146,7 +146,69 @@ export default function HeroSection() {
             </div>
 
             {/* Search Bar - Cleaner Design */}
-           
+            <div className="relative">
+              <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-2 flex flex-col sm:flex-row items-center gap-2 hover:shadow-2xl transition-shadow duration-300 relative z-50">
+                <div className="flex items-center flex-1 w-full">
+                  <div className="pl-4 pr-2">
+                    <Search className="w-5 h-5 text-gray-400" />
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="Search courses: Java, Python, AWS, Data Science..."
+                    className="flex-1 px-2 py-4 outline-none text-gray-700 placeholder:text-gray-400 min-w-0"
+                    value={searchQuery}
+                    onChange={handleInputChange}
+                    onKeyDown={handleKeyDown}
+                    onFocus={() => {
+                      if (searchQuery.trim().length > 0) setShowSuggestions(true);
+                    }}
+                    onClick={(e) => e.stopPropagation()} // Prevent closing when clicking input
+                  />
+                </div>
+                <button
+                  onClick={handleSearch}
+                  className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-orange-400 hover:from-orange-600 hover:to-orange-500 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 shadow-lg shadow-orange-200/50 whitespace-nowrap"
+                >
+                  Search
+                </button>
+              </div>
+
+              {/* Dropdown Suggestions */}
+              {showSuggestions && suggestions.length > 0 && (
+                <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 overflow-hidden z-[100] max-h-80 overflow-y-auto">
+                  {suggestions.map((course) => (
+                    <button
+                      key={course.id}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleSuggestionClick(course.link);
+                      }}
+                      className="w-full text-left px-6 py-4 hover:bg-orange-50 border-b border-gray-50 last:border-0 transition-colors duration-200 flex items-center gap-3 group"
+                    >
+                      <div className="bg-orange-100 p-2 rounded-lg group-hover:bg-orange-200 transition-colors">
+                        <BookOpen className="w-4 h-4 text-orange-600" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900 text-sm">
+                          {course.title}
+                        </h4>
+                        <p className="text-xs text-gray-500">
+                          {course.category}
+                        </p>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* CTA Buttons */}
+            {/* <div className="flex flex-wrap gap-4">
+              <button className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-semibold text-base transition-all duration-300 shadow-lg transform hover:scale-105 flex items-center gap-2">
+                Explore All Courses
+                <Play className="w-5 h-5" />
+              </button>
+            </div> */}
           </div>
 
           {/* Right Content - Completely Redesigned Cards */}

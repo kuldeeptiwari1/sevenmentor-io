@@ -49,7 +49,7 @@ export default function CoursePage({ params }) {
     eligibility,
     tools,
     batches,
-    reviews,
+
     faqs,
     courseName,
     contactEmail,
@@ -110,9 +110,8 @@ export default function CoursePage({ params }) {
     return Array.from({ length: 5 }, (_, idx) => (
       <Star
         key={idx}
-        className={`w-4 h-4 ${
-          idx < rating ? "text-yellow-400 fill-yellow-400" : "text-gray-300"
-        }`}
+        className={`w-4 h-4 ${idx < rating ? "text-yellow-400 fill-yellow-400" : "text-gray-300"
+          }`}
       />
     ));
   };
@@ -184,10 +183,10 @@ export default function CoursePage({ params }) {
                 return (
                   <div
                     key={idx}
-                    className={`${badge.color} text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 shadow-lg`}
+                    className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm"
                   >
-                    <Icon className="w-5 h-5" />
-                    {badge.label}
+                    <Icon className="w-4 h-4 text-orange-400" />
+                    <span className="text-sm font-medium text-gray-100">{badge.label}</span>
                   </div>
                 );
               })}

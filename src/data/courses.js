@@ -62,6 +62,11 @@ import {
 export const courses = [
     {
         slug: 'cyber-security-courses-in-mumbai',
+        seo: {
+            title: 'Cyber Security Course in Mumbai',
+            description: 'Become a certified Cyber Security professional with hands-on training in ethical hacking, penetration testing, network security, and threat analysis',
+            keywords: 'Cyber Security Course in Mumbai, Cyber Security Course in Mumbai Course, Cyber Security Course in Mumbai Training, Cyber Security Course in Mumbai Certification, Best Cyber Security Course in Mumbai Course'
+        },
         heroData: {
             title: 'Cyber Security Course in Mumbai',
             subtitle: 'Master Ethical Hacking, Network Security & Information Security',
@@ -338,36 +343,6 @@ export const courses = [
                 seats: 'Available'
             }
         ],
-        reviews: [
-            {
-                name: 'Rajesh Kumar',
-                designation: 'Security Analyst at TCS',
-                rating: 5,
-                avatar: 'RK',
-                review: 'Excellent training program! The hands-on approach with real-world scenarios helped me understand practical security concepts. Got placed as a Security Analyst within 2 months of course completion. Highly recommended!'
-            },
-            {
-                name: 'Priya Sharma',
-                designation: 'Ethical Hacker at Wipro',
-                rating: 5,
-                avatar: 'PS',
-                review: 'Best cyber security training in Mumbai. The instructors are industry experts who share real-world experiences. The lab setup is amazing with all latest tools. Worth every penny!'
-            },
-            {
-                name: 'Amit Patil',
-                designation: 'Penetration Tester at Infosys',
-                rating: 5,
-                avatar: 'AP',
-                review: 'The course content is comprehensive and up-to-date. Loved the CEH preparation module. The placement team helped me crack interviews at top companies. Thank you for changing my career!'
-            },
-            {
-                name: 'Sneha Desai',
-                designation: 'Security Consultant at Accenture',
-                rating: 5,
-                avatar: 'SD',
-                review: 'Great learning experience! From basic networking to advanced penetration testing, everything was covered in detail. The project work gave me confidence to handle real security assessments.'
-            }
-        ],
         faqs: [
             {
                 id: 1,
@@ -428,14 +403,19 @@ export const courses = [
     },
     {
     slug: 'ethical-hacking-training-in-mumbai',
+        seo: {
+            title: 'Certified Ethical Hacking (CEH v12) Course in Mumbai',
+            description: 'Become a Certified Ethical Hacker (CEH v12) with comprehensive hands-on training in penetration testing, network security, malware analysis, and advanced hacking techniques from Certification instructors',
+            keywords: 'Certified Ethical Hacking (CEH v12) Course in Mumbai, Certified Ethical Hacking (CEH v12) Course in Mumbai Course, Certified Ethical Hacking (CEH v12) Course in Mumbai Training, Certified Ethical Hacking (CEH v12) Course in Mumbai Certification, Best Certified Ethical Hacking (CEH v12) Course in Mumbai Course'
+        },
     heroData: {
         title: 'Certified Ethical Hacking (CEH v12) Course in Mumbai',
         subtitle: 'Master Advanced Penetration Testing, Vulnerability Assessment & Cybersecurity',
-        description: 'Become a Certified Ethical Hacker (CEH v12) with comprehensive hands-on training in penetration testing, network security, malware analysis, and advanced hacking techniques from EC-Council certified instructors',
+        description: 'Become a Certified Ethical Hacker (CEH v12) with comprehensive hands-on training in penetration testing, network security, malware analysis, and advanced hacking techniques from Certification instructors',
         badges: [
             { icon: Clock, label: '20 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '4200+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'EC-Council Certified', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -818,8 +798,8 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'EC-Council Certified Trainers',
-            description: 'Learn from official EC-Council certified instructors with 15+ years of real-world penetration testing experience',
+            title: 'Certification Trainers',
+            description: 'Learn from official Certification instructors with 15+ years of real-world penetration testing experience',
             color: 'blue'
         },
         {
@@ -913,43 +893,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Arjun Mehta',
-            designation: 'Senior Penetration Tester at Deloitte',
-            rating: 5,
-            avatar: 'AM',
-            review: 'Best CEH v12 training in Mumbai! The hands-on labs and real-world attack simulations were incredible. I cleared my CEH exam in first attempt with 95% score. Now working as a Penetration Tester at Deloitte earning ₹12 LPA. Highly recommended!'
-        },
-        {
-            name: 'Priyanka Shah',
-            designation: 'Security Analyst at HDFC Bank',
-            rating: 5,
-            avatar: 'PS',
-            review: 'The trainers are EC-Council certified and have deep industry knowledge. The course covers all 20 modules thoroughly with practical demonstrations. Got placed in HDFC Bank within 1 month of completing the course. Best investment for my career!'
-        },
-        {
-            name: 'Karan Desai',
-            designation: 'Cybersecurity Consultant at TCS',
-            rating: 5,
-            avatar: 'KD',
-            review: 'Excellent CEH v12 training program! Loved the IoT hacking, cloud security, and MITRE ATT&CK framework modules. The mock exams and practice tests helped me prepare well. Cleared CEH exam with 92% and got promoted to Security Consultant role.'
-        },
-        {
-            name: 'Sneha Iyer',
-            designation: 'SOC Analyst at Wipro',
-            rating: 5,
-            avatar: 'SI',
-            review: 'Comprehensive training with 220+ tools covered in detail. The instructors share real penetration testing experiences which makes learning practical. Lab access 24/7 was very helpful. Got multiple job offers after CEH certification. Thank you!'
-        },
-        {
-            name: 'Rahul Patil',
-            designation: 'Incident Response Specialist at Accenture',
-            rating: 5,
-            avatar: 'RP',
-            review: 'Top-notch CEH v12 training institute in Mumbai. The curriculum is updated with latest attack techniques and defense strategies. Placement team is very supportive and helped me crack interviews at top companies. Now earning ₹15 LPA!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -1020,6 +963,11 @@ export const courses = [
 },
 {
     slug: 'soc-course-in-mumbai',
+        seo: {
+            title: 'SOC Analyst Training Course in Mumbai',
+            description: 'Become a Certified SOC Analyst with comprehensive hands-on training in security monitoring, log analysis, SIEM tools, threat hunting, and incident response from industry-certified trainers',
+            keywords: 'SOC Analyst Training Course in Mumbai, SOC Analyst Training Course in Mumbai Course, SOC Analyst Training Course in Mumbai Training, SOC Analyst Training Course in Mumbai Certification, Best SOC Analyst Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'SOC Analyst Training Course in Mumbai',
         subtitle: 'Master Security Operations Center, SIEM, Threat Detection & Incident Response',
@@ -1027,7 +975,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-purple-500' },
             { icon: Users, label: '3800+ Students', color: 'bg-purple-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-purple-700' },
+            { icon: Award, label: 'Certification', color: 'bg-purple-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-purple-500' }
         ]
     },
@@ -1041,7 +989,7 @@ export const courses = [
         title: 'About SOC Analyst Training Course',
         description: 'Security Operations Center (SOC) Analyst is one of the most in-demand cybersecurity roles today. Our comprehensive SOC Analyst training in Mumbai prepares you to monitor, detect, analyze, and respond to cybersecurity incidents in real-time. This course covers everything from SOC fundamentals to advanced threat hunting, SIEM deployment, log analysis, incident response, and security automation using industry-standard tools like Splunk, QRadar, ELK Stack, and more.',
         highlights: [
-            'Dual Certification: EC-Council CSA + Institute Certified SOC Analyst',
+            'Certification: EC-Council CSA + Institute Certified SOC Analyst',
             'Hands-on training with Splunk, QRadar, ELK Stack, Wazuh, TheHive',
             'Real-world SOC environment simulation with 24/7 lab access',
             '45+ SIEM use cases covering all major attack scenarios',
@@ -1359,7 +1307,7 @@ export const courses = [
                 title: 'SOC Analyst Certification Preparation',
                 duration: '1 Week',
                 topics: [
-                    'EC-Council Certified SOC Analyst (CSA) Exam Overview',
+                    'Certification SOC Analyst (CSA) Exam Overview',
                     'Exam Format, Duration, and Passing Criteria',
                     'Mock Exams and Practice Questions',
                     'Exam Tips and Strategies',
@@ -1376,7 +1324,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification Program',
+            title: 'Certification Program',
             description: 'Earn EC-Council CSA + Institute Certification with 100% first-attempt pass guarantee',
             color: 'purple'
         },
@@ -1471,43 +1419,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Vikram Patil',
-            designation: 'SOC Analyst L2 at HDFC Bank',
-            rating: 5,
-            avatar: 'VP',
-            review: 'Best SOC training in Mumbai! The hands-on SIEM lab with Splunk and QRadar was incredible. Learned real incident response procedures used in banks. Got placed in HDFC Bank SOC team earning ₹8 LPA within 2 weeks of completing the course!'
-        },
-        {
-            name: 'Anjali Deshmukh',
-            designation: 'Security Analyst at TCS',
-            rating: 5,
-            avatar: 'AD',
-            review: 'Excellent SOC analyst training program! The trainers are experienced SOC managers who shared real-world attack scenarios. The 45 SIEM use cases and threat hunting exercises were very practical. Cleared EC-Council CSA exam with 92% score!'
-        },
-        {
-            name: 'Rohan Shah',
-            designation: 'Tier 1 SOC Analyst at Wipro',
-            rating: 5,
-            avatar: 'RS',
-            review: 'Comprehensive course covering everything from SIEM basics to advanced threat hunting. The incident response playbooks and alert analysis training helped me handle real SOC operations confidently. Got job offer from Wipro with ₹6.5 LPA package.'
-        },
-        {
-            name: 'Priya Kulkarni',
-            designation: 'Cybersecurity Analyst at ICICI Bank',
-            rating: 5,
-            avatar: 'PK',
-            review: 'Top-notch SOC training institute in Mumbai! Loved the phishing analysis, malware analysis, and log analysis modules. The placement team is very supportive. Now working in ICICI Bank SOC monitoring critical banking infrastructure.'
-        },
-        {
-            name: 'Aditya Joshi',
-            designation: 'Threat Hunter at Infosys',
-            rating: 5,
-            avatar: 'AJ',
-            review: 'The SOAR automation and threat hunting training was outstanding. Learned to use Splunk, TheHive, and MITRE ATT&CK framework for real threat detection. Got promoted to Threat Hunter role after certification with ₹12 LPA salary!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -1527,12 +1438,12 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications do I get after completing SOC training?',
-            answer: 'You will earn dual certifications: 1) EC-Council Certified SOC Analyst (CSA) - globally recognized certification, and 2) Institute Certified SOC Analyst with lifetime validity. Both certifications are highly valued by employers in India and internationally.'
+            answer: 'You will earn Certifications: 1) Certification SOC Analyst (CSA) - globally recognized certification, and 2) Institute Certified SOC Analyst with lifetime validity. Both certifications are highly valued by employers in India and internationally.'
         },
         {
             id: 5,
             question: 'What is the average salary for SOC Analyst in Mumbai?',
-            answer: 'Entry-level SOC Analysts in Mumbai earn ₹4-7 LPA, Mid-level (2-5 years experience) earn ₹8-14 LPA, and Senior SOC Analysts/Threat Hunters earn ₹15-25 LPA. Banking sector and MNCs offer higher packages. With dual certification, our students get 20-30% higher salary offers.'
+            answer: 'Entry-level SOC Analysts in Mumbai earn ₹4-7 LPA, Mid-level (2-5 years experience) earn ₹8-14 LPA, and Senior SOC Analysts/Threat Hunters earn ₹15-25 LPA. Banking sector and MNCs offer higher packages. With Certification, our students get 20-30% higher salary offers.'
         },
         {
             id: 6,
@@ -1562,7 +1473,7 @@ export const courses = [
         {
             id: 11,
             question: 'What is the EC-Council CSA exam format and passing criteria?',
-            answer: 'The EC-Council Certified SOC Analyst (CSA) exam consists of 100-150 multiple choice questions to be completed in 2-3 hours. The passing score is 70%. The exam can be taken at Pearson VUE centers or online proctored. Our training includes 500+ practice questions and 10+ full-length mock exams for guaranteed success.'
+            answer: 'The Certification SOC Analyst (CSA) exam consists of 100-150 multiple choice questions to be completed in 2-3 hours. The passing score is 70%. The exam can be taken at Pearson VUE centers or online proctored. Our training includes 500+ practice questions and 10+ full-length mock exams for guaranteed success.'
         },
         {
             id: 12,
@@ -1578,14 +1489,19 @@ export const courses = [
 },
 {
     slug: 'chfi-course-in-mumbai',
+        seo: {
+            title: 'Computer Hacking Forensic Investigator (CHFI) Training Course in Mumbai',
+            description: 'Become a Certified Hacking Forensic Investigator with comprehensive hands-on training in digital forensics, incident investigation, malware analysis, data recovery, and forensic reporting from Certification trainers',
+            keywords: 'Computer Hacking Forensic Investigator (CHFI) Training Course in Mumbai, Computer Hacking Forensic Investigator (CHFI) Training Course in Mumbai Course, Computer Hacking Forensic Investigator (CHFI) Training Course in Mumbai Training, Computer Hacking Forensic Investigator (CHFI) Training Course in Mumbai Certification, Best Computer Hacking Forensic Investigator (CHFI) Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'Computer Hacking Forensic Investigator (CHFI) Training Course in Mumbai',
         subtitle: 'Master Digital Forensics, Cybercrime Investigation, Evidence Collection & Forensic Analysis',
-        description: 'Become a Certified Hacking Forensic Investigator with comprehensive hands-on training in digital forensics, incident investigation, malware analysis, data recovery, and forensic reporting from EC-Council certified trainers',
+        description: 'Become a Certified Hacking Forensic Investigator with comprehensive hands-on training in digital forensics, incident investigation, malware analysis, data recovery, and forensic reporting from Certification trainers',
         badges: [
             { icon: Clock, label: '18 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '2500+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'CHFI v11 Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -1599,7 +1515,7 @@ export const courses = [
         title: 'About Computer Hacking Forensic Investigator (CHFI) Training Course',
         description: 'Computer Hacking Forensic Investigator (CHFI) is the leading global digital forensics certification designed by EC-Council for cybercrime investigation professionals. Our comprehensive CHFI v11 training in Mumbai prepares you to detect, investigate, analyze, and present digital evidence in cybercrime cases. This course covers the complete digital forensics investigation process from crime scene to courtroom, including hard disk forensics, memory forensics, network forensics, mobile forensics, malware analysis, cloud forensics, and expert witness testimony using industry-standard tools like EnCase, FTK, Autopsy, X-Ways Forensics, and more [web:3][web:6].',
         highlights: [
-            'EC-Council Certified Hacking Forensic Investigator (CHFI v11) - globally recognized certification',
+            'Certification Hacking Forensic Investigator (CHFI v11) - globally recognized certification',
             'Hands-on training with EnCase, FTK, Autopsy, X-Ways Forensics, Sleuth Kit, Volatility',
             'Real-world forensic lab environment with 50+ investigation scenarios',
             '40+ forensic case studies covering cybercrime, data breach, insider threat investigations',
@@ -1914,7 +1830,7 @@ export const courses = [
             },
             {
                 id: 18,
-                title: 'CHFI v11 Certification Exam Preparation',
+                title: 'Certification Exam Preparation',
                 duration: '1 Week',
                 topics: [
                     'EC-Council CHFI v11 Exam Overview and Format',
@@ -1934,7 +1850,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'EC-Council CHFI v11 Certification',
+            title: 'EC-Council Certification',
             description: 'Globally recognized certification with 100% first-attempt pass guarantee and lifetime validity',
             color: 'blue'
         },
@@ -2029,43 +1945,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Rahul Mehta',
-            designation: 'Digital Forensic Analyst at Mumbai Police Cyber Cell',
-            rating: 5,
-            avatar: 'RM',
-            review: 'Best CHFI training in Mumbai! The hands-on forensic lab with EnCase, FTK, and Autopsy was exceptional. Learned real cybercrime investigation procedures used in law enforcement. Cleared CHFI v11 exam with 88% and now working with Mumbai Police Cyber Cell earning ₹9 LPA!'
-        },
-        {
-            name: 'Sneha Pawar',
-            designation: 'Forensic Investigator at EY Mumbai',
-            rating: 5,
-            avatar: 'SP',
-            review: 'Comprehensive CHFI course covering everything from disk forensics to mobile and cloud investigations. The trainers are experienced forensic examiners who shared real case studies. The malware analysis and evidence handling training was outstanding. Got placed at EY with ₹10 LPA package!'
-        },
-        {
-            name: 'Karan Singh',
-            designation: 'Cyber Forensic Consultant at PwC',
-            rating: 5,
-            avatar: 'KS',
-            review: 'Top-notch digital forensics training institute! The 40 investigation case studies and forensic report writing modules were very practical. Learned courtroom testimony and expert witness skills. Now consulting for Big 4 firms handling data breach investigations with ₹15 LPA salary.'
-        },
-        {
-            name: 'Pooja Iyer',
-            designation: 'Incident Response Analyst at HDFC Bank',
-            rating: 5,
-            avatar: 'PI',
-            review: 'Excellent CHFI training program with focus on banking sector investigations. The network forensics, email crime investigation, and insider threat modules helped me handle real banking security incidents confidently. Placement support was superb - got multiple offers!'
-        },
-        {
-            name: 'Amit Desai',
-            designation: 'Senior Forensic Analyst at Deloitte',
-            rating: 5,
-            avatar: 'AD',
-            review: 'The Windows, Linux, and Mac forensics training was comprehensive. Memory forensics with Volatility and mobile forensics with Cellebrite were game-changers. Cleared CHFI certification in first attempt and got promoted to Senior Analyst role with ₹18 LPA package at Deloitte!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -2084,7 +1963,7 @@ export const courses = [
         },
         {
             id: 4,
-            question: 'What is the CHFI v11 certification exam format?',
+            question: 'What is the Certification exam format?',
             answer: 'The EC-Council CHFI v11 exam consists of 150 scenario-based multiple choice questions to be completed in 4 hours. The passing score is 70%. The exam can be taken at Pearson VUE testing centers or online proctored. Our training includes 500+ practice questions, 10+ mock exams, and hands-on lab scenarios for guaranteed success.'
         },
         {
@@ -2136,6 +2015,11 @@ export const courses = [
 },
 {
     slug: 'web-application-penetration-testing-course-in-mumbai',
+        seo: {
+            title: 'Web Application Penetration Testing (WAPT) Training Course in Mumbai',
+            description: 'Become a Certified Web Application Penetration Tester with comprehensive hands-on training in OWASP vulnerabilities, Burp Suite, SQL injection, XSS attacks, API testing, and security assessments from industry-certified ethical hackers',
+            keywords: 'Web Application Penetration Testing (WAPT) Training Course in Mumbai, Web Application Penetration Testing (WAPT) Training Course in Mumbai Course, Web Application Penetration Testing (WAPT) Training Course in Mumbai Training, Web Application Penetration Testing (WAPT) Training Course in Mumbai Certification, Best Web Application Penetration Testing (WAPT) Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'Web Application Penetration Testing (WAPT) Training Course in Mumbai',
         subtitle: 'Master OWASP Top 10, Bug Bounty Hunting, API Security & Advanced Web Hacking Techniques',
@@ -2143,7 +2027,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '14 Weeks', color: 'bg-red-500' },
             { icon: Users, label: '4200+ Students', color: 'bg-red-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-red-700' },
+            { icon: Award, label: 'Certification', color: 'bg-red-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-red-500' }
         ]
     },
@@ -2157,7 +2041,7 @@ export const courses = [
         title: 'About Web Application Penetration Testing (WAPT) Training Course',
         description: 'Web Application Penetration Testing (WAPT) is the most sought-after cybersecurity skill focused on identifying and exploiting vulnerabilities in web applications and APIs [web:24][web:28]. Our comprehensive WAPT training in Mumbai prepares you to perform complete security assessments of web applications following OWASP methodology, from reconnaissance to exploitation and reporting. This course covers the complete OWASP Top 10 vulnerabilities, advanced exploitation techniques, API security testing, authentication bypass, privilege escalation, and automated vulnerability scanning using industry-standard tools like Burp Suite Professional, OWASP ZAP, sqlmap, Nikto, and custom Python scripts [web:24][web:28][web:31].',
         highlights: [
-            'Dual Certification: EC-Council CPENT + Institute Certified WAPT Professional',
+            'Certification: EC-Council CPENT + Institute Certified WAPT Professional',
             'Hands-on training with Burp Suite Professional, OWASP ZAP, sqlmap, Metasploit',
             'Real-world vulnerable web application labs with 50+ exploitation scenarios',
             'Complete OWASP Top 10 2023 + API Security vulnerabilities coverage [web:36][web:39]',
@@ -2526,7 +2410,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification Program',
+            title: 'Certification Program',
             description: 'Earn EC-Council CPENT + Institute Certification with 100% practical exam success guarantee',
             color: 'red'
         },
@@ -2621,43 +2505,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Arjun Malhotra',
-            designation: 'Web Security Consultant at Deloitte',
-            rating: 5,
-            avatar: 'AM',
-            review: 'Best WAPT training in Mumbai! The hands-on labs with Burp Suite Professional and OWASP Top 10 exploitation were exceptional. Learned real-world penetration testing methodologies. Cleared CPENT exam and now earning ₹12 LPA at Deloitte consulting for Fortune 500 clients!'
-        },
-        {
-            name: 'Priyanka Sharma',
-            designation: 'Application Security Engineer at Paytm',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Comprehensive web pentesting course covering everything from reconnaissance to advanced exploitation. The API security and authentication bypass modules were outstanding. Got placed at Paytm fintech with ₹14 LPA package. Bug bounty training helped me earn extra income!'
-        },
-        {
-            name: 'Kunal Verma',
-            designation: 'Senior Penetration Tester at EY',
-            rating: 5,
-            avatar: 'KV',
-            review: 'Top-notch training institute! The SQL injection, XSS, and SSRF exploitation training was very practical. Learned WAF bypass and advanced attack chaining techniques. Now working with Big 4 handling banking security assessments earning ₹16 LPA with excellent growth!'
-        },
-        {
-            name: 'Neha Reddy',
-            designation: 'Bug Bounty Hunter & Security Researcher',
-            rating: 5,
-            avatar: 'NR',
-            review: 'The bug bounty hunting training was game-changing! Learned effective reconnaissance, vulnerability discovery, and professional report writing. Earned my first $2000 bounty on HackerOne within 2 months. Now doing full-time bug bounty earning ₹18+ LPA!'
-        },
-        {
-            name: 'Siddharth Kapoor',
-            designation: 'Lead Security Tester at HDFC Bank',
-            rating: 5,
-            avatar: 'SK',
-            review: 'Excellent WAPT training with focus on banking applications. The Python automation and custom tool development modules were superb. Cleared CPENT in first attempt with 89%. Got promoted to Lead position at HDFC Bank SOC earning ₹20 LPA package!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -2728,6 +2575,11 @@ export const courses = [
 },
 {
     slug: 'cyber-security-analyst-program-training-in-mumbai',
+        seo: {
+            title: 'Cyber Security Analyst Program in Mumbai',
+            description: 'Become a Certified Cyber Security Analyst with comprehensive hands-on training in security monitoring, threat analysis, SIEM tools, vulnerability assessment, risk management, and incident response from industry-certified cybersecurity experts',
+            keywords: 'Cyber Security Analyst Program in Mumbai, Cyber Security Analyst Program in Mumbai Course, Cyber Security Analyst Program in Mumbai Training, Cyber Security Analyst Program in Mumbai Certification, Best Cyber Security Analyst Program in Mumbai Course'
+        },
     heroData: {
         title: 'Cyber Security Analyst Program in Mumbai',
         subtitle: 'Master Threat Detection, Vulnerability Management, Incident Response & Security Operations',
@@ -2735,7 +2587,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '20 Weeks', color: 'bg-cyan-500' },
             { icon: Users, label: '5000+ Students', color: 'bg-cyan-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-cyan-700' },
+            { icon: Award, label: 'Certification', color: 'bg-cyan-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-cyan-500' }
         ]
     },
@@ -2749,7 +2601,7 @@ export const courses = [
         title: 'About Cyber Security Analyst Program',
         description: 'Cyber Security Analyst is one of the most critical and in-demand roles protecting organizations from cyber threats in 2025 [web:41][web:45]. Our comprehensive Cyber Security Analyst Program in Mumbai is designed as a complete career transformation course covering all domains of cybersecurity including network security, application security, cloud security, threat detection, vulnerability management, incident response, security operations, compliance, and risk management [web:45][web:46]. This industry-aligned program prepares you for multiple job roles including Security Analyst, SOC Analyst, Vulnerability Analyst, Incident Responder, Security Engineer, and Compliance Analyst with hands-on training using enterprise tools like Splunk, Wireshark, Nessus, Metasploit, Burp Suite, and cloud security platforms [web:45][web:46].',
         highlights: [
-            'Triple Certification: CompTIA Security+ | CompTIA CySA+ | Institute Certified Security Analyst [web:42][web:45][web:46]',
+            'Certification: CompTIA Security+ | CompTIA CySA+ | Institute Certified Security Analyst [web:42][web:45][web:46]',
             'Complete cybersecurity toolkit training: SIEM, IDS/IPS, Vulnerability Scanners, Penetration Testing',
             'Real-world security operations with 24/7 SOC lab access and live threat scenarios',
             '60+ hands-on projects covering all cybersecurity domains [web:45]',
@@ -3118,7 +2970,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'CompTIA Security+ | CompTIA CySA+ | Institute Certification with guaranteed success [web:42][web:45][web:46]',
             color: 'cyan'
         },
@@ -3213,43 +3065,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Aarav Patel',
-            designation: 'Cyber Security Analyst at TCS',
-            rating: 5,
-            avatar: 'AP',
-            review: 'Best cybersecurity program in Mumbai! The comprehensive curriculum covering everything from networking to cloud security was exceptional. Hands-on labs with Splunk, Nessus, and Metasploit were outstanding. Cleared CompTIA Security+ and CySA+ certifications. Now earning ₹8 LPA at TCS!'
-        },
-        {
-            name: 'Ishita Joshi',
-            designation: 'SOC Analyst at Infosys',
-            rating: 5,
-            avatar: 'IJ',
-            review: 'Comprehensive security analyst training! The SIEM, incident response, and threat hunting modules were incredibly practical. Trainers are experienced security professionals who shared real-world scenarios. Got placed at Infosys with ₹7.5 LPA package within 2 weeks of course completion!'
-        },
-        {
-            name: 'Rohan Desai',
-            designation: 'Security Engineer at HDFC Bank',
-            rating: 5,
-            avatar: 'RD',
-            review: 'Top-notch cybersecurity training institute! Loved the vulnerability assessment, penetration testing, and cloud security modules. The 60+ hands-on projects built my portfolio perfectly. Now working at HDFC Bank securing critical banking infrastructure earning ₹11 LPA!'
-        },
-        {
-            name: 'Kavya Iyer',
-            designation: 'Vulnerability Analyst at Wipro',
-            rating: 5,
-            avatar: 'KI',
-            review: 'Excellent program for career switchers! I came from development background and this course transformed my career. The Python automation and application security modules were fantastic. Placement support was phenomenal. Got multiple offers and joined Wipro with ₹9 LPA package!'
-        },
-        {
-            name: 'Aryan Sharma',
-            designation: 'Senior Security Analyst at Deloitte',
-            rating: 5,
-            avatar: 'AS',
-            review: 'The most comprehensive cybersecurity program I\'ve seen! Risk management, compliance, and incident response training prepared me for real consulting roles. Cleared CompTIA Security+ with 850+ score. Now working at Deloitte Big 4 consulting earning ₹14 LPA with excellent growth!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -3264,7 +3079,7 @@ export const courses = [
         {
             id: 3,
             question: 'Which certifications will I earn after completing this program?',
-            answer: 'You will earn triple certifications: 1) CompTIA Security+ - foundational security certification recognized globally [web:42][web:45], 2) CompTIA CySA+ - advanced analyst certification for SOC and incident response roles [web:46], and 3) Institute Certified Cyber Security Analyst with lifetime validity. All three certifications are highly valued by employers worldwide.'
+            answer: 'You will earn Certifications: 1) CompTIA Security+ - foundational security certification recognized globally [web:42][web:45], 2) CompTIA CySA+ - advanced analyst certification for SOC and incident response roles [web:46], and 3) Institute Certified Cyber Security Analyst with lifetime validity. All three certifications are highly valued by employers worldwide.'
         },
         {
             id: 4,
@@ -3321,6 +3136,11 @@ export const courses = [
 
 {
     slug: 'python-sql-prob-stat-ds-machine-learning-ai-deep-learning-power-bi',
+        seo: {
+            title: 'Data Science, Machine Learning & AI Complete Program in Mumbai',
+            description: 'Become a Certified Data Scientist and AI Engineer with comprehensive hands-on training in Python programming, SQL databases, Probability & Statistics, Machine Learning algorithms, Deep Learning neural networks, and Power BI visualization from industry experts',
+            keywords: 'Data Science, Machine Learning & AI Complete Program in Mumbai, Data Science, Machine Learning & AI Complete Program in Mumbai Course, Data Science, Machine Learning & AI Complete Program in Mumbai Training, Data Science, Machine Learning & AI Complete Program in Mumbai Certification, Best Data Science, Machine Learning & AI Complete Program in Mumbai Course'
+        },
     heroData: {
         title: 'Data Science, Machine Learning & AI Complete Program in Mumbai',
         subtitle: 'Master Python, SQL, Statistics, Machine Learning, Deep Learning & Power BI',
@@ -3328,7 +3148,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '24 Weeks', color: 'bg-indigo-500' },
             { icon: Users, label: '6500+ Students', color: 'bg-indigo-600' },
-            { icon: Award, label: 'Quad Certification', color: 'bg-indigo-700' },
+            { icon: Award, label: 'Certification', color: 'bg-indigo-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-indigo-500' }
         ]
     },
@@ -3342,7 +3162,7 @@ export const courses = [
         title: 'About Data Science, Machine Learning & AI Complete Program',
         description: 'Data Science, Machine Learning, and Artificial Intelligence are the most in-demand skills transforming every industry in 2025. Our comprehensive Data Science & AI Program in Mumbai is designed as a complete career transformation course covering the entire data science ecosystem from programming fundamentals to advanced deep learning applications. This industry-aligned program takes you from beginner to job-ready professional with hands-on training in Python programming, SQL database management, Probability & Statistics for data analysis, Machine Learning algorithms (supervised, unsupervised, ensemble methods), Deep Learning neural networks (CNN, RNN, transformers), Natural Language Processing, Computer Vision, and business intelligence with Power BI for data visualization and dashboards.',
         highlights: [
-            'Quad Certification: Python | Data Science | Machine Learning | AI Deep Learning',
+            'Certification: Python | Data Science | Machine Learning | AI Deep Learning',
             'Complete technology stack: Python, SQL, NumPy, Pandas, Scikit-learn, TensorFlow, Keras, PyTorch',
             'Real-world projects portfolio: 80+ hands-on projects including Kaggle competitions',
             'Live project training with real datasets from e-commerce, finance, healthcare, retail domains',
@@ -3796,7 +3616,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Quad Certification Package',
+            title: 'Certification Package',
             description: 'Python | Data Science | Machine Learning | AI Deep Learning certifications',
             color: 'indigo'
         },
@@ -3891,43 +3711,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Rajesh Kumar',
-            designation: 'Data Scientist at JP Morgan Chase',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Best Data Science program in Mumbai! The comprehensive curriculum from Python basics to deep learning was exceptional. Hands-on projects with real datasets and Kaggle competitions built my portfolio perfectly. Got placed at JP Morgan with ₹18 LPA package. Trainers are IIT alumni with amazing expertise!'
-        },
-        {
-            name: 'Priya Singh',
-            designation: 'Machine Learning Engineer at Flipkart',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding ML and AI training! The statistics, feature engineering, and ensemble methods modules were incredibly practical. Deep learning with TensorFlow and PyTorch was taught brilliantly. Switched from software development to ML engineering at Flipkart earning ₹22 LPA. Worth every penny!'
-        },
-        {
-            name: 'Amit Deshmukh',
-            designation: 'Senior Data Analyst at Deloitte',
-            rating: 5,
-            avatar: 'AD',
-            review: 'Comprehensive program covering entire data science stack! The Power BI and SQL modules enhanced my analytics skills significantly. Working on 80+ projects gave me confidence to handle real business problems. Got promoted to Senior Analyst at Deloitte with ₹16 LPA salary after certification!'
-        },
-        {
-            name: 'Sneha Reddy',
-            designation: 'AI Engineer at Jio Platforms',
-            rating: 5,
-            avatar: 'SR',
-            review: 'The deep learning, NLP, and computer vision training was world-class! Built multiple neural network projects including chatbot and image recognition systems. Placement assistance was phenomenal with interview preparation. Now working at Jio on cutting-edge AI projects earning ₹20 LPA!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Lead Data Scientist at HDFC Bank',
-            rating: 5,
-            avatar: 'VM',
-            review: 'Best investment in my career! The program transformed me from developer to data scientist. The fraud detection, customer churn, and risk modeling projects were directly applicable in banking. Cleared 5 rounds and joined HDFC Bank as Lead DS with ₹25 LPA package. Highly recommended!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -3947,7 +3730,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive after completion?',
-            answer: 'You will earn quad certifications: 1) Python Programming Certification, 2) Data Science with Machine Learning Certification, 3) Artificial Intelligence with Deep Learning Certification, and 4) Institute Certified Data Scientist with lifetime validity. Additionally, you will build a strong GitHub portfolio with 80+ projects demonstrating your skills to employers.'
+            answer: 'You will earn Certifications: 1) Python Programming Certification, 2) Data Science with Machine Learning Certification, 3) Artificial Intelligence with Deep Learning Certification, and 4) Institute Certified Data Scientist with lifetime validity. Additionally, you will build a strong GitHub portfolio with 80+ projects demonstrating your skills to employers.'
         },
         {
             id: 5,
@@ -3999,6 +3782,11 @@ export const courses = [
 
 {
     slug: 'python-sql-probability-with-statistics-advexcel-power-bi',
+        seo: {
+            title: 'Data Analytics with Python, SQL, Excel & Power BI Course in Mumbai',
+            description: 'Become a Certified Data Analyst with comprehensive hands-on training in Python programming, SQL databases, Probability & Statistics, Advanced Excel, Power BI dashboards, data visualization, and business analytics from industry-certified data professionals',
+            keywords: 'Data Analytics with Python, SQL, Excel & Power BI Course in Mumbai, Data Analytics with Python, SQL, Excel & Power BI Course in Mumbai Course, Data Analytics with Python, SQL, Excel & Power BI Course in Mumbai Training, Data Analytics with Python, SQL, Excel & Power BI Course in Mumbai Certification, Best Data Analytics with Python, SQL, Excel & Power BI Course in Mumbai Course'
+        },
     heroData: {
         title: 'Data Analytics with Python, SQL, Excel & Power BI Course in Mumbai',
         subtitle: 'Master Data Analytics, Business Intelligence, Statistical Analysis & Visualization',
@@ -4006,7 +3794,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-teal-500' },
             { icon: Users, label: '7200+ Students', color: 'bg-teal-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-teal-700' },
+            { icon: Award, label: 'Certification', color: 'bg-teal-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-teal-500' }
         ]
     },
@@ -4020,7 +3808,7 @@ export const courses = [
         title: 'About Data Analytics with Python, SQL, Excel & Power BI Course',
         description: 'Data Analytics is the most in-demand business skill transforming decision-making across all industries in 2025. Our comprehensive Data Analytics Course in Mumbai is designed as a complete career program covering the entire analytics ecosystem from data collection to insights generation and visualization. This industry-aligned course prepares you to become a job-ready Data Analyst with hands-on training in Python for data analysis (NumPy, Pandas, Matplotlib), SQL for database querying and data extraction, Probability & Statistics for business decision-making, Advanced Excel for data modeling and dashboards, and Power BI for interactive business intelligence reports and visualizations used by Fortune 500 companies.',
         highlights: [
-            'Triple Certification: Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
+            'Certification: Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
             'Complete analytics toolkit: Python, SQL, Advanced Excel, Power BI, Tableau basics',
             'Real business datasets from retail, e-commerce, finance, healthcare, supply chain domains',
             '50+ hands-on projects including complete business analytics case studies',
@@ -4457,7 +4245,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
             color: 'teal'
         },
@@ -4552,43 +4340,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Anjali Deshmukh',
-            designation: 'Data Analyst at Deloitte',
-            rating: 5,
-            avatar: 'AD',
-            review: 'Best data analytics course in Mumbai! The Python, SQL, and Power BI training was exceptionally practical. Loved the hands-on projects with real business datasets. Switched from HR to data analytics and got placed at Deloitte with ₹9 LPA package. Trainers are Big 4 experts with amazing real-world knowledge!'
-        },
-        {
-            name: 'Rahul Sharma',
-            designation: 'Business Analyst at HDFC Bank',
-            rating: 5,
-            avatar: 'RS',
-            review: 'Comprehensive analytics training! The Advanced Excel and Power BI modules were outstanding with complete dashboard projects. Statistics training helped me understand business metrics deeply. Now working at HDFC Bank analyzing banking operations earning ₹8.5 LPA. Highly recommended for career switchers!'
-        },
-        {
-            name: 'Priya Verma',
-            designation: 'Senior Data Analyst at Flipkart',
-            rating: 5,
-            avatar: 'PV',
-            review: 'Excellent program covering entire analytics toolkit! The Pandas, SQL, and DAX training were perfect for e-commerce analytics. Built amazing portfolio with 50+ projects. Placement support was phenomenal with multiple offers. Joined Flipkart analytics team with ₹12 LPA package!'
-        },
-        {
-            name: 'Kunal Patel',
-            designation: 'Analytics Consultant at Accenture',
-            rating: 5,
-            avatar: 'KP',
-            review: 'Top-notch data analytics training! The business case studies from retail, finance, and marketing were incredibly valuable. Hypothesis testing and statistical analysis modules prepared me for consulting roles. Got placed at Accenture with ₹11 LPA. Best decision for my career!'
-        },
-        {
-            name: 'Sneha Iyer',
-            designation: 'BI Developer at TCS',
-            rating: 5,
-            avatar: 'SI',
-            review: 'The Power BI and data modeling training was world-class! Created 15+ interactive dashboards during the course. Python and SQL combination made me versatile. Cleared TCS interviews easily and now earning ₹7 LPA as BI developer with excellent growth opportunities!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -4608,7 +4359,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Python for Data Analytics Certification, 2) Microsoft Power BI Certification (recognized industry-wide), and 3) Institute Certified Data Analyst with lifetime validity. Additionally, you will build a strong portfolio on GitHub with 50+ projects demonstrating your analytics skills to employers.'
+            answer: 'You will earn Certifications: 1) Python for Data Analytics Certification, 2) Microsoft Power BI Certification (recognized industry-wide), and 3) Institute Certified Data Analyst with lifetime validity. Additionally, you will build a strong portfolio on GitHub with 50+ projects demonstrating your analytics skills to employers.'
         },
         {
             id: 5,
@@ -4660,6 +4411,11 @@ export const courses = [
 
 {
     slug: 'python-course-in-mumbai',
+        seo: {
+            title: 'Python Programming Course in Mumbai',
+            description: 'Become a Certified Python Developer with comprehensive hands-on training in Python programming fundamentals, object-oriented programming, Django/Flask frameworks, data structures, algorithms, web scraping, automation, and real-world application development from industry-certified experts',
+            keywords: 'Python Programming Course in Mumbai, Python Programming Course in Mumbai Course, Python Programming Course in Mumbai Training, Python Programming Course in Mumbai Certification, Best Python Programming Course in Mumbai Course'
+        },
     heroData: {
         title: 'Python Programming Course in Mumbai',
         subtitle: 'Master Python for Web Development, Data Science, Automation & Software Development',
@@ -4667,7 +4423,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '8500+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -4681,7 +4437,7 @@ export const courses = [
         title: 'About Python Programming Course',
         description: 'Python is the #1 programming language in 2025 powering web applications, data science, machine learning, automation, DevOps, cybersecurity, and enterprise software development. Our comprehensive Python Programming Course in Mumbai is designed as a complete full-stack Python development program covering everything from programming fundamentals to advanced frameworks and real-world application development. This industry-aligned course prepares you to become a job-ready Python Developer with hands-on training in Python basics, advanced concepts, object-oriented programming, Django/Flask web frameworks, RESTful APIs, database integration (SQL, MongoDB), web scraping, automation scripts, data structures & algorithms, testing, deployment, and Git version control.',
         highlights: [
-            'Dual Certification: Python Programming | Python Web Development with Django/Flask',
+            'Certification: Python Programming | Python Web Development with Django/Flask',
             'Complete Python ecosystem: Core Python, Django, Flask, FastAPI, REST APIs, databases',
             'Real-world project portfolio: 60+ coding projects including 5 major capstone projects',
             'Live project development: E-commerce platform, Blog CMS, REST API, Automation tools',
@@ -5104,7 +4860,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification Package',
+            title: 'Certification Package',
             description: 'Python Programming Certification | Python Web Development Certification',
             color: 'blue'
         },
@@ -5199,43 +4955,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Aditya Kulkarni',
-            designation: 'Python Developer at TCS',
-            rating: 5,
-            avatar: 'AK',
-            review: 'Best Python course in Mumbai! Started as complete beginner and now confidently developing Django web applications. The hands-on projects and code reviews were exceptional. Got placed at TCS with ₹6.5 LPA package. Trainers explained every concept with real-world examples!'
-        },
-        {
-            name: 'Neha Patil',
-            designation: 'Backend Developer at Flipkart',
-            rating: 5,
-            avatar: 'NP',
-            review: 'Comprehensive Python training covering everything from basics to Django framework! The OOP, database integration, and REST API modules were outstanding. Built 5 major projects for my portfolio. Joined Flipkart as backend developer earning ₹10 LPA. Highly recommended!'
-        },
-        {
-            name: 'Rohan Desai',
-            designation: 'Full Stack Developer at Startup',
-            rating: 5,
-            avatar: 'RD',
-            review: 'Excellent Python course with perfect balance of theory and practical coding. The Flask and Django training was incredibly detailed. Web scraping and automation modules were bonus additions. Now working at a funded startup with ₹8 LPA salary building scalable applications!'
-        },
-        {
-            name: 'Priya Shah',
-            designation: 'Software Engineer at Infosys',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Switched from manual testing to Python development after this course! The trainers are patient and supportive. Loved the Git, deployment, and project work. Placement team helped me clear 3 rounds at Infosys. Now earning ₹7 LPA as Python software engineer!'
-        },
-        {
-            name: 'Vikram Joshi',
-            designation: 'Python Automation Engineer at Accenture',
-            rating: 5,
-            avatar: 'VJ',
-            review: 'The most practical Python course! Learned web scraping, automation, API development, and Django. Built automation scripts saving hours of manual work. Interview preparation with coding challenges was perfect. Joined Accenture automation team with ₹9 LPA package!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -5255,7 +4974,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn dual certifications: 1) Python Programming Certification covering core Python, OOP, data structures, and algorithms, and 2) Python Web Development Certification covering Django, Flask, REST APIs, and database integration. Both certifications are industry-recognized with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects.'
+            answer: 'You will earn Certifications: 1) Python Programming Certification covering core Python, OOP, data structures, and algorithms, and 2) Python Web Development Certification covering Django, Flask, REST APIs, and database integration. Both certifications are industry-recognized with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects.'
         },
         {
             id: 5,
@@ -5307,6 +5026,11 @@ export const courses = [
 
 {
     slug: 'data-science-course-in-mumbai',
+        seo: {
+            title: 'Data Science Course in Mumbai',
+            description: 'Become a Certified Data Scientist with comprehensive hands-on training in Python, statistics, machine learning algorithms, deep learning, NLP, computer vision, big data analytics, and real-world AI model deployment from industry experts',
+            keywords: 'Data Science Course in Mumbai, Data Science Course in Mumbai Course, Data Science Course in Mumbai Training, Data Science Course in Mumbai Certification, Best Data Science Course in Mumbai Course'
+        },
     heroData: {
         title: 'Data Science Course in Mumbai',
         subtitle: 'Master Machine Learning, Deep Learning, AI, Python & Statistical Modeling',
@@ -5314,7 +5038,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '22 Weeks', color: 'bg-purple-500' },
             { icon: Users, label: '6800+ Students', color: 'bg-purple-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-purple-700' },
+            { icon: Award, label: 'Certification', color: 'bg-purple-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-purple-500' }
         ]
     },
@@ -5328,7 +5052,7 @@ export const courses = [
         title: 'About Data Science Course',
         description: 'Data Science is the most sought-after career of the 21st century, combining statistics, programming, and domain expertise to solve complex business problems using data-driven approaches. Our comprehensive Data Science Course in Mumbai is designed as a complete career transformation program covering the entire data science lifecycle from data collection to model deployment. This industry-aligned course prepares you to become a job-ready Data Scientist with hands-on training in Python programming, advanced statistics, machine learning (supervised, unsupervised, ensemble), deep learning (CNN, RNN, transformers), natural language processing, computer vision, big data technologies (Spark, Hadoop), MLOps, and cloud deployment (AWS, Azure, GCP).',
         highlights: [
-            'Triple Certification: Python | Machine Learning | Deep Learning & AI',
+            'Certification: Python | Machine Learning | Deep Learning & AI',
             'Complete ML/DL stack: Scikit-learn, TensorFlow, Keras, PyTorch, Transformers',
             'Real industry projects: 75+ hands-on projects including Kaggle competitions',
             'Live deployment training: AWS SageMaker, Azure ML, Docker, MLOps pipelines',
@@ -5811,7 +5535,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification',
+            title: 'Certification',
             description: 'Python Programming | Machine Learning | Deep Learning & AI certifications',
             color: 'purple'
         },
@@ -5906,43 +5630,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Arjun Mehta',
-            designation: 'Data Scientist at JP Morgan',
-            rating: 5,
-            avatar: 'AM',
-            review: 'Best Data Science course in India! The comprehensive curriculum from statistics to deep learning was exceptional. Built 75+ projects including CNN, NLP, and recommendation systems. Got placed at JP Morgan with ₹22 LPA package. Trainers are IIT alumni with real industry experience!'
-        },
-        {
-            name: 'Priya Sharma',
-            designation: 'ML Engineer at Flipkart',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding ML and deep learning training! The hands-on approach with Kaggle competitions and real datasets was perfect. Learned TensorFlow, PyTorch, and MLOps deployment. Switched from software engineering to ML role at Flipkart earning ₹25 LPA. Life-changing course!'
-        },
-        {
-            name: 'Rahul Desai',
-            designation: 'Senior Data Scientist at Amazon',
-            rating: 5,
-            avatar: 'RD',
-            review: 'Most comprehensive data science program I\'ve seen! The ensemble methods, NLP, and computer vision modules were world-class. Portfolio with deployed models helped me clear Amazon interviews. Now earning ₹32 LPA working on recommendation systems. Highly recommended!'
-        },
-        {
-            name: 'Sneha Iyer',
-            designation: 'AI Engineer at Microsoft',
-            rating: 5,
-            avatar: 'SI',
-            review: 'The deep learning and transformer models training was phenomenal! Built chatbot, image classification, and time series projects. Placement support with mock interviews was excellent. Joined Microsoft AI team with ₹28 LPA package. Best investment in my career!'
-        },
-        {
-            name: 'Vikram Patel',
-            designation: 'Lead Data Scientist at HDFC Bank',
-            rating: 5,
-            avatar: 'VP',
-            review: 'Comprehensive training covering entire data science spectrum! The fraud detection, risk modeling, and customer analytics projects were directly applicable in banking. Cleared 6 interview rounds and joined HDFC as Lead DS with ₹35 LPA. Worth every rupee!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -6014,6 +5701,11 @@ export const courses = [
 
 {
     slug: 'data-analytics-course-in-mumbai',
+        seo: {
+            title: 'Data Analytics Course in Mumbai',
+            description: 'Become a Certified Data Analyst with comprehensive hands-on training in Python programming, SQL databases, Probability & Statistics, Advanced Excel, Power BI dashboards, data visualization, and business analytics from industry-certified data professionals',
+            keywords: 'Data Analytics Course in Mumbai, Data Analytics Course in Mumbai Course, Data Analytics Course in Mumbai Training, Data Analytics Course in Mumbai Certification, Best Data Analytics Course in Mumbai Course'
+        },
     heroData: {
         title: 'Data Analytics Course in Mumbai',
         subtitle: 'Master Data Analytics, Business Intelligence, Statistical Analysis & Visualization',
@@ -6021,7 +5713,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-teal-500' },
             { icon: Users, label: '7200+ Students', color: 'bg-teal-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-teal-700' },
+            { icon: Award, label: 'Certification', color: 'bg-teal-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-teal-500' }
         ]
     },
@@ -6035,7 +5727,7 @@ export const courses = [
         title: 'About Data Analytics with Python, SQL, Excel & Power BI Course',
         description: 'Data Analytics is the most in-demand business skill transforming decision-making across all industries in 2025. Our comprehensive Data Analytics Course in Mumbai is designed as a complete career program covering the entire analytics ecosystem from data collection to insights generation and visualization. This industry-aligned course prepares you to become a job-ready Data Analyst with hands-on training in Python for data analysis (NumPy, Pandas, Matplotlib), SQL for database querying and data extraction, Probability & Statistics for business decision-making, Advanced Excel for data modeling and dashboards, and Power BI for interactive business intelligence reports and visualizations used by Fortune 500 companies.',
         highlights: [
-            'Triple Certification: Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
+            'Certification: Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
             'Complete analytics toolkit: Python, SQL, Advanced Excel, Power BI, Tableau basics',
             'Real business datasets from retail, e-commerce, finance, healthcare, supply chain domains',
             '50+ hands-on projects including complete business analytics case studies',
@@ -6472,7 +6164,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
             color: 'teal'
         },
@@ -6567,43 +6259,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Anjali Deshmukh',
-            designation: 'Data Analyst at Deloitte',
-            rating: 5,
-            avatar: 'AD',
-            review: 'Best data analytics course in Mumbai! The Python, SQL, and Power BI training was exceptionally practical. Loved the hands-on projects with real business datasets. Switched from HR to data analytics and got placed at Deloitte with ₹9 LPA package. Trainers are Big 4 experts with amazing real-world knowledge!'
-        },
-        {
-            name: 'Rahul Sharma',
-            designation: 'Business Analyst at HDFC Bank',
-            rating: 5,
-            avatar: 'RS',
-            review: 'Comprehensive analytics training! The Advanced Excel and Power BI modules were outstanding with complete dashboard projects. Statistics training helped me understand business metrics deeply. Now working at HDFC Bank analyzing banking operations earning ₹8.5 LPA. Highly recommended for career switchers!'
-        },
-        {
-            name: 'Priya Verma',
-            designation: 'Senior Data Analyst at Flipkart',
-            rating: 5,
-            avatar: 'PV',
-            review: 'Excellent program covering entire analytics toolkit! The Pandas, SQL, and DAX training were perfect for e-commerce analytics. Built amazing portfolio with 50+ projects. Placement support was phenomenal with multiple offers. Joined Flipkart analytics team with ₹12 LPA package!'
-        },
-        {
-            name: 'Kunal Patel',
-            designation: 'Analytics Consultant at Accenture',
-            rating: 5,
-            avatar: 'KP',
-            review: 'Top-notch data analytics training! The business case studies from retail, finance, and marketing were incredibly valuable. Hypothesis testing and statistical analysis modules prepared me for consulting roles. Got placed at Accenture with ₹11 LPA. Best decision for my career!'
-        },
-        {
-            name: 'Sneha Iyer',
-            designation: 'BI Developer at TCS',
-            rating: 5,
-            avatar: 'SI',
-            review: 'The Power BI and data modeling training was world-class! Created 15+ interactive dashboards during the course. Python and SQL combination made me versatile. Cleared TCS interviews easily and now earning ₹7 LPA as BI developer with excellent growth opportunities!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -6623,7 +6278,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Python for Data Analytics Certification, 2) Microsoft Power BI Certification (recognized industry-wide), and 3) Institute Certified Data Analyst with lifetime validity. Additionally, you will build a strong portfolio on GitHub with 50+ projects demonstrating your analytics skills to employers.'
+            answer: 'You will earn Certifications: 1) Python for Data Analytics Certification, 2) Microsoft Power BI Certification (recognized industry-wide), and 3) Institute Certified Data Analyst with lifetime validity. Additionally, you will build a strong portfolio on GitHub with 50+ projects demonstrating your analytics skills to employers.'
         },
         {
             id: 5,
@@ -6675,6 +6330,11 @@ export const courses = [
 
 {
     slug: 'advanced-excel-course-in-mumbai',
+        seo: {
+            title: 'Advanced Excel Course in Mumbai',
+            description: 'Become a Certified Advanced Excel Expert with comprehensive hands-on training in advanced formulas, data analysis, Power Query, Power Pivot, Excel dashboards, VBA macros, financial modeling, and business automation from Microsoft-certified trainers',
+            keywords: 'Advanced Excel Course in Mumbai, Advanced Excel Course in Mumbai Course, Advanced Excel Course in Mumbai Training, Advanced Excel Course in Mumbai Certification, Best Advanced Excel Course in Mumbai Course'
+        },
     heroData: {
         title: 'Advanced Excel Course in Mumbai',
         subtitle: 'Master Advanced Functions, Pivot Tables, Dashboards, Macros & VBA Automation',
@@ -6682,7 +6342,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '8 Weeks', color: 'bg-green-500' },
             { icon: Users, label: '9500+ Students', color: 'bg-green-600' },
-            { icon: Award, label: 'Microsoft Certification', color: 'bg-green-700' },
+            { icon: Award, label: 'Certification', color: 'bg-green-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-green-500' }
         ]
     },
@@ -7186,43 +6846,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Amit Joshi',
-            designation: 'MIS Manager at HDFC Bank',
-            rating: 5,
-            avatar: 'AJ',
-            review: 'Best Advanced Excel course in Mumbai! The VBA macros and dashboard training transformed my career. Automated our entire monthly reporting saving 40+ hours. Got promoted to MIS Manager at HDFC Bank with 60% salary hike earning ₹12 LPA. Trainers are industry experts!'
-        },
-        {
-            name: 'Priyanka Sharma',
-            designation: 'Financial Analyst at Deloitte',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Exceptional Excel training! Power Query and Power Pivot modules were game-changers. Built complex financial models during the course. Cleared Microsoft MOS Excel Expert certification. Joined Deloitte consulting with ₹10 LPA package. Highly recommend for finance professionals!'
-        },
-        {
-            name: 'Rahul Patil',
-            designation: 'Senior Data Analyst at TCS',
-            rating: 5,
-            avatar: 'RP',
-            review: 'Comprehensive Advanced Excel program! The pivot tables, advanced formulas, and automation training was outstanding. Created 15+ dashboards for portfolio. Got placed at TCS analytics division earning ₹8 LPA. Perfect course for aspiring data analysts!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'Business Analyst at Accenture',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Top-notch Excel training with real business projects! The MIS reporting and financial modeling modules were incredibly practical. VBA automation skills made me stand out in interviews. Joined Accenture with ₹9.5 LPA. Best investment for career growth!'
-        },
-        {
-            name: 'Vivek Malhotra',
-            designation: 'Operations Manager at Reliance',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical Excel course! Learned advanced functions, macros, and dashboard creation. Automated inventory management at my company saving ₹50 lakhs annually. Got promoted to Operations Manager with ₹15 LPA salary. Excel skills are now my competitive advantage!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -7241,7 +6864,7 @@ export const courses = [
         },
         {
             id: 4,
-            question: 'Will I get Microsoft certification?',
+            question: 'Will I get Certification?',
             answer: 'This course prepares you completely for the Microsoft Office Specialist (MOS) Excel Expert certification exam [web:73]. We cover all exam topics with practice tests. The MOS certification is globally recognized and validates your advanced Excel skills to employers worldwide. Certification exam fee is separate and you can take it at authorized Pearson VUE centers.'
         },
         {
@@ -7294,6 +6917,11 @@ export const courses = [
 
 {
     slug: 'python-sql-excel-powerbi-complete-course-in-mumbai',
+        seo: {
+            title: 'Python + SQL + Advanced Excel + Power BI Complete Course in Mumbai',
+            description: 'Become a Certified Business Analyst and Data Professional with comprehensive hands-on training in Python programming, SQL databases, Advanced Excel with VBA, Power BI dashboards, data analysis, business intelligence, and automated reporting from industry-certified experts',
+            keywords: 'Python + SQL + Advanced Excel + Power BI Complete Course in Mumbai, Python + SQL + Advanced Excel + Power BI Complete Course in Mumbai Course, Python + SQL + Advanced Excel + Power BI Complete Course in Mumbai Training, Python + SQL + Advanced Excel + Power BI Complete Course in Mumbai Certification, Best Python + SQL + Advanced Excel + Power BI Complete Course in Mumbai Course'
+        },
     heroData: {
         title: 'Python + SQL + Advanced Excel + Power BI Complete Course in Mumbai',
         subtitle: 'Master Complete Business Analytics & Data Analysis Tech Stack',
@@ -7301,7 +6929,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '18 Weeks', color: 'bg-purple-500' },
             { icon: Users, label: '6800+ Students', color: 'bg-purple-600' },
-            { icon: Award, label: 'Quad Certification', color: 'bg-purple-700' },
+            { icon: Award, label: 'Certification', color: 'bg-purple-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-purple-500' }
         ]
     },
@@ -7315,7 +6943,7 @@ export const courses = [
         title: 'About Python + SQL + Advanced Excel + Power BI Complete Course',
         description: 'This is the most comprehensive Business Analytics and Data Analysis program combining the four essential tools required by every organization in 2025 - Python for data analysis and automation, SQL for database querying and data extraction, Advanced Excel with VBA for business modeling and dashboards, and Power BI for interactive business intelligence and visualization. Our industry-aligned course prepares you to become a versatile Data Professional capable of handling end-to-end analytics projects from data collection, cleaning, analysis, visualization to automated reporting and business insights generation used by Fortune 500 companies.',
         highlights: [
-            'Quad Certification: Python | SQL | Advanced Excel | Power BI Developer',
+            'Certification: Python | SQL | Advanced Excel | Power BI Developer',
             'Complete analytics ecosystem: 4 most in-demand tools in one program',
             'Real business projects: 60+ hands-on projects from finance, retail, e-commerce, HR domains',
             'End-to-end analytics workflow: Extract data (SQL) → Analyze (Python/Excel) → Visualize (Power BI)',
@@ -7701,7 +7329,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Quad Certification Package',
+            title: 'Certification Package',
             description: 'Python Programming | SQL Database | Advanced Excel | Power BI Developer certifications',
             color: 'purple'
         },
@@ -7796,43 +7424,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Rajesh Kumar',
-            designation: 'Business Analyst at Deloitte',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Best complete analytics course in Mumbai! Learning Python, SQL, Excel, and Power BI together transformed my career. Built end-to-end analytics projects impressing interviewers. Got placed at Deloitte with ₹11 LPA package. This integrated approach is far better than learning tools separately!'
-        },
-        {
-            name: 'Priya Mehta',
-            designation: 'Data Analyst at HDFC Bank',
-            rating: 5,
-            avatar: 'PM',
-            review: 'Comprehensive training covering all essential analytics tools! The integrated projects showing SQL to Python to Power BI workflow were exceptional. VBA automation and dashboard creation skills made me stand out. Now earning ₹9 LPA at HDFC Bank. Highly recommended!'
-        },
-        {
-            name: 'Amit Sharma',
-            designation: 'Senior MIS Analyst at TCS',
-            rating: 5,
-            avatar: 'AS',
-            review: 'Perfect course for aspiring data professionals! Learned to extract data with SQL, analyze with Python and Excel, visualize with Power BI. Built 60+ projects for portfolio. Got promoted to Senior Analyst at TCS with ₹13 LPA. Trainers are industry experts with real experience!'
-        },
-        {
-            name: 'Sneha Patil',
-            designation: 'BI Developer at Accenture',
-            rating: 5,
-            avatar: 'SP',
-            review: 'The most practical analytics program! Excel VBA and Python automation modules saved countless hours at work. Power BI DAX training was outstanding. Placement support was phenomenal with multiple offers. Joined Accenture BI team with ₹12 LPA package. Worth every penny!'
-        },
-        {
-            name: 'Vivek Desai',
-            designation: 'Analytics Consultant at EY',
-            rating: 5,
-            avatar: 'VD',
-            review: 'Excellent integrated course! Being proficient in all 4 tools (Python, SQL, Excel, Power BI) made me extremely valuable to employers. Built complete analytics solutions during training. Cleared 6 rounds at EY and now earning ₹14 LPA as Analytics Consultant. Best career investment!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -7857,7 +7448,7 @@ export const courses = [
         {
             id: 5,
             question: 'What certifications will I receive?',
-            answer: 'You will earn quad certifications: 1) Python Programming for Data Analysis Certification, 2) SQL Database Management Certification, 3) Advanced Excel with VBA Certification, 4) Microsoft Power BI Developer Certification. All certifications are industry-recognized with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects demonstrating proficiency in all four tools.'
+            answer: 'You will earn Certifications: 1) Python Programming for Data Analysis Certification, 2) SQL Database Management Certification, 3) Advanced Excel with VBA Certification, 4) Microsoft Power BI Developer Certification. All certifications are industry-recognized with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects demonstrating proficiency in all four tools.'
         },
         {
             id: 6,
@@ -7904,6 +7495,11 @@ export const courses = [
 
 {
     slug: 'full-stack-java-course-in-mumbai',
+        seo: {
+            title: 'Full Stack Java Course in Mumbai',
+            description: 'Become a Certified Full Stack Java Developer with comprehensive hands-on training in Core Java, Advanced Java, Spring Framework, Spring Boot, Hibernate, RESTful APIs, React.js, Angular, MySQL, MongoDB, Microservices architecture, Docker, Kubernetes, and AWS deployment from industry-certified experts',
+            keywords: 'Full Stack Java Course in Mumbai, Full Stack Java Course in Mumbai Course, Full Stack Java Course in Mumbai Training, Full Stack Java Course in Mumbai Certification, Best Full Stack Java Course in Mumbai Course'
+        },
     heroData: {
         title: 'Full Stack Java Course in Mumbai',
         subtitle: 'Master Java, Spring Boot, Hibernate, React, Microservices & Cloud Deployment',
@@ -7911,7 +7507,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '22 Weeks', color: 'bg-orange-500' },
             { icon: Users, label: '5500+ Students', color: 'bg-orange-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-orange-700' },
+            { icon: Award, label: 'Certification', color: 'bg-orange-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-orange-500' }
         ]
     },
@@ -7925,7 +7521,7 @@ export const courses = [
         title: 'About Full Stack Java Developer Course',
         description: 'Full Stack Java Development is the most sought-after skill in enterprise software development with Java remaining the #1 choice for building scalable, secure, and high-performance applications in 2025. Our comprehensive Full Stack Java Developer Course in Mumbai is designed as a complete career transformation program covering the entire Java ecosystem from programming fundamentals to enterprise application development. This industry-aligned course prepares you to become a job-ready Full Stack Java Developer with hands-on training in Core Java, Advanced Java (JDBC, Servlets, JSP), Spring Framework (Spring Core, Spring MVC, Spring Boot), Hibernate ORM, RESTful web services, Microservices architecture, frontend technologies (React.js/Angular), databases (MySQL, MongoDB), version control (Git), Docker containerization, Kubernetes orchestration, and cloud deployment on AWS.',
         highlights: [
-            'Triple Certification: Core Java | Advanced Java & Spring Boot | Full Stack Developer',
+            'Certification: Core Java | Advanced Java & Spring Boot | Full Stack Developer',
             'Complete Java tech stack: Java 17, Spring Boot 3, Hibernate, React.js, Microservices',
             'Real enterprise projects: E-commerce platform, Banking app, Social media, Microservices',
             '70+ hands-on projects including 10 major full-stack applications with deployment',
@@ -8410,7 +8006,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Core Java | Advanced Java & Spring Boot | Full Stack Java Developer certifications',
             color: 'orange'
         },
@@ -8505,43 +8101,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Aditya Kulkarni',
-            designation: 'Java Full Stack Developer at TCS',
-            rating: 5,
-            avatar: 'AK',
-            review: 'Best Full Stack Java course in Mumbai! The comprehensive training from Core Java to Spring Boot, Microservices, and React was exceptional. Built 10+ complete applications including e-commerce with microservices architecture. Got placed at TCS with ₹8.5 LPA package. Trainers are industry experts!'
-        },
-        {
-            name: 'Priya Sharma',
-            designation: 'Senior Java Developer at Infosys',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding Java training! The Spring Boot, Hibernate, and REST API modules were incredibly practical. Microservices and Docker deployment training was top-notch. Got promoted at Infosys with ₹12 LPA after completing certification. Perfect course for enterprise Java development!'
-        },
-        {
-            name: 'Rohan Desai',
-            designation: 'Backend Developer at PhonePe',
-            rating: 5,
-            avatar: 'RD',
-            review: 'Comprehensive full stack program! Learned everything from Java basics to advanced Spring Boot and React.js. The 70+ projects and capstone work built my portfolio perfectly. Cleared PhonePe interviews and now earning ₹15 LPA at fintech unicorn. Highly recommended!'
-        },
-        {
-            name: 'Sneha Patil',
-            designation: 'Software Engineer at HDFC Bank',
-            rating: 5,
-            avatar: 'SP',
-            review: 'Excellent Java full stack training with real banking projects! The Spring Security, JWT authentication, and microservices training prepared me for enterprise development. Placement support was phenomenal. Now working at HDFC Bank building secure banking applications earning ₹10 LPA!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Tech Lead at Wipro',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical Java course! Spring Boot, microservices architecture, and AWS deployment training was outstanding. Built production-ready applications with CI/CD pipeline. Got promoted to Tech Lead at Wipro with ₹18 LPA. Best investment for Java career growth!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -8561,7 +8120,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Core Java Programming Certification covering Java fundamentals and OOP, 2) Advanced Java & Spring Boot Certification covering enterprise frameworks, 3) Full Stack Java Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 70+ projects and deployed applications demonstrating your full stack expertise.'
+            answer: 'You will earn Certifications: 1) Core Java Programming Certification covering Java fundamentals and OOP, 2) Advanced Java & Spring Boot Certification covering enterprise frameworks, 3) Full Stack Java Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 70+ projects and deployed applications demonstrating your full stack expertise.'
         },
         {
             id: 5,
@@ -8613,6 +8172,11 @@ export const courses = [
 
 {
     slug: 'full-stack-python-course-in-mumbai',
+        seo: {
+            title: 'Full Stack Python Course in Mumbai',
+            description: 'Become a Certified Full Stack Python Developer with comprehensive hands-on training in Core Python, Django framework, Flask, REST APIs, React.js, MongoDB, MySQL, PostgreSQL, Git, Docker, AWS deployment, and modern web development from industry-certified experts',
+            keywords: 'Full Stack Python Course in Mumbai, Full Stack Python Course in Mumbai Course, Full Stack Python Course in Mumbai Training, Full Stack Python Course in Mumbai Certification, Best Full Stack Python Course in Mumbai Course'
+        },
     heroData: {
         title: 'Full Stack Python Course in Mumbai',
         subtitle: 'Master Python, Django, Flask, React, REST APIs, MongoDB & Cloud Deployment',
@@ -8620,7 +8184,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '20 Weeks', color: 'bg-indigo-500' },
             { icon: Users, label: '6200+ Students', color: 'bg-indigo-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-indigo-700' },
+            { icon: Award, label: 'Certification', color: 'bg-indigo-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-indigo-500' }
         ]
     },
@@ -8634,7 +8198,7 @@ export const courses = [
         title: 'About Full Stack Python Developer Course',
         description: 'Full Stack Python Development is the fastest-growing career path in web development with Python being the #1 most loved programming language and powering applications at Google, Instagram, Netflix, Spotify, and thousands of startups in 2025. Our comprehensive Full Stack Python Developer Course in Mumbai is designed as a complete career transformation program covering the entire Python web development ecosystem from programming fundamentals to production-ready application development. This industry-aligned course prepares you to become a job-ready Full Stack Python Developer with hands-on training in Core Python, Object-Oriented Programming, Django framework (MVT architecture), Flask microframework, Django REST Framework for APIs, React.js for frontend, databases (MySQL, PostgreSQL, MongoDB), authentication & authorization, payment integration, web scraping, deployment with Docker, AWS cloud hosting, and Git version control.',
         highlights: [
-            'Triple Certification: Python Programming | Django Framework | Full Stack Python Developer',
+            'Certification: Python Programming | Django Framework | Full Stack Python Developer',
             'Complete Python stack: Python 3.12, Django 5, Flask 3, React.js, REST APIs, MongoDB',
             'Real production projects: E-commerce, Social media, LMS, Job portal, Microservices',
             '65+ hands-on projects including 8 major full-stack applications with live deployment',
@@ -9119,7 +8683,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Python Programming | Django Framework | Full Stack Python Developer certifications',
             color: 'indigo'
         },
@@ -9214,43 +8778,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Arjun Patil',
-            designation: 'Full Stack Python Developer at Razorpay',
-            rating: 5,
-            avatar: 'AP',
-            review: 'Best Full Stack Python course in Mumbai! The Django, DRF, and React training was exceptional. Built complete e-commerce and social media applications. Got placed at Razorpay fintech unicorn with ₹12 LPA package plus equity. Trainers are startup veterans with real-world expertise!'
-        },
-        {
-            name: 'Priya Joshi',
-            designation: 'Backend Developer at Google',
-            rating: 5,
-            avatar: 'PJ',
-            review: 'Outstanding Python training! The Django REST Framework and microservices modules were incredibly practical. Built production-ready APIs with authentication and payment integration. Cleared 5 rounds at Google and now earning ₹22 LPA. Perfect course for Python career!'
-        },
-        {
-            name: 'Rohit Sharma',
-            designation: 'Python Developer at Swiggy',
-            rating: 5,
-            avatar: 'RS',
-            review: 'Comprehensive full stack program! Learned everything from Python basics to Django, REST APIs, React.js, and AWS deployment. The 65+ projects built amazing portfolio. Got hired at Swiggy with ₹10 LPA salary. Highly recommend for aspiring Python developers!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'Software Engineer at Amazon',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent Python full stack training! The Django ORM, authentication, and deployment modules were top-notch. Web scraping and Celery automation training was bonus. Placement support was phenomenal. Now at Amazon earning ₹18 LPA building scalable applications!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Lead Python Developer at Startup',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical Python course! Django, Flask, and React combination is perfect for startups. Built 8 complete full-stack apps with live deployment. Started my own startup after training and later got funded. Python skills opened countless opportunities!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -9270,7 +8797,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Python Programming Certification covering Core Python and OOP, 2) Django Framework Certification covering web development and REST APIs, 3) Full Stack Python Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 65+ projects and 8 deployed full-stack applications demonstrating your expertise to employers.'
+            answer: 'You will earn Certifications: 1) Python Programming Certification covering Core Python and OOP, 2) Django Framework Certification covering web development and REST APIs, 3) Full Stack Python Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 65+ projects and 8 deployed full-stack applications demonstrating your expertise to employers.'
         },
         {
             id: 5,
@@ -9322,6 +8849,11 @@ export const courses = [
 
 {
     slug: 'software-testing-course-in-mumbai',
+        seo: {
+            title: 'Software Testing Course in Mumbai',
+            description: 'Become a Certified Software Testing Professional with comprehensive hands-on training in Manual Testing, SDLC/STLC, Test Case Design, Selenium WebDriver, Java, TestNG, Cucumber BDD, API Testing with Postman, Performance Testing with JMeter, CI/CD with Jenkins, and Agile methodologies from ISTQB-certified trainers',
+            keywords: 'Software Testing Course in Mumbai, Software Testing Course in Mumbai Course, Software Testing Course in Mumbai Training, Software Testing Course in Mumbai Certification, Best Software Testing Course in Mumbai Course'
+        },
     heroData: {
         title: 'Software Testing Course in Mumbai',
         subtitle: 'Master Manual Testing, Selenium, API Testing, Performance Testing & DevOps',
@@ -9329,7 +8861,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-cyan-500' },
             { icon: Users, label: '8200+ Students', color: 'bg-cyan-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-cyan-700' },
+            { icon: Award, label: 'Certification', color: 'bg-cyan-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-cyan-500' }
         ]
     },
@@ -9343,7 +8875,7 @@ export const courses = [
         title: 'About Software Testing Course',
         description: 'Software Testing is the most recession-proof IT career with every software application requiring thorough testing before deployment, creating unlimited opportunities in 2025 [web:80][web:81][web:82]. Our comprehensive Software Testing Course in Mumbai is designed as a complete career program covering both Manual Testing and Automation Testing with industry-standard tools and frameworks [web:80][web:81][web:82]. This 100-day curriculum prepares you to become a job-ready QA Engineer with hands-on training in SDLC/STLC models, test planning and strategy, test case design techniques (BVA, Equivalence Partitioning, Decision Tables), defect management, Agile/Scrum methodology, Java programming for automation, Selenium WebDriver with frameworks, TestNG, Cucumber BDD, API testing with Postman and REST Assured, performance testing with JMeter, database testing with SQL, and CI/CD integration with Jenkins [web:80][web:81][web:82].',
         highlights: [
-            'Dual Certification: Manual Testing Expert | Selenium Automation Tester with ISTQB prep [web:82]',
+            'Certification: Manual Testing Expert | Selenium Automation Tester with ISTQB prep [web:82]',
             'Complete testing toolkit: Manual + Selenium + API + Performance + Mobile testing [web:80][web:81]',
             'Real project testing: E-commerce, Banking, Healthcare applications with live defects [web:82]',
             '55+ hands-on projects covering functional, regression, API, performance testing [web:81]',
@@ -9785,7 +9317,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification + ISTQB Prep',
+            title: 'Certification + ISTQB Prep',
             description: 'Manual Testing Expert | Selenium Automation Tester + ISTQB Foundation prep [web:82]',
             color: 'cyan'
         },
@@ -9880,43 +9412,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Amit Kulkarni',
-            designation: 'QA Engineer at TCS',
-            rating: 5,
-            avatar: 'AK',
-            review: 'Best software testing course in Mumbai! The manual testing and Selenium automation training was exceptional. Built complete framework with TestNG and Cucumber. Got placed at TCS with ₹5 LPA package. Trainers explained every concept with real project examples!'
-        },
-        {
-            name: 'Priya Sharma',
-            designation: 'Test Automation Engineer at Infosys',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding testing training! The comprehensive syllabus covering manual, automation, API, and performance testing prepared me perfectly. JIRA and Jenkins modules were practical. Now at Infosys earning ₹7 LPA as automation engineer. Highly recommended!'
-        },
-        {
-            name: 'Rohan Patil',
-            designation: 'SDET at Microsoft',
-            rating: 5,
-            avatar: 'RP',
-            review: 'Comprehensive testing program! Learned everything from test case design to Selenium frameworks, API testing with Postman, and JMeter. The 55+ projects built amazing portfolio. Cleared 4 rounds at Microsoft and now earning ₹15 LPA!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'QA Lead at Accenture',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent testing course covering both manual and automation! The Agile, JIRA, and defect management training was invaluable. Placement support was phenomenal with multiple offers. Now QA Lead at Accenture with ₹12 LPA salary!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Senior QA Analyst at HDFC Bank',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical testing course! Selenium with Java, TestNG framework, and banking domain knowledge helped me excel. Got promoted to Senior Analyst at HDFC Bank earning ₹10 LPA. Perfect course for testing career growth!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -9936,7 +9431,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn dual certifications: 1) Manual Testing Expert Certification covering SDLC, STLC, test case design, defect management, 2) Selenium Automation Tester Certification covering Selenium, Java, TestNG, frameworks. We also provide ISTQB Foundation Level certification preparation with mock tests [web:82]. You will build a professional portfolio with 55+ testing projects on GitHub.'
+            answer: 'You will earn Certifications: 1) Manual Testing Expert Certification covering SDLC, STLC, test case design, defect management, 2) Selenium Automation Tester Certification covering Selenium, Java, TestNG, frameworks. We also provide ISTQB Foundation Level certification preparation with mock tests [web:82]. You will build a professional portfolio with 55+ testing projects on GitHub.'
         },
         {
             id: 5,
@@ -9988,6 +9483,11 @@ export const courses = [
 
 {
     slug: 'web-full-stack-course-in-mumbai',
+        seo: {
+            title: 'Web Full Stack Developer Course in Mumbai',
+            description: 'Become a Certified Web Full Stack Developer with comprehensive hands-on training in HTML5, CSS3, JavaScript ES6+, React.js, Node.js, Express.js, MongoDB, MySQL, RESTful APIs, Git, Redux, Next.js, and deployment from industry-certified full stack developers',
+            keywords: 'Web Full Stack Developer Course in Mumbai, Web Full Stack Developer Course in Mumbai Course, Web Full Stack Developer Course in Mumbai Training, Web Full Stack Developer Course in Mumbai Certification, Best Web Full Stack Developer Course in Mumbai Course'
+        },
     heroData: {
         title: 'Web Full Stack Developer Course in Mumbai',
         subtitle: 'Master HTML, CSS, JavaScript, React, Node.js, MongoDB & Modern Web Development',
@@ -9995,7 +9495,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '18 Weeks', color: 'bg-emerald-500' },
             { icon: Users, label: '7800+ Students', color: 'bg-emerald-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-emerald-700' },
+            { icon: Award, label: 'Certification', color: 'bg-emerald-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-emerald-500' }
         ]
     },
@@ -10009,7 +9509,7 @@ export const courses = [
         title: 'About Web Full Stack Developer Course',
         description: 'Web Full Stack Development is the most versatile and in-demand tech career in 2025, powering every website, web application, and digital platform across industries. Our comprehensive Web Full Stack Developer Course in Mumbai is designed as a complete career transformation program covering the entire web development ecosystem from frontend to backend to deployment. This industry-aligned course prepares you to become a job-ready Full Stack Web Developer with hands-on training in HTML5 for structure, CSS3 and Tailwind CSS for styling, JavaScript ES6+ for interactivity, React.js for modern frontend, Node.js and Express.js for backend APIs, MongoDB and MySQL for databases, RESTful API development, authentication with JWT, Redux for state management, Next.js for server-side rendering, Git version control, Docker containerization, and deployment on AWS, Vercel, and Netlify.',
         highlights: [
-            'Triple Certification: Frontend Developer | Backend Developer | Full Stack Web Developer',
+            'Certification: Frontend Developer | Backend Developer | Full Stack Web Developer',
             'Complete MERN stack: MongoDB, Express.js, React.js, Node.js + MySQL, Next.js',
             'Real production projects: E-commerce, Social media, Blog CMS, SAAS dashboard, API development',
             '60+ hands-on projects including 10 major full-stack applications with live deployment',
@@ -10485,7 +9985,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Frontend Developer | Backend Developer | Full Stack Web Developer certifications',
             color: 'emerald'
         },
@@ -10580,43 +10080,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Aditya Kulkarni',
-            designation: 'Full Stack Developer at Google',
-            rating: 5,
-            avatar: 'AK',
-            review: 'Best web development course in Mumbai! The comprehensive training from HTML to React to Node.js was exceptional. Built 10+ complete full-stack applications. Got placed at Google with ₹18 LPA package. Trainers are FAANG veterans with amazing real-world knowledge!'
-        },
-        {
-            name: 'Priya Sharma',
-            designation: 'MERN Stack Developer at Razorpay',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding full stack training! The React, Node.js, and MongoDB modules were incredibly practical. Built e-commerce and social media apps from scratch. Joined Razorpay fintech unicorn with ₹14 LPA package plus equity. Highly recommend for aspiring developers!'
-        },
-        {
-            name: 'Rohan Patil',
-            designation: 'Frontend Developer at Swiggy',
-            rating: 5,
-            avatar: 'RP',
-            review: 'Comprehensive web development program! Learned everything from basics to advanced React, Redux, and Next.js. The 60+ projects built amazing portfolio. Got hired at Swiggy with ₹10 LPA salary. Perfect course for web development career!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'Software Engineer at Amazon',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent full stack course! The JavaScript, React, and REST API training was top-notch. Authentication, deployment, and real-world projects prepared me perfectly. Cleared 5 rounds at Amazon and now earning ₹16 LPA building scalable web applications!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Freelance Full Stack Developer',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical web development course! MERN stack, Next.js, and deployment training was outstanding. Started freelancing during the course and now earning $3000-5000 monthly with international clients. Web development changed my life completely!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -10636,7 +10099,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Frontend Developer Certification covering HTML, CSS, JavaScript, React, 2) Backend Developer Certification covering Node.js, Express, databases, APIs, 3) Full Stack Web Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects and 10 deployed full-stack applications.'
+            answer: 'You will earn Certifications: 1) Frontend Developer Certification covering HTML, CSS, JavaScript, React, 2) Backend Developer Certification covering Node.js, Express, databases, APIs, 3) Full Stack Web Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects and 10 deployed full-stack applications.'
         },
         {
             id: 5,
@@ -10688,6 +10151,11 @@ export const courses = [
 
 {
     slug: 'web-development-course-in-mumbai',
+        seo: {
+            title: 'Web Development Course in Mumbai',
+            description: 'Become a Certified Web Developer with comprehensive hands-on training in HTML5, CSS3, JavaScript, Bootstrap, jQuery, Responsive Design, WordPress, UI/UX basics, Git, and website deployment from industry-certified web development professionals',
+            keywords: 'Web Development Course in Mumbai, Web Development Course in Mumbai Course, Web Development Course in Mumbai Training, Web Development Course in Mumbai Certification, Best Web Development Course in Mumbai Course'
+        },
     heroData: {
         title: 'Web Development Course in Mumbai',
         subtitle: 'Master HTML, CSS, JavaScript, Bootstrap, jQuery & Responsive Web Design',
@@ -10695,7 +10163,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '9200+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -10709,7 +10177,7 @@ export const courses = [
         title: 'About Web Development Course',
         description: 'Web Development is the foundational skill for building websites and web applications, powering billions of web pages and digital experiences worldwide in 2025. Our comprehensive Web Development Course in Mumbai is designed as a complete beginner-friendly program covering all essential technologies for creating modern, responsive, and interactive websites. This industry-aligned course prepares you to become a job-ready Frontend Web Developer with hands-on training in HTML5 for page structure, CSS3 for styling and layouts, JavaScript for interactivity, Bootstrap framework for responsive design, jQuery for DOM manipulation, Git for version control, WordPress for CMS development, SEO basics, and website deployment on live servers.',
         highlights: [
-            'Dual Certification: HTML/CSS/JavaScript Expert | Responsive Web Developer',
+            'Certification: HTML/CSS/JavaScript Expert | Responsive Web Developer',
             'Complete frontend toolkit: HTML5, CSS3, JavaScript, Bootstrap, jQuery, WordPress',
             'Real website projects: Business sites, Portfolios, E-commerce, Landing pages, Blogs',
             '40+ hands-on projects from simple pages to complete responsive websites',
@@ -11139,7 +10607,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification Package',
+            title: 'Certification Package',
             description: 'HTML/CSS/JavaScript Expert | Responsive Web Developer certifications',
             color: 'blue'
         },
@@ -11234,43 +10702,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Amit Joshi',
-            designation: 'Web Developer at Digital Agency',
-            rating: 5,
-            avatar: 'AJ',
-            review: 'Best web development course for beginners! The step-by-step approach from HTML to JavaScript to Bootstrap was perfect. Built 15+ websites during training. Got placed at digital agency with ₹5 LPA package. Trainers explain every concept clearly!'
-        },
-        {
-            name: 'Priya Sharma',
-            designation: 'Freelance Web Developer',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding training for aspiring web developers! The practical projects and WordPress module were incredibly useful. Started freelancing during the course and now earning ₹50,000 monthly building websites. Perfect course for career change!'
-        },
-        {
-            name: 'Rohan Patil',
-            designation: 'Frontend Developer at Startup',
-            rating: 5,
-            avatar: 'RP',
-            review: 'Comprehensive web development program! Learned HTML, CSS, JavaScript, Bootstrap, and responsive design. The portfolio projects helped me showcase skills. Got hired at startup with ₹6 LPA salary. Highly recommend for beginners!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'Junior Web Developer at TCS',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent beginner-friendly course! The hands-on approach with 40+ projects built my confidence. WordPress and deployment modules were bonus. Placement support was amazing. Now at TCS earning ₹4.5 LPA as web developer!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Web Designer/Developer',
-            rating: 5,
-            avatar: 'VM',
-            review: 'Perfect course for creative professionals! Combined my design skills with coding knowledge. Now building beautiful responsive websites for clients. Earning ₹1500-2500 per website project. Web development changed my career completely!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -11290,7 +10721,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn dual certifications: 1) HTML/CSS/JavaScript Expert Certification covering web fundamentals, 2) Responsive Web Developer Certification covering Bootstrap, responsive design, and modern web development. Both certifications are industry-recognized with lifetime validity. You will also build a professional portfolio with 40+ websites.'
+            answer: 'You will earn Certifications: 1) HTML/CSS/JavaScript Expert Certification covering web fundamentals, 2) Responsive Web Developer Certification covering Bootstrap, responsive design, and modern web development. Both certifications are industry-recognized with lifetime validity. You will also build a professional portfolio with 40+ websites.'
         },
         {
             id: 5,
@@ -11342,6 +10773,11 @@ export const courses = [
 
 {
     slug: 'ccna-linux-aws-course-in-mumbai',
+        seo: {
+            title: 'CCNA + Linux + AWS Networking & Cloud Course in Mumbai',
+            description: 'Become a Certified Network & Cloud Engineer with comprehensive hands-on training in Cisco CCNA (Routing, Switching, Network Security), Linux System Administration (RHEL, Ubuntu, Shell Scripting), and AWS Cloud Services (EC2, VPC, S3, IAM, CloudFormation) from Cisco and AWS certified professionals',
+            keywords: 'CCNA + Linux + AWS Networking & Cloud Course in Mumbai, CCNA + Linux + AWS Networking & Cloud Course in Mumbai Course, CCNA + Linux + AWS Networking & Cloud Course in Mumbai Training, CCNA + Linux + AWS Networking & Cloud Course in Mumbai Certification, Best CCNA + Linux + AWS Networking & Cloud Course in Mumbai Course'
+        },
     heroData: {
         title: 'CCNA + Linux + AWS Networking & Cloud Course in Mumbai',
         subtitle: 'Master Cisco Networking, Linux Administration & AWS Cloud Infrastructure',
@@ -11349,7 +10785,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '20 Weeks', color: 'bg-red-500' },
             { icon: Users, label: '5200+ Students', color: 'bg-red-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-red-700' },
+            { icon: Award, label: 'Certification', color: 'bg-red-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-red-500' }
         ]
     },
@@ -11363,7 +10799,7 @@ export const courses = [
         title: 'About CCNA + Linux + AWS Course',
         description: 'This comprehensive Networking and Cloud Infrastructure course combines three of the most in-demand IT skills in 2025 - Cisco CCNA for enterprise networking, Linux for system administration, and AWS for cloud infrastructure. Our industry-aligned program prepares you to become a versatile Network & Cloud Engineer with hands-on training in network fundamentals, IP addressing and subnetting, routing protocols (OSPF, EIGRP, BGP), switching and VLANs, network security and ACLs, Linux operating system administration, shell scripting and automation, AWS cloud services, virtual private cloud (VPC) networking, EC2 compute instances, storage solutions (S3, EBS), IAM security, load balancing, auto-scaling, and infrastructure as code.',
         highlights: [
-            'Triple Certification: Cisco CCNA | Red Hat Linux | AWS Solutions Architect Associate prep',
+            'Certification: Cisco CCNA | Red Hat Linux | AWS Solutions Architect Associate prep',
             'Complete infrastructure stack: Networking, Linux servers, Cloud computing',
             'Real enterprise labs: Network topology design, Linux server setup, AWS infrastructure',
             '50+ hands-on labs on Cisco Packet Tracer, Linux virtual machines, AWS console',
@@ -11833,7 +11269,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Prep',
+            title: 'Certification Prep',
             description: 'Cisco CCNA | Red Hat Linux (RHCSA) | AWS Solutions Architect Associate preparation',
             color: 'red'
         },
@@ -11928,43 +11364,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Rajesh Kumar',
-            designation: 'Network Engineer at TCS',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Best CCNA + Linux + AWS course in Mumbai! The comprehensive training covering networking, Linux servers, and cloud was exceptional. Got CCNA certified and placed at TCS with ₹6.5 LPA package. Real Cisco hardware labs made huge difference. Highly recommended!'
-        },
-        {
-            name: 'Priya Sharma',
-            designation: 'Cloud Engineer at Accenture',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding infrastructure training! The integration of CCNA, Linux, and AWS prepared me for complete cloud infrastructure roles. Learned VPC design, EC2, load balancing hands-on. Now at Accenture earning ₹9 LPA as Cloud Engineer. Perfect course combination!'
-        },
-        {
-            name: 'Amit Patil',
-            designation: 'DevOps Engineer at Infosys',
-            rating: 5,
-            avatar: 'AP',
-            review: 'Comprehensive networking and cloud program! CCNA routing/switching, Linux shell scripting, and AWS automation modules were top-notch. Built complete infrastructure projects. Got placed at Infosys DevOps team with ₹8.5 LPA. Excellent hands-on training!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'NOC Engineer at Airtel',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent course for networking career! CCNA training with real Cisco equipment and troubleshooting scenarios was invaluable. Linux and AWS modules added cloud skills. Joined Airtel NOC with ₹7 LPA package. Trainers are CCNA certified experts!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Infrastructure Architect at Wipro',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical infrastructure course! CCNA, Linux admin, and AWS cloud combination made me versatile. Cleared AWS Solutions Architect exam. Got promoted to Architect role at Wipro with ₹14 LPA. Best investment for infrastructure career!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -12037,6 +11436,11 @@ export const courses = [
 
 {
     slug: 'ccna-course-in-mumbai',
+        seo: {
+            title: 'CCNA (Cisco Certified Network Associate) Course in Mumbai',
+            description: 'Become a Cisco Certified Network Associate with comprehensive hands-on training in network fundamentals, IP addressing and subnetting, routing protocols (OSPF, EIGRP, BGP), switching and VLANs, network security, wireless networking, automation, and troubleshooting from Cisco-certified expert trainers',
+            keywords: 'CCNA (Cisco Certified Network Associate) Course in Mumbai, CCNA (Cisco Certified Network Associate) Course in Mumbai Course, CCNA (Cisco Certified Network Associate) Course in Mumbai Training, CCNA (Cisco Certified Network Associate) Course in Mumbai Certification, Best CCNA (Cisco Certified Network Associate) Course in Mumbai Course'
+        },
     heroData: {
         title: 'CCNA (Cisco Certified Network Associate) Course in Mumbai',
         subtitle: 'Master Cisco Routing, Switching, Network Security & Infrastructure',
@@ -12044,7 +11448,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-teal-500' },
             { icon: Users, label: '6800+ Students', color: 'bg-teal-600' },
-            { icon: Award, label: 'Cisco Certification', color: 'bg-teal-700' },
+            { icon: Award, label: 'Certification', color: 'bg-teal-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-teal-500' }
         ]
     },
@@ -12647,43 +12051,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Rajesh Kumar',
-            designation: 'Network Engineer at TCS',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Best CCNA training in Mumbai! The hands-on labs with real Cisco routers and switches made all the difference. Trainers are CCNA/CCNP certified with deep knowledge. Cleared CCNA 200-301 exam and got placed at TCS with ₹6 LPA package. Highly recommended!'
-        },
-        {
-            name: 'Priya Sharma',
-            designation: 'NOC Engineer at Airtel',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding CCNA course! The comprehensive coverage from subnetting to OSPF to troubleshooting was exceptional. Built complete network topologies in labs. Got certified CCNA and joined Airtel NOC with ₹5.5 LPA salary. Perfect start to networking career!'
-        },
-        {
-            name: 'Amit Patil',
-            designation: 'Network Administrator at HDFC Bank',
-            rating: 5,
-            avatar: 'AP',
-            review: 'Comprehensive CCNA training program! The practical approach with 40+ labs covering routing, switching, VLANs, security prepared me perfectly. Trainers explained complex concepts simply. Now working at HDFC Bank earning ₹7.5 LPA. Excellent investment!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'Junior Network Engineer at Infosys',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent CCNA course for beginners! Started with zero networking knowledge. The structured curriculum and hands-on labs built my skills step-by-step. Cleared CCNA certification on first attempt. Placed at Infosys with ₹5 LPA package. Great experience!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Senior Network Engineer at Jio',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical CCNA training! Real Cisco equipment access, troubleshooting scenarios, and expert trainers made learning effective. Got CCNA certified and promoted at Jio with ₹12 LPA salary. Perfect course for serious networking professionals!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -12755,14 +12122,19 @@ export const courses = [
 
 {
     slug: 'ccna-linux-ceh-course-in-mumbai',
+        seo: {
+            title: 'CCNA + Linux + CEH Networking & Security Course in Mumbai',
+            description: 'Become a Certified Network & Security Professional with comprehensive hands-on training in Cisco CCNA (Routing, Switching, Network Security), Linux System Administration (RHEL, Ubuntu, Shell Scripting), and CEH - Certified Ethical Hacker (Penetration Testing, Vulnerability Assessment, Security Tools) from Cisco and Certification professionals',
+            keywords: 'CCNA + Linux + CEH Networking & Security Course in Mumbai, CCNA + Linux + CEH Networking & Security Course in Mumbai Course, CCNA + Linux + CEH Networking & Security Course in Mumbai Training, CCNA + Linux + CEH Networking & Security Course in Mumbai Certification, Best CCNA + Linux + CEH Networking & Security Course in Mumbai Course'
+        },
     heroData: {
         title: 'CCNA + Linux + CEH Networking & Security Course in Mumbai',
         subtitle: 'Master Cisco Networking, Linux Administration & Ethical Hacking',
-        description: 'Become a Certified Network & Security Professional with comprehensive hands-on training in Cisco CCNA (Routing, Switching, Network Security), Linux System Administration (RHEL, Ubuntu, Shell Scripting), and CEH - Certified Ethical Hacker (Penetration Testing, Vulnerability Assessment, Security Tools) from Cisco and EC-Council certified professionals',
+        description: 'Become a Certified Network & Security Professional with comprehensive hands-on training in Cisco CCNA (Routing, Switching, Network Security), Linux System Administration (RHEL, Ubuntu, Shell Scripting), and CEH - Certified Ethical Hacker (Penetration Testing, Vulnerability Assessment, Security Tools) from Cisco and Certification professionals',
         badges: [
             { icon: Clock, label: '24 Weeks', color: 'bg-purple-500' },
             { icon: Users, label: '4200+ Students', color: 'bg-purple-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-purple-700' },
+            { icon: Award, label: 'Certification', color: 'bg-purple-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-purple-500' }
         ]
     },
@@ -12776,7 +12148,7 @@ export const courses = [
         title: 'About CCNA + Linux + CEH Course',
         description: 'This comprehensive Networking and Cybersecurity course combines three of the most critical IT skills in 2025 - Cisco CCNA for enterprise networking infrastructure, Linux for system administration and security operations, and CEH (Certified Ethical Hacker) for offensive security and penetration testing. Our industry-aligned program prepares you to become a complete Network Security Professional with hands-on training in network fundamentals, IP addressing and subnetting, routing protocols (OSPF, EIGRP), switching and VLANs, network security with ACLs and firewalls, Linux operating system administration, shell scripting and automation, ethical hacking methodologies, reconnaissance and scanning, vulnerability assessment, penetration testing, web application hacking, wireless security, social engineering, cryptography, and incident response.',
         highlights: [
-            'Triple Certification: Cisco CCNA | Red Hat Linux (RHCSA) | EC-Council CEH v12 prep',
+            'Certification: Cisco CCNA | Red Hat Linux (RHCSA) | EC-Council CEH v12 prep',
             'Complete security stack: Network infrastructure, Linux servers, Penetration testing',
             'Real cyber labs: Network security, Linux hardening, Ethical hacking with Kali Linux',
             '60+ hands-on labs on Cisco equipment, Linux VMs, Kali Linux, penetration testing tools',
@@ -12794,7 +12166,7 @@ export const courses = [
             },
             {
                 heading: 'Best Networking & Security Training Institute in Mumbai',
-                content: 'Our institute offers Mumbai\'s most comprehensive network security training program designed by Cisco CCNA-certified trainers, Red Hat Certified Engineers (RHCE), and EC-Council Certified Ethical Hackers (CEH) with 15+ years of experience in SOC operations, penetration testing, and enterprise security. Unlike theory-heavy courses, we provide real hands-on labs with Cisco hardware, Linux server environments, Kali Linux penetration testing labs, and live security tools. Students get access to dedicated networking labs with Cisco routers/switches, Linux virtual machines, Kali Linux for ethical hacking, vulnerability scanners, penetration testing tools (Metasploit, Burp Suite, Nmap), and guaranteed interview opportunities with our 220+ hiring partners including cybersecurity firms, SOC centers, banks, IT companies, consulting firms, and penetration testing companies across Mumbai, Pune, Bangalore, and remote positions.'
+                content: 'Our institute offers Mumbai\'s most comprehensive network security training program designed by Cisco CCNA-certified trainers, Red Hat Certified Engineers (RHCE), and Certification Ethical Hackers (CEH) with 15+ years of experience in SOC operations, penetration testing, and enterprise security. Unlike theory-heavy courses, we provide real hands-on labs with Cisco hardware, Linux server environments, Kali Linux penetration testing labs, and live security tools. Students get access to dedicated networking labs with Cisco routers/switches, Linux virtual machines, Kali Linux for ethical hacking, vulnerability scanners, penetration testing tools (Metasploit, Burp Suite, Nmap), and guaranteed interview opportunities with our 220+ hiring partners including cybersecurity firms, SOC centers, banks, IT companies, consulting firms, and penetration testing companies across Mumbai, Pune, Bangalore, and remote positions.'
             }
         ]
     },
@@ -13333,7 +12705,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Prep',
+            title: 'Certification Prep',
             description: 'Cisco CCNA | Red Hat Linux (RHCSA) | EC-Council CEH v12 preparation',
             color: 'purple'
         },
@@ -13428,43 +12800,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Arjun Sharma',
-            designation: 'Security Analyst at Deloitte',
-            rating: 5,
-            avatar: 'AS',
-            review: 'Best cybersecurity course in Mumbai! The combination of CCNA, Linux, and CEH made me a complete security professional. Learned network security, Linux hardening, and penetration testing. Got CEH certified and placed at Deloitte with ₹12 LPA package. Exceptional training!'
-        },
-        {
-            name: 'Priya Patel',
-            designation: 'Penetration Tester at Cyber Defense',
-            rating: 5,
-            avatar: 'PP',
-            review: 'Outstanding security training! The hands-on labs with Kali Linux, Metasploit, and real penetration testing scenarios were invaluable. CCNA and Linux modules provided strong foundation. Now pentester earning ₹15 LPA. Highly recommend for ethical hacking career!'
-        },
-        {
-            name: 'Rajesh Kumar',
-            designation: 'SOC Analyst at HDFC Bank',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Comprehensive networking and security program! CCNA routing/switching, Linux security, and CEH ethical hacking covered everything. Built complete security projects. Joined HDFC Bank SOC with ₹10 LPA package. Perfect course for cybersecurity professionals!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'Network Security Engineer at TCS',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent course combining networking and security! Real Cisco equipment, Linux hardening, and offensive security skills prepared me perfectly. Got CCNA and working on CEH. Now at TCS earning ₹8.5 LPA as Security Engineer. Great investment!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Senior Security Consultant at EY',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical security course! CCNA, Linux admin, and ethical hacking combination made me versatile. Cleared CEH exam. Got promoted to Senior Consultant at EY with ₹18 LPA. Best course for complete cybersecurity career!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -13479,7 +12814,7 @@ export const courses = [
         {
             id: 3,
             question: 'Which certifications will this course prepare me for?',
-            answer: 'This course prepares you for three globally recognized certifications: 1) Cisco CCNA 200-301 for networking, 2) Red Hat Certified System Administrator (RHCSA) for Linux, 3) EC-Council Certified Ethical Hacker (CEH v12) for penetration testing. You will receive institute certifications immediately and be fully prepared to clear all official vendor certification exams.'
+            answer: 'This course prepares you for three globally recognized certifications: 1) Cisco CCNA 200-301 for networking, 2) Red Hat Certified System Administrator (RHCSA) for Linux, 3) Certification Ethical Hacker (CEH v12) for penetration testing. You will receive institute certifications immediately and be fully prepared to clear all official vendor certification exams.'
         },
         {
             id: 4,
@@ -13536,6 +12871,11 @@ export const courses = [
 
 {
     slug: 'ccna-linux-aws-devops-course-in-mumbai',
+        seo: {
+            title: 'CCNA + Linux + AWS + DevOps Course in Mumbai',
+            description: 'Become a Certified DevOps & Cloud Infrastructure Engineer with comprehensive hands-on training in Cisco CCNA (Routing, Switching, Network Security), Linux System Administration (RHEL, Ubuntu, Shell Scripting), AWS Cloud Services (EC2, VPC, S3, Lambda), and DevOps Tools (Docker, Kubernetes, Jenkins, Ansible, Terraform, Git) from certified professionals',
+            keywords: 'CCNA + Linux + AWS + DevOps Course in Mumbai, CCNA + Linux + AWS + DevOps Course in Mumbai Course, CCNA + Linux + AWS + DevOps Course in Mumbai Training, CCNA + Linux + AWS + DevOps Course in Mumbai Certification, Best CCNA + Linux + AWS + DevOps Course in Mumbai Course'
+        },
     heroData: {
         title: 'CCNA + Linux + AWS + DevOps Course in Mumbai',
         subtitle: 'Master Cisco Networking, Linux, AWS Cloud & DevOps Automation',
@@ -13543,7 +12883,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '28 Weeks', color: 'bg-orange-500' },
             { icon: Users, label: '3800+ Students', color: 'bg-orange-600' },
-            { icon: Award, label: 'Quad Certification', color: 'bg-orange-700' },
+            { icon: Award, label: 'Certification', color: 'bg-orange-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-orange-500' }
         ]
     },
@@ -13557,7 +12897,7 @@ export const courses = [
         title: 'About CCNA + Linux + AWS + DevOps Course',
         description: 'This comprehensive Infrastructure and DevOps Engineering course combines four of the most in-demand IT skills in 2025 - Cisco CCNA for enterprise networking, Linux for system administration and automation, AWS for cloud infrastructure, and DevOps tools for continuous integration and deployment. Our industry-aligned program prepares you to become a complete DevOps Engineer with hands-on training in network fundamentals, IP addressing and subnetting, routing protocols (OSPF, EIGRP), switching and VLANs, network security, Linux operating system administration, shell scripting and automation, AWS cloud services (EC2, VPC, S3, RDS, Lambda, CloudFormation), containerization with Docker, orchestration with Kubernetes, CI/CD pipelines with Jenkins and GitLab CI, infrastructure as code with Terraform and Ansible, configuration management, monitoring with Prometheus and Grafana, and DevOps best practices.',
         highlights: [
-            'Quad Certification: Cisco CCNA | Red Hat Linux | AWS Solutions Architect | DevOps Engineer',
+            'Certification: Cisco CCNA | Red Hat Linux | AWS Solutions Architect | DevOps Engineer',
             'Complete DevOps stack: Networking, Linux, Cloud, Containers, CI/CD, IaC, Monitoring',
             'Real DevOps labs: Network automation, Linux servers, AWS infrastructure, Kubernetes clusters',
             '75+ hands-on labs on Cisco equipment, Linux VMs, AWS console, Docker, Kubernetes, Jenkins',
@@ -14129,7 +13469,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Quad Certification Prep',
+            title: 'Certification Prep',
             description: 'Cisco CCNA | Red Hat Linux | AWS Solutions Architect | Kubernetes (CKA/CKAD) prep',
             color: 'orange'
         },
@@ -14224,43 +13564,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Arjun Patel',
-            designation: 'DevOps Engineer at Google',
-            rating: 5,
-            avatar: 'AP',
-            review: 'Best DevOps course in India! The comprehensive training from CCNA to Linux to AWS to Kubernetes was exceptional. Built complete CI/CD pipelines and Kubernetes clusters. Got placed at Google with ₹22 LPA package. Trainers are FAANG veterans. Highly recommended!'
-        },
-        {
-            name: 'Priya Sharma',
-            designation: 'SRE at Razorpay',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding DevOps training! The hands-on labs with real AWS infrastructure, Docker, Kubernetes, and Jenkins were invaluable. Learned complete automation with Terraform and Ansible. Now SRE at Razorpay earning ₹18 LPA. Perfect career transformation!'
-        },
-        {
-            name: 'Rajesh Kumar',
-            designation: 'Cloud Engineer at Amazon',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Comprehensive infrastructure and DevOps program! CCNA networking, Linux automation, AWS cloud, and complete DevOps stack prepared me perfectly. Cleared AWS Solutions Architect. Now at Amazon earning ₹20 LPA. Best investment for cloud career!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'DevOps Engineer at PhonePe',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent course covering complete DevOps ecosystem! Docker, Kubernetes, Jenkins CI/CD, and infrastructure as code modules were top-notch. Built production-ready pipelines. Joined PhonePe unicorn with ₹16 LPA package. Transformative experience!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Senior DevOps Architect at Swiggy',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical DevOps course! Real-world projects with networking, cloud, containers, and automation. Got Kubernetes CKA certified. Promoted to Senior Architect at Swiggy with ₹28 LPA. Perfect course for DevOps mastery!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -14332,6 +13635,11 @@ export const courses = [
 
 {
     slug: 'devops-course-in-mumbai',
+        seo: {
+            title: 'DevOps Course in Mumbai',
+            description: 'Become a Certified DevOps Engineer with comprehensive hands-on training in Linux System Administration, Git Version Control, Docker Containerization, Kubernetes Orchestration, Jenkins CI/CD, AWS Cloud, Terraform, Ansible, Monitoring with Prometheus & Grafana, and DevOps Best Practices from industry-certified DevOps professionals',
+            keywords: 'DevOps Course in Mumbai, DevOps Course in Mumbai Course, DevOps Course in Mumbai Training, DevOps Course in Mumbai Certification, Best DevOps Course in Mumbai Course'
+        },
     heroData: {
         title: 'DevOps Course in Mumbai',
         subtitle: 'Master Linux, Git, Docker, Kubernetes, Jenkins, AWS & CI/CD Automation',
@@ -14339,7 +13647,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-violet-500' },
             { icon: Users, label: '6400+ Students', color: 'bg-violet-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-violet-700' },
+            { icon: Award, label: 'Certification', color: 'bg-violet-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-violet-500' }
         ]
     },
@@ -14353,7 +13661,7 @@ export const courses = [
         title: 'About DevOps Engineer Course',
         description: 'DevOps is the most in-demand and highest-paying tech skill in 2025, bridging development and operations to enable continuous delivery and automation. Our comprehensive DevOps Engineer Course in Mumbai is designed as a complete career transformation program covering the entire DevOps lifecycle from code to production. This industry-aligned course prepares you to become a job-ready DevOps Engineer with hands-on training in Linux fundamentals and shell scripting, Git version control and branching strategies, Docker containerization and image management, Kubernetes container orchestration, Jenkins CI/CD pipelines, AWS cloud services (EC2, S3, VPC, IAM), Infrastructure as Code with Terraform, Configuration Management with Ansible, monitoring and logging with Prometheus, Grafana, and ELK stack, DevOps security (DevSecOps), and industry best practices for automation and continuous delivery.',
         highlights: [
-            'Triple Certification: Linux (RHCSA) | AWS Solutions Architect | Kubernetes (CKA) prep',
+            'Certification: Linux (RHCSA) | AWS Solutions Architect | Kubernetes (CKA) prep',
             'Complete DevOps toolkit: Linux, Git, Docker, Kubernetes, Jenkins, AWS, Terraform, Ansible',
             'Real DevOps projects: CI/CD pipelines, Kubernetes clusters, Infrastructure automation, Monitoring',
             '60+ hands-on labs on Linux VMs, Docker containers, K8s clusters, AWS cloud, Jenkins servers',
@@ -14853,7 +14161,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Prep',
+            title: 'Certification Prep',
             description: 'Linux (RHCSA) | AWS Solutions Architect | Kubernetes (CKA/CKAD) preparation',
             color: 'violet'
         },
@@ -14948,43 +14256,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Arjun Patel',
-            designation: 'DevOps Engineer at Google',
-            rating: 5,
-            avatar: 'AP',
-            review: 'Best DevOps course in India! The comprehensive training from Linux to Kubernetes to CI/CD was exceptional. Built complete automation pipelines and K8s clusters. Got placed at Google with ₹22 LPA package. Trainers are FAANG veterans with real-world expertise!'
-        },
-        {
-            name: 'Priya Sharma',
-            designation: 'Site Reliability Engineer at Razorpay',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Outstanding DevOps training! The hands-on labs with Docker, Kubernetes, Jenkins, and AWS were invaluable. Learned complete infrastructure automation with Terraform and Ansible. Now SRE at Razorpay earning ₹18 LPA. Perfect career transformation!'
-        },
-        {
-            name: 'Rajesh Kumar',
-            designation: 'Cloud DevOps Engineer at Amazon',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Comprehensive DevOps program! Docker containerization, Kubernetes orchestration, and complete CI/CD pipeline training prepared me perfectly. Cleared AWS Solutions Architect certification. Now at Amazon earning ₹20 LPA. Best investment for DevOps career!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'DevOps Engineer at PhonePe',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent course covering complete DevOps ecosystem! Jenkins CI/CD, Kubernetes, and infrastructure as code modules were top-notch. Built production-ready pipelines. Joined PhonePe unicorn with ₹16 LPA package. Highly recommended!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Senior DevOps Engineer at Swiggy',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical DevOps course! Real-world projects with containers, orchestration, and complete automation. Got Kubernetes CKA certified. Promoted to Senior Engineer at Swiggy with ₹28 LPA. Perfect course for DevOps mastery!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -15056,6 +14327,11 @@ export const courses = [
 
 {
     slug: 'cloud-computing-course-in-mumbai',
+        seo: {
+            title: 'Cloud Computing (AWS + Azure + GCP) Course in Mumbai',
+            description: 'Become a Certified Cloud Engineer with comprehensive hands-on training in AWS (EC2, S3, VPC, Lambda, RDS), Microsoft Azure (Virtual Machines, Storage, App Services), Google Cloud Platform (Compute Engine, Cloud Storage), Multi-Cloud Architecture, Cloud Security, DevOps on Cloud, and Cloud Migration from industry-certified cloud professionals',
+            keywords: 'Cloud Computing (AWS + Azure + GCP) Course in Mumbai, Cloud Computing (AWS + Azure + GCP) Course in Mumbai Course, Cloud Computing (AWS + Azure + GCP) Course in Mumbai Training, Cloud Computing (AWS + Azure + GCP) Course in Mumbai Certification, Best Cloud Computing (AWS + Azure + GCP) Course in Mumbai Course'
+        },
     heroData: {
         title: 'Cloud Computing (AWS + Azure + GCP) Course in Mumbai',
         subtitle: 'Master AWS, Azure, Google Cloud & Multi-Cloud Architecture',
@@ -15063,7 +14339,7 @@ export const courses = [
         badges: [
             { icon: Cloud, label: '18 Weeks', color: 'bg-indigo-500' },
             { icon: Users, label: '5400+ Students', color: 'bg-indigo-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-indigo-700' },
+            { icon: Award, label: 'Certification', color: 'bg-indigo-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-indigo-500' }
         ]
     },
@@ -15077,7 +14353,7 @@ export const courses = [
         title: 'About Cloud Computing Course',
         description: 'Cloud Computing is the most transformative technology of the decade, powering 94% of enterprises worldwide and creating the highest-paying tech jobs in 2025. Our comprehensive Cloud Computing Course in Mumbai is designed as a complete career transformation program covering all three major cloud platforms - AWS (Amazon Web Services), Microsoft Azure, and Google Cloud Platform (GCP). This industry-aligned course prepares you to become a job-ready Multi-Cloud Engineer with hands-on training in cloud fundamentals and service models (IaaS, PaaS, SaaS), AWS core services (EC2, S3, VPC, IAM, RDS, Lambda, CloudFormation), Azure services (Virtual Machines, Blob Storage, App Services, Azure AD), GCP services (Compute Engine, Cloud Storage, Kubernetes Engine), cloud networking and security, serverless computing, containerization on cloud, Infrastructure as Code (Terraform, CloudFormation), cloud migration strategies, cost optimization, disaster recovery, and multi-cloud architecture design.',
         highlights: [
-            'Triple Certification: AWS Solutions Architect | Azure Administrator | GCP Associate Cloud Engineer',
+            'Certification: AWS Solutions Architect | Azure Administrator | GCP Associate Cloud Engineer',
             'Complete multi-cloud stack: AWS, Azure, GCP with hands-on implementation',
             'Real cloud projects: 3-tier architecture, Serverless apps, Kubernetes, Cloud migration',
             '65+ hands-on labs on AWS, Azure, GCP consoles with real cloud deployments',
@@ -15607,7 +14883,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Prep',
+            title: 'Certification Prep',
             description: 'AWS Solutions Architect | Azure Administrator | GCP Associate Cloud Engineer',
             color: 'indigo'
         },
@@ -15702,43 +14978,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Arjun Sharma',
-            designation: 'Cloud Solutions Architect at Microsoft',
-            rating: 5,
-            avatar: 'AS',
-            review: 'Best cloud computing course in India! Learning AWS, Azure, and GCP together made me a versatile cloud professional. Built serverless apps and Kubernetes clusters. Got Azure certified and placed at Microsoft with ₹24 LPA package. Exceptional training!'
-        },
-        {
-            name: 'Priya Patel',
-            designation: 'AWS Cloud Engineer at Amazon',
-            rating: 5,
-            avatar: 'PP',
-            review: 'Outstanding multi-cloud training! The hands-on labs on all three cloud platforms were invaluable. Learned complete cloud architecture, serverless, and containers. Cleared AWS Solutions Architect and now at Amazon earning ₹20 LPA. Highly recommend!'
-        },
-        {
-            name: 'Rajesh Kumar',
-            designation: 'Senior Cloud Architect at Deloitte',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Comprehensive cloud computing program! AWS EC2, Lambda, Azure VMs, GCP Compute - covered everything. Built production-ready cloud architectures. Got all three certifications and now at Deloitte with ₹18 LPA. Perfect course for cloud career!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'Cloud DevOps Engineer at Google',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Excellent course covering complete cloud ecosystem! Serverless, Kubernetes, IaC modules were top-notch. Multi-cloud architecture training prepared me perfectly. Joined Google Cloud with ₹22 LPA package. Best investment for cloud career!'
-        },
-        {
-            name: 'Vikram Mehta',
-            designation: 'Principal Cloud Architect at TCS',
-            rating: 5,
-            avatar: 'VM',
-            review: 'The most practical cloud course! Real-world projects with AWS, Azure, GCP, migration, and DR. Got AWS and Azure certified. Promoted to Principal Architect at TCS with ₹28 LPA. Perfect course for cloud mastery!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -15810,6 +15049,11 @@ export const courses = [
 
 {
     slug: 'sap-mm-s4-hana-course-in-mumbai',
+        seo: {
+            title: 'SAP MM S/4 HANA Training Course in Mumbai',
+            description: 'Become a Certified SAP MM S/4 HANA Consultant with comprehensive hands-on training in Materials Management, Procurement, Inventory Management, Material Valuation, Logistics Invoice Verification, Master Data, Purchasing Organization, Integration with FI/SD/PP, and S/4HANA-specific features from SAP-certified professionals',
+            keywords: 'SAP MM S/4 HANA Training Course in Mumbai, SAP MM S/4 HANA Training Course in Mumbai Course, SAP MM S/4 HANA Training Course in Mumbai Training, SAP MM S/4 HANA Training Course in Mumbai Certification, Best SAP MM S/4 HANA Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'SAP MM S/4 HANA Training Course in Mumbai',
         subtitle: 'Master SAP S/4HANA Materials Management & Procurement',
@@ -15817,7 +15061,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-emerald-500' },
             { icon: Users, label: '3200+ Students', color: 'bg-emerald-600' },
-            { icon: Award, label: 'SAP Certification', color: 'bg-emerald-700' },
+            { icon: Award, label: 'Certification', color: 'bg-emerald-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-emerald-500' }
         ]
     },
@@ -15831,7 +15075,7 @@ export const courses = [
         title: 'About SAP MM S/4 HANA Course',
         description: 'SAP Materials Management (MM) is one of the most critical and widely implemented SAP modules, handling procurement, inventory management, and material valuation in organizations globally. Our comprehensive SAP MM S/4 HANA Course in Mumbai is designed as a complete career transformation program for aspiring SAP functional consultants. This industry-aligned course prepares you to become a job-ready SAP MM Consultant with hands-on training in enterprise structure configuration, master data management (material master, vendor master, purchasing info records), procurement process (purchase requisition, RFQ, purchase orders), inventory management and goods movements, material valuation and account determination, logistics invoice verification, physical inventory, special procurement types (subcontracting, consignment, third-party), integration with FI (Finance), SD (Sales & Distribution), and PP (Production Planning), S/4HANA-specific innovations (Business Partner, Fiori apps, embedded analytics), and complete preparation for SAP S/4HANA Sourcing and Procurement certification (C_TS452).',
         highlights: [
-            'SAP Certification: Complete preparation for C_TS452 (S/4HANA Sourcing & Procurement)',
+            'Certification: Complete preparation for C_TS452 (S/4HANA Sourcing & Procurement)',
             'Complete Procure-to-Pay (P2P) cycle: PR, RFQ, PO, GR, IR, Payment integration',
             'Real SAP S/4HANA system: Individual practice access with MM, FI, SD, PP modules',
             '40+ hands-on configuration labs on live SAP S/4HANA system with real scenarios',
@@ -16204,7 +15448,7 @@ export const courses = [
                     'Invoice Verification (8-12%)',
                     'Services Procurement (< 8%)',
                     'External Services Management (< 8%)',
-                    'SAP Certification Exam Registration',
+                    'Certification Exam Registration',
                     'Sample Questions and Mock Tests',
                     'Exam Tips and Time Management',
                     'Study Materials and Resources'
@@ -16219,7 +15463,7 @@ export const courses = [
                     'Building SAP MM Consultant Resume',
                     'SAP Project Experience Documentation',
                     'LinkedIn Profile for SAP Professionals',
-                    'SAP Certification Importance',
+                    'Certification Importance',
                     'Common SAP MM Interview Questions',
                     'Enterprise Structure Interview Questions',
                     'Master Data Interview Questions',
@@ -16239,7 +15483,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'SAP Certification Prep',
+            title: 'Certification Prep',
             description: 'Complete preparation for C_TS452 (S/4HANA Sourcing & Procurement) certification',
             color: 'emerald'
         },
@@ -16332,43 +15576,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Desai',
-            designation: 'SAP MM Consultant at Deloitte',
-            rating: 5,
-            avatar: 'PD',
-            review: 'Best SAP MM S/4HANA course in Mumbai! The comprehensive training from enterprise structure to procurement to inventory was exceptional. Got hands-on configuration experience on live S/4HANA system. Cleared C_TS452 certification and placed at Deloitte with ₹14 LPA package. Trainers are SAP experts!'
-        },
-        {
-            name: 'Rajesh Kumar',
-            designation: 'MM Functional Consultant at Accenture',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Outstanding SAP MM training! The procure-to-pay cycle, material valuation, and integration modules were incredibly practical. Built complete MM configuration from scratch. Now SAP MM Consultant at Accenture earning ₹12 LPA. Highly recommend for SAP career!'
-        },
-        {
-            name: 'Sneha Sharma',
-            designation: 'Senior MM Consultant at Capgemini',
-            rating: 5,
-            avatar: 'SS',
-            review: 'Comprehensive SAP S/4HANA MM program! Learned everything from master data to special procurement to Fiori apps. The 40+ configuration labs built amazing expertise. Got SAP certified and now at Capgemini with ₹16 LPA. Perfect course!'
-        },
-        {
-            name: 'Amit Patel',
-            designation: 'SAP MM Consultant at TCS',
-            rating: 5,
-            avatar: 'AP',
-            review: 'Excellent SAP MM course covering both configuration and real projects! The subcontracting, consignment, and account determination training was top-notch. Cleared SAP certification and joined TCS S/4HANA team with ₹10 LPA package. Great investment!'
-        },
-        {
-            name: 'Neha Mehta',
-            designation: 'Lead MM Consultant at Wipro',
-            rating: 5,
-            avatar: 'NM',
-            review: 'The most practical SAP MM training! Real S/4HANA system access, complete P2P implementation, and integration with FI/SD/PP prepared me perfectly. Got SAP C_TS452 certified and promoted to Lead Consultant at Wipro with ₹18 LPA. Best SAP institute!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -16383,7 +15590,7 @@ export const courses = [
         {
             id: 3,
             question: 'What certification will this course prepare me for?',
-            answer: 'This course prepares you for SAP Certified Application Associate - SAP S/4HANA Sourcing and Procurement (C_TS452) certification. This is the official SAP certification for MM consultants working on S/4HANA. The exam covers organizational structures, master data, purchasing, material valuation, inventory management, invoice verification, and procurement processes. We provide complete exam preparation with sample questions, mock tests, and study materials. SAP certification significantly increases job opportunities and salaries (30-40% higher than non-certified consultants).'
+            answer: 'This course prepares you for SAP Certified Application Associate - SAP S/4HANA Sourcing and Procurement (C_TS452) certification. This is the official Certification for MM consultants working on S/4HANA. The exam covers organizational structures, master data, purchasing, material valuation, inventory management, invoice verification, and procurement processes. We provide complete exam preparation with sample questions, mock tests, and study materials. Certification significantly increases job opportunities and salaries (30-40% higher than non-certified consultants).'
         },
         {
             id: 4,
@@ -16393,12 +15600,12 @@ export const courses = [
         {
             id: 5,
             question: 'What is the average salary for SAP MM consultants in Mumbai?',
-            answer: 'Entry-level SAP MM Consultants in Mumbai earn ₹5-9 LPA, Mid-level MM Functional Consultants earn ₹12-22 LPA, and Senior MM/Logistics Architects earn ₹25-50 LPA. With SAP certification (C_TS452), salaries increase 30-40%. SAP MM is one of the most in-demand SAP modules with 25% year-over-year growth due to ECC to S/4HANA migrations. International SAP consulting opportunities pay $50-120 per hour. Freelance SAP MM consultants charge ₹3,000-8,000 per day in India.'
+            answer: 'Entry-level SAP MM Consultants in Mumbai earn ₹5-9 LPA, Mid-level MM Functional Consultants earn ₹12-22 LPA, and Senior MM/Logistics Architects earn ₹25-50 LPA. With Certification (C_TS452), salaries increase 30-40%. SAP MM is one of the most in-demand SAP modules with 25% year-over-year growth due to ECC to S/4HANA migrations. International SAP consulting opportunities pay $50-120 per hour. Freelance SAP MM consultants charge ₹3,000-8,000 per day in India.'
         },
         {
             id: 6,
             question: 'Do you provide job placement assistance?',
-            answer: 'Yes! We provide 100% job placement assistance including SAP MM consultant resume building with project details, SAP certification badge display, LinkedIn profile optimization for SAP recruiters, technical interview preparation (MM configuration questions, procurement scenarios, integration questions), mock interviews with SAP consultants, and guaranteed interview opportunities with 180+ SAP hiring partners including Big 4 consulting firms (Deloitte, PwC, EY, KPMG), SAP partners (TCS, Infosys, Wipro, Tech Mahindra, Capgemini, IBM, Accenture), manufacturing companies, and enterprises implementing S/4HANA.'
+            answer: 'Yes! We provide 100% job placement assistance including SAP MM consultant resume building with project details, Certification badge display, LinkedIn profile optimization for SAP recruiters, technical interview preparation (MM configuration questions, procurement scenarios, integration questions), mock interviews with SAP consultants, and guaranteed interview opportunities with 180+ SAP hiring partners including Big 4 consulting firms (Deloitte, PwC, EY, KPMG), SAP partners (TCS, Infosys, Wipro, Tech Mahindra, Capgemini, IBM, Accenture), manufacturing companies, and enterprises implementing S/4HANA.'
         },
         {
             id: 7,
@@ -16440,6 +15647,11 @@ export const courses = [
 
 {
     slug: 'sap-fico-s4-hana-course-in-mumbai',
+        seo: {
+            title: 'SAP FICO S/4 HANA Training Course in Mumbai',
+            description: 'Become a Certified SAP FICO S/4 HANA Consultant with comprehensive hands-on training in Financial Accounting (FI), Controlling (CO), General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting, Cost Center Accounting, Profit Center Accounting, Product Costing, and S/4HANA-specific features from SAP-certified professionals',
+            keywords: 'SAP FICO S/4 HANA Training Course in Mumbai, SAP FICO S/4 HANA Training Course in Mumbai Course, SAP FICO S/4 HANA Training Course in Mumbai Training, SAP FICO S/4 HANA Training Course in Mumbai Certification, Best SAP FICO S/4 HANA Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'SAP FICO S/4 HANA Training Course in Mumbai',
         subtitle: 'Master SAP S/4HANA Finance & Controlling (FICO)',
@@ -16447,7 +15659,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '14 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '4800+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'SAP Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -16461,7 +15673,7 @@ export const courses = [
         title: 'About SAP FICO S/4 HANA Course',
         description: 'SAP FICO (Finance and Controlling) is the most critical and widely implemented SAP module, handling all financial transactions, reporting, and cost management in organizations globally. Our comprehensive SAP FICO S/4 HANA Course in Mumbai is designed as a complete career transformation program for aspiring SAP finance consultants. This industry-aligned course prepares you to become a job-ready SAP FICO Consultant with hands-on training in enterprise structure for FI and CO, General Ledger accounting and new GL in S/4HANA, Accounts Payable and Vendor invoice processing, Accounts Receivable and Customer invoice processing, Bank Accounting and Cash Management, Asset Accounting and depreciation, Cost Element Accounting, Cost Center Accounting and planning, Internal Orders, Profit Center Accounting, Product Costing and Material Ledger, Profitability Analysis (CO-PA), integration with MM and SD modules, month-end and year-end closing activities, S/4HANA-specific innovations (Universal Journal, Central Finance, embedded analytics), and complete preparation for SAP S/4HANA Financial Accounting certification (C_TS4FI).',
         highlights: [
-            'SAP Certification: Complete preparation for C_TS4FI (S/4HANA Financial Accounting)',
+            'Certification: Complete preparation for C_TS4FI (S/4HANA Financial Accounting)',
             'Complete FI+CO coverage: GL, AP, AR, AA, Bank, Cost Center, Profit Center, Product Costing',
             'Real SAP S/4HANA system: Individual practice access with FICO, MM, SD integration',
             '50+ hands-on configuration labs on live SAP S/4HANA system with real scenarios',
@@ -16934,7 +16146,7 @@ export const courses = [
                     'Financial Closing (8-12%)',
                     'Integration (8-12%)',
                     'Document Parking and Workflows (< 8%)',
-                    'SAP Certification Exam Registration',
+                    'Certification Exam Registration',
                     'Sample Questions and Mock Exams',
                     'Exam Tips and Preparation Strategy',
                     'Time Management during Exam',
@@ -16950,7 +16162,7 @@ export const courses = [
                     'Building SAP FICO Resume',
                     'SAP Project Experience Documentation',
                     'LinkedIn Profile Optimization for SAP Professionals',
-                    'SAP Certification Importance and ROI',
+                    'Certification Importance and ROI',
                     'Common SAP FICO Interview Questions',
                     'Enterprise Structure Interview Questions',
                     'GL Accounting Interview Questions',
@@ -16972,7 +16184,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'SAP Certification Prep',
+            title: 'Certification Prep',
             description: 'Complete preparation for C_TS4FI (S/4HANA Financial Accounting) certification',
             color: 'blue'
         },
@@ -17065,43 +16277,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Joshi',
-            designation: 'SAP FICO Consultant at Deloitte',
-            rating: 5,
-            avatar: 'PJ',
-            review: 'Best SAP FICO S/4HANA course in Mumbai! The comprehensive training from GL to AP/AR to Controlling was exceptional. Got hands-on configuration on live S/4HANA with Universal Journal. Cleared C_TS4FI certification and placed at Deloitte with ₹15 LPA package. Outstanding trainers!'
-        },
-        {
-            name: 'Rajesh Shah',
-            designation: 'FICO Functional Consultant at PwC',
-            rating: 5,
-            avatar: 'RS',
-            review: 'Outstanding SAP FICO training! The month-end closing, asset accounting, and cost center modules were incredibly practical. Built complete FI+CO configuration from scratch. Now SAP FICO Consultant at PwC earning ₹16 LPA. Highly recommend for finance career!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'Senior FICO Consultant at EY',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Comprehensive SAP S/4HANA FICO program! Learned everything from GL accounting to product costing to CO-PA. The 50+ configuration labs and real project built amazing expertise. Got SAP certified and now at EY with ₹18 LPA. Perfect course!'
-        },
-        {
-            name: 'Amit Kulkarni',
-            designation: 'SAP Finance Consultant at KPMG',
-            rating: 5,
-            avatar: 'AK',
-            review: 'Excellent SAP FICO course covering both FI and CO completely! The Universal Journal, integration with MM/SD, and financial reporting training was top-notch. Cleared SAP certification and joined KPMG Big 4 with ₹14 LPA package. Great investment!'
-        },
-        {
-            name: 'Neha Sharma',
-            designation: 'Lead FICO Consultant at Accenture',
-            rating: 5,
-            avatar: 'NS',
-            review: 'The most practical SAP FICO training! Real S/4HANA system, complete financial cycle, Controlling integration prepared me perfectly. Got C_TS4FI certified and promoted to Lead Consultant at Accenture with ₹22 LPA. Best SAP institute in Mumbai!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -17116,7 +16291,7 @@ export const courses = [
         {
             id: 3,
             question: 'What certification will this course prepare me for?',
-            answer: 'This course prepares you for SAP Certified Application Associate - SAP S/4HANA for Financial Accounting Associates (C_TS4FI) certification. This is the official SAP certification for FICO consultants working on S/4HANA covering General Ledger, AP, AR, Asset Accounting, Financial Closing, and Integration. The exam has 80 questions, 180 minutes duration, and passing score is typically 64-66%. We provide complete exam preparation with practice questions, mock tests, and study guides. SAP FICO certification increases job opportunities and salaries by 35-45%.'
+            answer: 'This course prepares you for SAP Certified Application Associate - SAP S/4HANA for Financial Accounting Associates (C_TS4FI) certification. This is the official Certification for FICO consultants working on S/4HANA covering General Ledger, AP, AR, Asset Accounting, Financial Closing, and Integration. The exam has 80 questions, 180 minutes duration, and passing score is typically 64-66%. We provide complete exam preparation with practice questions, mock tests, and study guides. SAP FICO certification increases job opportunities and salaries by 35-45%.'
         },
         {
             id: 4,
@@ -17126,7 +16301,7 @@ export const courses = [
         {
             id: 5,
             question: 'What is the average salary for SAP FICO consultants in Mumbai?',
-            answer: 'Entry-level SAP FICO Consultants in Mumbai earn ₹6-11 LPA, Mid-level FICO Functional Consultants earn ₹14-28 LPA, and Senior FICO/Finance Architects earn ₹30-60 LPA. SAP FICO is the highest-paying SAP module commanding 20-30% premium over other modules. With SAP certification (C_TS4FI), salaries increase 35-45%. Big 4 consulting firms pay ₹12-18 LPA for freshers with certification. International SAP FICO consulting pays $60-140 per hour. Freelance FICO consultants charge ₹4,000-10,000 per day in India. Demand has grown 30% year-over-year due to S/4HANA migrations.'
+            answer: 'Entry-level SAP FICO Consultants in Mumbai earn ₹6-11 LPA, Mid-level FICO Functional Consultants earn ₹14-28 LPA, and Senior FICO/Finance Architects earn ₹30-60 LPA. SAP FICO is the highest-paying SAP module commanding 20-30% premium over other modules. With Certification (C_TS4FI), salaries increase 35-45%. Big 4 consulting firms pay ₹12-18 LPA for freshers with certification. International SAP FICO consulting pays $60-140 per hour. Freelance FICO consultants charge ₹4,000-10,000 per day in India. Demand has grown 30% year-over-year due to S/4HANA migrations.'
         },
         {
             id: 6,
@@ -17173,6 +16348,11 @@ export const courses = [
 
 {
     slug: 'sap-fico-course-in-mumbai',
+        seo: {
+            title: 'SAP FICO Training Course in Mumbai',
+            description: 'Become a Certified SAP FICO Consultant with comprehensive hands-on training in Financial Accounting (FI), Controlling (CO), General Ledger, Accounts Payable, Accounts Receivable, Asset Accounting, Cost Center Accounting, Profit Center Accounting, Product Costing, Integration, and both SAP ECC and S/4HANA features from SAP-certified professionals',
+            keywords: 'SAP FICO Training Course in Mumbai, SAP FICO Training Course in Mumbai Course, SAP FICO Training Course in Mumbai Training, SAP FICO Training Course in Mumbai Certification, Best SAP FICO Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'SAP FICO Training Course in Mumbai',
         subtitle: 'Master SAP Finance & Controlling (FICO) - ECC & S/4HANA',
@@ -17180,7 +16360,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-cyan-500' },
             { icon: Users, label: '5200+ Students', color: 'bg-cyan-600' },
-            { icon: Award, label: 'SAP Certification', color: 'bg-cyan-700' },
+            { icon: Award, label: 'Certification', color: 'bg-cyan-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-cyan-500' }
         ]
     },
@@ -17194,7 +16374,7 @@ export const courses = [
         title: 'About SAP FICO Course',
         description: 'SAP FICO (Finance and Controlling) is the most in-demand and highest-paying SAP module, forming the financial backbone of organizations worldwide. Our comprehensive SAP FICO Course in Mumbai is designed as a complete career transformation program for aspiring finance consultants. This industry-aligned course prepares you to become a job-ready SAP FICO Consultant with hands-on training in enterprise structure configuration for finance and controlling, General Ledger accounting with chart of accounts design, Accounts Payable processing and vendor management, Accounts Receivable processing and customer management, Asset Accounting with depreciation methods, Bank Accounting and cash management, Cost Element Accounting, Cost Center Accounting with planning and reporting, Internal Orders for project tracking, Profit Center Accounting for segment reporting, Product Costing and variance analysis, Profitability Analysis (CO-PA), integration with MM and SD modules, month-end and year-end closing procedures, financial reporting and analytics, taxation (GST, TDS, Withholding Tax), and coverage of both SAP ECC and S/4HANA platforms with preparation for SAP FICO certification.',
         highlights: [
-            'SAP Certification: Complete preparation for SAP FICO certification (ECC/S/4HANA)',
+            'Certification: Complete preparation for SAP FICO certification (ECC/S/4HANA)',
             'Complete FI+CO coverage: GL, AP, AR, AA, Bank, Cost Center, Profit Center, Costing, CO-PA',
             'Real SAP system: Individual practice access on both ECC and S/4HANA environments',
             '45+ hands-on configuration labs on live SAP systems with real-world scenarios',
@@ -17809,7 +16989,7 @@ export const courses = [
                     'Financial Closing Operations (8-12%)',
                     'Integration (8-12%)',
                     'Document Parking and Workflow (< 8%)',
-                    'SAP Certification Registration Process',
+                    'Certification Registration Process',
                     'SAP Learning Hub and Training Materials',
                     'Sample Questions and Practice Tests',
                     'Mock Exams (200+ Questions)',
@@ -17832,7 +17012,7 @@ export const courses = [
                     'Highlighting SAP Projects and Certifications',
                     'SAP Project Experience Documentation',
                     'LinkedIn Profile Optimization for SAP Professionals',
-                    'SAP Certification Badge Display',
+                    'Certification Badge Display',
                     'Networking in SAP Community',
                     'Common SAP FICO Interview Questions (100+)',
                     'Enterprise Structure Questions',
@@ -17860,7 +17040,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'SAP Certification Prep',
+            title: 'Certification Prep',
             description: 'Complete preparation for SAP FICO certification (C_TFIN52 ECC / C_TS4FI S/4HANA)',
             color: 'cyan'
         },
@@ -17953,43 +17133,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Joshi',
-            designation: 'SAP FICO Consultant at Deloitte',
-            rating: 5,
-            avatar: 'PJ',
-            review: 'Best SAP FICO course in Mumbai! The comprehensive training from GL to AP/AR to Controlling was exceptional. Got hands-on configuration on live SAP system. Cleared SAP FICO certification and placed at Deloitte Big 4 with ₹14 LPA package. Excellent trainers!'
-        },
-        {
-            name: 'Rajesh Patil',
-            designation: 'FICO Consultant at PwC',
-            rating: 5,
-            avatar: 'RP',
-            review: 'Outstanding SAP FICO training! The month-end closing, asset accounting, and integration modules were incredibly practical. Built complete FI+CO configuration. Now FICO Consultant at PwC earning ₹15 LPA. Highly recommend for finance career transformation!'
-        },
-        {
-            name: 'Sneha Gupta',
-            designation: 'Senior FICO Consultant at EY',
-            rating: 5,
-            avatar: 'SG',
-            review: 'Comprehensive SAP FICO program! Learned everything from enterprise structure to product costing to CO-PA. The 45+ labs and real implementation project built amazing expertise. Got SAP certified and now at EY with ₹17 LPA. Perfect course!'
-        },
-        {
-            name: 'Amit Shah',
-            designation: 'SAP Finance Consultant at KPMG',
-            rating: 5,
-            avatar: 'AS',
-            review: 'Excellent SAP FICO course covering both FI and CO completely! The AP/AR cycles, bank accounting, and cost center training was top-notch. Cleared SAP certification and joined KPMG Big 4 with ₹13 LPA package. Great ROI!'
-        },
-        {
-            name: 'Neha Desai',
-            designation: 'Lead FICO Consultant at Accenture',
-            rating: 5,
-            avatar: 'ND',
-            review: 'The most practical SAP FICO training! Real SAP system, complete financial cycles, integration with MM/SD prepared me perfectly. Got SAP certified and promoted to Lead Consultant at Accenture with ₹20 LPA. Best SAP training institute!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -18014,7 +17157,7 @@ export const courses = [
         {
             id: 5,
             question: 'What is the average salary for SAP FICO consultants in Mumbai?',
-            answer: 'Entry-level SAP FICO Consultants in Mumbai earn ₹6-11 LPA, Mid-level FICO Consultants earn ₹14-26 LPA, and Senior FICO/Finance Architects earn ₹28-55 LPA. SAP FICO is the highest-paying SAP functional module with 20-30% premium over other modules. With SAP certification, freshers get ₹12-18 LPA at Big 4. Big 4 consulting firms (Deloitte, PwC, EY, KPMG) pay the highest starting from ₹12-16 LPA for certified freshers. International SAP FICO consulting pays $60-130 per hour. Freelance FICO consultants charge ₹4,000-10,000 per day. Demand has grown 28% year-over-year due to S/4HANA migrations. FICO consultants with 5+ years experience easily earn ₹25-35 LPA.'
+            answer: 'Entry-level SAP FICO Consultants in Mumbai earn ₹6-11 LPA, Mid-level FICO Consultants earn ₹14-26 LPA, and Senior FICO/Finance Architects earn ₹28-55 LPA. SAP FICO is the highest-paying SAP functional module with 20-30% premium over other modules. With Certification, freshers get ₹12-18 LPA at Big 4. Big 4 consulting firms (Deloitte, PwC, EY, KPMG) pay the highest starting from ₹12-16 LPA for certified freshers. International SAP FICO consulting pays $60-130 per hour. Freelance FICO consultants charge ₹4,000-10,000 per day. Demand has grown 28% year-over-year due to S/4HANA migrations. FICO consultants with 5+ years experience easily earn ₹25-35 LPA.'
         },
         {
             id: 6,
@@ -18061,6 +17204,11 @@ export const courses = [
 
 {
     slug: 'sap-mm-course-in-mumbai',
+        seo: {
+            title: 'SAP MM Training Course in Mumbai',
+            description: 'Become a Certified SAP MM Consultant with comprehensive hands-on training in Materials Management, Procurement, Inventory Management, Material Valuation, Logistics Invoice Verification, Master Data, Purchasing Organization, Integration with FI/SD/PP, and both SAP ECC and S/4HANA features from SAP-certified professionals',
+            keywords: 'SAP MM Training Course in Mumbai, SAP MM Training Course in Mumbai Course, SAP MM Training Course in Mumbai Training, SAP MM Training Course in Mumbai Certification, Best SAP MM Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'SAP MM Training Course in Mumbai',
         subtitle: 'Master SAP Materials Management (MM) - ECC & S/4HANA',
@@ -18068,7 +17216,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '10 Weeks', color: 'bg-teal-500' },
             { icon: Users, label: '3600+ Students', color: 'bg-teal-600' },
-            { icon: Award, label: 'SAP Certification', color: 'bg-teal-700' },
+            { icon: Award, label: 'Certification', color: 'bg-teal-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-teal-500' }
         ]
     },
@@ -18082,7 +17230,7 @@ export const courses = [
         title: 'About SAP MM Course',
         description: 'SAP Materials Management (MM) is one of the most critical and widely implemented SAP logistics modules, handling procurement, inventory, and material valuation across manufacturing, pharma, FMCG, retail, and distribution industries. Our comprehensive SAP MM Course in Mumbai is designed as a complete career transformation program for aspiring SAP logistics consultants. This industry-aligned course prepares you to become a job-ready SAP MM Consultant with hands-on training in enterprise structure configuration (plant, storage location, purchasing organization), master data management (material master, vendor master, purchasing info records, source list), procurement process (purchase requisition, RFQ, purchase orders, goods receipt), inventory management and goods movements (stock types, movement types, stock transfers), material valuation and account determination (price control, valuation class, automatic posting), logistics invoice verification (MIRO, GR/IR clearing), physical inventory procedures, special procurement types (subcontracting, consignment, third-party, stock transport orders), batch management and serial numbers, MRP basics, integration with FI (Finance), SD (Sales), and PP (Production), and coverage of both SAP ECC and S/4HANA platforms with preparation for SAP MM certification.',
         highlights: [
-            'SAP Certification: Complete preparation for SAP MM certification (ECC/S/4HANA)',
+            'Certification: Complete preparation for SAP MM certification (ECC/S/4HANA)',
             'Complete Procure-to-Pay (P2P) cycle: PR, RFQ, PO, GR, IR, Payment integration',
             'Real SAP system: Individual practice access on both ECC and S/4HANA environments',
             '35+ hands-on configuration labs on live SAP systems with real procurement scenarios',
@@ -18629,7 +17777,7 @@ export const courses = [
                     'Invoice Verification (8-12%)',
                     'Services Procurement (< 8%)',
                     'External Services Management (< 8%)',
-                    'SAP Certification Registration',
+                    'Certification Registration',
                     'SAP Learning Hub Access',
                     'Sample Questions (200+ Practice Questions)',
                     'Mock Exams and Practice Tests',
@@ -18652,7 +17800,7 @@ export const courses = [
                     'Resume for Freshers with Certification',
                     'Resume for Experienced Professionals',
                     'Highlighting SAP Projects and Achievements',
-                    'SAP Certification Badge Display',
+                    'Certification Badge Display',
                     'LinkedIn Profile Optimization',
                     'SAP Community Networking',
                     'Common SAP MM Interview Questions (150+)',
@@ -18686,7 +17834,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'SAP Certification Prep',
+            title: 'Certification Prep',
             description: 'Complete preparation for C_TSCM52 (ECC) / C_TS452 (S/4HANA) MM certification',
             color: 'teal'
         },
@@ -18779,43 +17927,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Kulkarni',
-            designation: 'SAP MM Consultant at TCS',
-            rating: 5,
-            avatar: 'PK',
-            review: 'Best SAP MM course in Mumbai! The comprehensive training from enterprise structure to procurement to inventory was exceptional. Got hands-on configuration on live SAP system. Cleared C_TS452 certification and placed at TCS with ₹10 LPA package. Outstanding trainers with real project experience!'
-        },
-        {
-            name: 'Rajesh Sharma',
-            designation: 'MM Functional Consultant at Infosys',
-            rating: 5,
-            avatar: 'RS',
-            review: 'Outstanding SAP MM training! The procure-to-pay cycle, material valuation, and integration modules were incredibly practical. Built complete MM configuration from scratch. Now SAP MM Consultant at Infosys earning ₹11 LPA. Highly recommend for logistics career!'
-        },
-        {
-            name: 'Sneha Patil',
-            designation: 'Senior MM Consultant at Wipro',
-            rating: 5,
-            avatar: 'SP',
-            review: 'Comprehensive SAP MM program! Learned everything from master data to special procurement to S/4HANA features. The 35+ configuration labs built amazing expertise. Got SAP certified and now at Wipro with ₹13 LPA. Perfect course for MM mastery!'
-        },
-        {
-            name: 'Amit Desai',
-            designation: 'SAP MM Consultant at Tech Mahindra',
-            rating: 5,
-            avatar: 'AD',
-            review: 'Excellent SAP MM course covering complete procurement and inventory! The subcontracting, consignment, and account determination training was top-notch. Cleared SAP certification and joined Tech Mahindra with ₹9 LPA package. Great career investment!'
-        },
-        {
-            name: 'Neha Joshi',
-            designation: 'Lead MM Consultant at Capgemini',
-            rating: 5,
-            avatar: 'NJ',
-            review: 'The most practical SAP MM training! Real SAP system access, complete P2P implementation, integration with FI/SD/PP prepared me perfectly. Got C_TS452 certified and promoted to Lead Consultant at Capgemini with ₹16 LPA. Best SAP MM institute!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -18840,7 +17951,7 @@ export const courses = [
         {
             id: 5,
             question: 'What is the average salary for SAP MM consultants in Mumbai?',
-            answer: 'Entry-level SAP MM Consultants in Mumbai earn ₹5-9 LPA, Mid-level MM Consultants earn ₹12-22 LPA, and Senior MM/Logistics Architects earn ₹24-48 LPA. With SAP certification (C_TS452), freshers can get ₹8-12 LPA at SAP partners and consulting firms. Manufacturing companies (pharma, FMCG, automotive) pay well for MM consultants due to heavy inventory and procurement operations. International SAP MM consulting pays $50-110 per hour. Freelance MM consultants charge ₹3,000-8,000 per day. Demand has grown 25% year-over-year due to supply chain digitization and ECC to S/4HANA migrations. MM consultants with 5+ years experience easily earn ₹18-28 LPA.'
+            answer: 'Entry-level SAP MM Consultants in Mumbai earn ₹5-9 LPA, Mid-level MM Consultants earn ₹12-22 LPA, and Senior MM/Logistics Architects earn ₹24-48 LPA. With Certification (C_TS452), freshers can get ₹8-12 LPA at SAP partners and consulting firms. Manufacturing companies (pharma, FMCG, automotive) pay well for MM consultants due to heavy inventory and procurement operations. International SAP MM consulting pays $50-110 per hour. Freelance MM consultants charge ₹3,000-8,000 per day. Demand has grown 25% year-over-year due to supply chain digitization and ECC to S/4HANA migrations. MM consultants with 5+ years experience easily earn ₹18-28 LPA.'
         },
         {
             id: 6,
@@ -18887,6 +17998,11 @@ export const courses = [
 
 {
     slug: 'soft-skills-course-in-mumbai',
+        seo: {
+            title: 'Soft Skills Training Course in Mumbai',
+            description: 'Transform your career with comprehensive soft skills training in Communication, Presentation, Leadership, Time Management, Emotional Intelligence, Problem-Solving, Teamwork, Conflict Resolution, Business Etiquette, Interview Skills, and Professional Development from certified trainers to boost workplace success and career growth',
+            keywords: 'Soft Skills Training Course in Mumbai, Soft Skills Training Course in Mumbai Course, Soft Skills Training Course in Mumbai Training, Soft Skills Training Course in Mumbai Certification, Best Soft Skills Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'Soft Skills Training Course in Mumbai',
         subtitle: 'Master Communication, Leadership & Professional Skills',
@@ -19504,43 +18620,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Sharma',
-            designation: 'Team Leader at TCS',
-            rating: 5,
-            avatar: 'PS',
-            review: 'Life-changing soft skills training! The communication and leadership modules transformed my confidence. Got promoted to Team Leader at TCS with 45% salary hike after completing this course. The mock interviews and presentation practice were invaluable. Highly recommend!'
-        },
-        {
-            name: 'Rajesh Kumar',
-            designation: 'Business Analyst at Infosys',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Best soft skills course in Mumbai! The practical approach with role-plays and real scenarios built my communication and problem-solving skills. Cleared 8 interviews and joined Infosys as Business Analyst with ₹12 LPA. Trainers were exceptional with personalized feedback!'
-        },
-        {
-            name: 'Sneha Desai',
-            designation: 'Project Manager at Wipro',
-            rating: 5,
-            avatar: 'SD',
-            review: 'Outstanding soft skills training! The leadership, time management, and emotional intelligence modules prepared me perfectly for management role. Got promoted to Project Manager at Wipro with 60% salary increase. The interview preparation was phenomenal!'
-        },
-        {
-            name: 'Amit Patel',
-            designation: 'Consultant at Deloitte',
-            rating: 5,
-            avatar: 'AP',
-            review: 'Comprehensive soft skills program! The presentation skills, client management, and business etiquette training gave me the confidence to crack Big 4 interviews. Now working as Consultant at Deloitte with ₹16 LPA. Best career investment!'
-        },
-        {
-            name: 'Neha Joshi',
-            designation: 'HR Manager at HDFC Bank',
-            rating: 5,
-            avatar: 'NJ',
-            review: 'The most practical soft skills training! Video recorded presentations with expert feedback, mock interviews with HR professionals, and real-world scenarios built incredible confidence. Got HR Manager role at HDFC with ₹14 LPA. Excellent ROI!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -19612,6 +18691,11 @@ export const courses = [
 
 {
     slug: 'soft-skills-personality-development-course-in-mumbai',
+        seo: {
+            title: 'Soft Skills & Personality Development Course in Mumbai',
+            description: 'Transform your personality and career with comprehensive training in Communication Skills, Self-Confidence, Leadership, Emotional Intelligence, Time Management, Public Speaking, Interpersonal Skills, Body Language, Professional Etiquette, Goal Setting, Stress Management, Problem-Solving, and Interview Skills from certified personality development experts',
+            keywords: 'Soft Skills & Personality Development Course in Mumbai, Soft Skills & Personality Development Course in Mumbai Course, Soft Skills & Personality Development Course in Mumbai Training, Soft Skills & Personality Development Course in Mumbai Certification, Best Soft Skills & Personality Development Course in Mumbai Course'
+        },
     heroData: {
         title: 'Soft Skills & Personality Development Course in Mumbai',
         subtitle: 'Master Communication, Leadership, Confidence & Professional Excellence',
@@ -20389,43 +19473,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Deshmukh',
-            designation: 'Team Leader at TCS',
-            rating: 5,
-            avatar: 'PD',
-            review: 'Life-transforming experience! I was shy and introverted before this course. The personality development training built my confidence, communication, and leadership skills. Got promoted to Team Leader at TCS with 50% salary hike. The before-after transformation is unbelievable. Forever grateful!'
-        },
-        {
-            name: 'Rajesh Mehta',
-            designation: 'Business Development Manager at HDFC',
-            rating: 5,
-            avatar: 'RM',
-            review: 'Outstanding personality development program! The self-awareness, communication mastery, and public speaking training transformed me completely. Cleared 10 interviews and joined HDFC as BDM with ₹14 LPA. The video feedback and one-on-one coaching were game-changers. Highly recommend!'
-        },
-        {
-            name: 'Sneha Kulkarni',
-            designation: 'HR Manager at Infosys',
-            rating: 5,
-            avatar: 'SK',
-            review: 'The most comprehensive soft skills and personality course! From confidence building to leadership to emotional intelligence - covered everything. Got promoted to HR Manager at Infosys with 60% salary increase. The trainers genuinely care about your transformation. Best investment ever!'
-        },
-        {
-            name: 'Amit Shah',
-            designation: 'Senior Consultant at Deloitte',
-            rating: 5,
-            avatar: 'AS',
-            review: 'Incredible transformation in just 10 weeks! The presentation skills, professional etiquette, and interview preparation helped me crack Deloitte Big 4 with ₹16 LPA. My confidence, communication, and overall personality improved dramatically. Thank you for changing my life!'
-        },
-        {
-            name: 'Neha Patil',
-            designation: 'Entrepreneur',
-            rating: 5,
-            avatar: 'NP',
-            review: 'Perfect blend of soft skills and personality development! The leadership, communication, confidence, and goal-setting modules prepared me to start my business. Now running successful startup with 12 employees. The personal development and mindset shift training was phenomenal!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -20497,6 +19544,11 @@ export const courses = [
 
 {
     slug: 'german-a1-a2-course-in-mumbai',
+        seo: {
+            title: 'German A1 & A2 Language Course in Mumbai',
+            description: 'Learn German from scratch with comprehensive A1 and A2 level training covering Grammar, Vocabulary, Speaking, Listening, Reading, Writing, German Culture, Goethe-Institut certification preparation, and practical conversation skills from certified German language trainers for study abroad, jobs in Germany, and career advancement',
+            keywords: 'German A1 & A2 Language Course in Mumbai, German A1 & A2 Language Course in Mumbai Course, German A1 & A2 Language Course in Mumbai Training, German A1 & A2 Language Course in Mumbai Certification, Best German A1 & A2 Language Course in Mumbai Course'
+        },
     heroData: {
         title: 'German A1 & A2 Language Course in Mumbai',
         subtitle: 'Master German Language - Beginner to Elementary Level',
@@ -20504,7 +19556,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '6 Months', color: 'bg-orange-500' },
             { icon: Users, label: '4200+ Students', color: 'bg-orange-600' },
-            { icon: Award, label: 'Goethe Certificate', color: 'bg-orange-700' },
+            { icon: Award, label: 'Certification', color: 'bg-orange-700' },
             { icon: Briefcase, label: 'Study Abroad', color: 'bg-orange-500' }
         ]
     },
@@ -20909,43 +19961,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Nair',
-            designation: 'MS Student at TU Munich',
-            rating: 5,
-            avatar: 'PN',
-            review: 'Excellent German A1+A2 course! The teaching methodology was outstanding with perfect balance of grammar, vocabulary, and conversation. Cleared Goethe A2 with 95 marks and got admission to TU Munich for Masters in Mechanical Engineering. Now studying in Germany tuition-free. Thank you!'
-        },
-        {
-            name: 'Rajesh Kulkarni',
-            designation: 'Ausbildung in Germany',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Best German language institute in Mumbai! The trainers have genuine Germany experience and teach practical German. Cleared Goethe A2 and B1, got Ausbildung in Mechatronics in Stuttgart earning €1,100/month. Now settled in Germany. Highly recommend for Germany dreams!'
-        },
-        {
-            name: 'Sneha Patil',
-            designation: 'German Trainer at Goethe-Institut',
-            rating: 5,
-            avatar: 'SP',
-            review: 'Outstanding German course with excellent grammar foundation and speaking practice. The small batch size ensured personal attention. Cleared all Goethe exams (A1 to C1) and now teaching German at Goethe-Institut Mumbai earning ₹8 LPA. Best career decision!'
-        },
-        {
-            name: 'Amit Deshmukh',
-            designation: 'Customer Support at Bosch',
-            rating: 5,
-            avatar: 'AD',
-            review: 'Comprehensive A1+A2 training with practical focus. Learned German from scratch and cleared Goethe A2. Got job in Bosch India as German Customer Support with ₹7 LPA salary (40% premium over non-German roles). The study abroad guidance was also excellent!'
-        },
-        {
-            name: 'Neha Sharma',
-            designation: 'Bachelor Student at University of Stuttgart',
-            rating: 5,
-            avatar: 'NS',
-            review: 'Perfect preparation for studying in Germany! Cleared Goethe A2 and B1, got admission to University of Stuttgart for Computer Science. The visa guidance and university application support was invaluable. Now studying in Germany with €850/month part-time job!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -20960,7 +19975,7 @@ export const courses = [
         {
             id: 3,
             question: 'What is Goethe-Zertifikat and why is it important?',
-            answer: 'Goethe-Zertifikat is the official German language certification issued by Goethe-Institut (Germany\'s worldwide cultural institute) recognized globally by universities, employers, and governments. Levels: A1 (Beginner), A2 (Elementary), B1 (Intermediate), B2 (Upper Intermediate), C1 (Advanced), C2 (Mastery). Why Goethe certificate is important: 1) University admission: German universities require Goethe certificate (typically B1-B2 for bachelor, B2-C1 for master) as proof of German proficiency for programs taught in German. Without certificate, admission denied. 2) Germany visa: Student visa, work visa, and permanent residency applications require Goethe certificate proving German language skills. A1 for spouse visa, B1 for citizenship. 3) Job requirements: Many jobs in Germany and German MNCs require Goethe certificate for hiring. 4) Standardized assessment: Goethe exam tests all four skills - listening, reading, writing, speaking - ensuring comprehensive language ability. 5) International recognition: Accepted worldwide unlike local certificates which lack credibility. 6) Lifetime validity: Goethe certificates don\'t expire (though universities may require recent certificates). Exam structure: 4 modules (listening, reading, writing, speaking) each worth 100 points, need 60/100 (60%) in each module to pass. Exam fees: A1 (₹7,000-9,000), A2 (₹9,000-11,000). Our course includes complete Goethe exam preparation with mock tests ensuring 95% pass rate.'
+            answer: 'Goethe-Zertifikat is the official German language certification issued by Goethe-Institut (Germany\'s worldwide cultural institute) recognized globally by universities, employers, and governments. Levels: A1 (Beginner), A2 (Elementary), B1 (Intermediate), B2 (Upper Intermediate), C1 (Advanced), C2 (Mastery). Why Certification is important: 1) University admission: German universities require Certification (typically B1-B2 for bachelor, B2-C1 for master) as proof of German proficiency for programs taught in German. Without certificate, admission denied. 2) Germany visa: Student visa, work visa, and permanent residency applications require Certification proving German language skills. A1 for spouse visa, B1 for citizenship. 3) Job requirements: Many jobs in Germany and German MNCs require Certification for hiring. 4) Standardized assessment: Goethe exam tests all four skills - listening, reading, writing, speaking - ensuring comprehensive language ability. 5) International recognition: Accepted worldwide unlike local certificates which lack credibility. 6) Lifetime validity: Certifications don\'t expire (though universities may require recent certificates). Exam structure: 4 modules (listening, reading, writing, speaking) each worth 100 points, need 60/100 (60%) in each module to pass. Exam fees: A1 (₹7,000-9,000), A2 (₹9,000-11,000). Our course includes complete Goethe exam preparation with mock tests ensuring 95% pass rate.'
         },
         {
             id: 4,
@@ -21017,6 +20032,11 @@ export const courses = [
 
 {
     slug: 'german-a1-course-in-mumbai',
+        seo: {
+            title: 'German A1 Language Course in Mumbai',
+            description: 'Master German A1 level with comprehensive beginner training covering Basic Grammar, Essential Vocabulary, Speaking Practice, Listening Skills, Reading and Writing, German Pronunciation, Daily Conversations, Goethe-Zertifikat A1 preparation from certified German trainers for study abroad, career growth, and Germany opportunities',
+            keywords: 'German A1 Language Course in Mumbai, German A1 Language Course in Mumbai Course, German A1 Language Course in Mumbai Training, German A1 Language Course in Mumbai Certification, Best German A1 Language Course in Mumbai Course'
+        },
     heroData: {
         title: 'German A1 Language Course in Mumbai',
         subtitle: 'Learn German from Scratch - Beginner Level',
@@ -21627,43 +20647,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Desai',
-            designation: 'A2 Level Student',
-            rating: 5,
-            avatar: 'PD',
-            review: 'Excellent German A1 course! Started with zero German knowledge and now can have basic conversations. The teaching was perfect with good balance of grammar and speaking. Cleared Goethe A1 with 92 marks. Now continuing with A2. The trainers are amazing!'
-        },
-        {
-            name: 'Rajesh Kulkarni',
-            designation: 'Preparing for Germany Study',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Best German A1 training in Mumbai! The course was comprehensive covering everything needed for beginners. Small batch size helped me practice speaking a lot. Cleared Goethe A1 exam easily. Now targeting B1 for university admission. Highly recommend!'
-        },
-        {
-            name: 'Sneha Patil',
-            designation: 'Working Professional',
-            rating: 5,
-            avatar: 'SP',
-            review: 'Great German A1 course with flexible evening batches perfect for working professionals. The interactive teaching with games and activities made learning fun. Cleared Goethe A1 and got promoted in my company (German MNC) with 25% salary hike. Thank you!'
-        },
-        {
-            name: 'Amit Shah',
-            designation: 'Engineering Student',
-            rating: 5,
-            avatar: 'AS',
-            review: 'Outstanding A1 German training! The trainers have real Germany experience and teach practical German. The pronunciation practice was very helpful. Cleared Goethe A1 with 88 marks. Planning to study in TU Munich after completing B2. Perfect start to German journey!'
-        },
-        {
-            name: 'Neha Sharma',
-            designation: 'Spouse Visa Applicant',
-            rating: 5,
-            avatar: 'NS',
-            review: 'Needed A1 certificate for Germany spouse visa. This course prepared me perfectly! Learned German from scratch in 3 months and cleared Goethe A1. Got my visa approved. The study materials and mock tests were excellent. Now settled in Germany with my husband!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -21678,7 +20661,7 @@ export const courses = [
         {
             id: 3,
             question: 'What is Goethe-Zertifikat A1 and do I need it?',
-            answer: 'Goethe-Zertifikat A1: Fit in Deutsch 1 (for youth) and Goethe-Zertifikat A1: Start Deutsch 1 (for adults) are official German language certifications issued by Goethe-Institut (Germany\'s worldwide cultural institute) proving A1 level proficiency. The certificate is recognized globally by universities, employers, governments, and immigration authorities. When you NEED Goethe A1: 1) Germany spouse/family reunion visa: If your spouse works in Germany and you want to join them, German embassy requires Goethe A1 certificate as proof of basic German for visa approval. Without A1 certificate, visa will be rejected. 2) Foundation for higher levels: While universities require B1-B2 and jobs require B2-C1, you cannot skip levels. Must start with A1, then A2, B1, B2 systematically. Goethe A1 certificate proves you completed beginner level. 3) Job applications: Some German MNCs in India prefer candidates with Goethe certificates proving systematic German learning (not just claiming "I know German"). 4) Personal achievement: Official certification validating your German learning effort and proficiency. When you DON\'T strictly need Goethe A1: If learning German purely for personal interest/travel without visa/job requirements, certification is optional (though recommended). Our course includes complete Goethe A1 exam preparation regardless of whether you take exam. Many students complete A1 training, skip A1 exam, continue to A2, and take both A2 and B1 exams together saving exam fees. However, we STRONGLY recommend taking Goethe A1 exam because: validates learning, builds exam confidence for higher levels, looks good on resume/LinkedIn, and relatively affordable (₹7,000-9,000). Our students have 96% pass rate!'
+            answer: 'Goethe-Zertifikat A1: Fit in Deutsch 1 (for youth) and Goethe-Zertifikat A1: Start Deutsch 1 (for adults) are official German language certifications issued by Goethe-Institut (Germany\'s worldwide cultural institute) proving A1 level proficiency. The certificate is recognized globally by universities, employers, governments, and immigration authorities. When you NEED Goethe A1: 1) Germany spouse/family reunion visa: If your spouse works in Germany and you want to join them, German embassy requires Goethe A1 certificate as proof of basic German for visa approval. Without A1 certificate, visa will be rejected. 2) Foundation for higher levels: While universities require B1-B2 and jobs require B2-C1, you cannot skip levels. Must start with A1, then A2, B1, B2 systematically. Goethe A1 certificate proves you completed beginner level. 3) Job applications: Some German MNCs in India prefer candidates with Certifications proving systematic German learning (not just claiming "I know German"). 4) Personal achievement: Official certification validating your German learning effort and proficiency. When you DON\'T strictly need Goethe A1: If learning German purely for personal interest/travel without visa/job requirements, certification is optional (though recommended). Our course includes complete Goethe A1 exam preparation regardless of whether you take exam. Many students complete A1 training, skip A1 exam, continue to A2, and take both A2 and B1 exams together saving exam fees. However, we STRONGLY recommend taking Goethe A1 exam because: validates learning, builds exam confidence for higher levels, looks good on resume/LinkedIn, and relatively affordable (₹7,000-9,000). Our students have 96% pass rate!'
         },
         {
             id: 4,
@@ -21720,6 +20703,11 @@ export const courses = [
 
 {
     slug: 'hr-generalist-course-in-mumbai',
+        seo: {
+            title: 'HR Generalist Training Course in Mumbai',
+            description: 'Become a certified HR Generalist with comprehensive training in Recruitment & Selection, Employee Onboarding, Training & Development, Performance Management, Compensation & Benefits, Employee Relations, HR Policies, Labour Laws, Payroll Management, HRIS, Talent Management, and complete HR Operations from experienced HR professionals',
+            keywords: 'HR Generalist Training Course in Mumbai, HR Generalist Training Course in Mumbai Course, HR Generalist Training Course in Mumbai Training, HR Generalist Training Course in Mumbai Certification, Best HR Generalist Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'HR Generalist Training Course in Mumbai',
         subtitle: 'Master Complete Human Resource Management - End-to-End HR',
@@ -22539,43 +21527,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Desai',
-            designation: 'HR Executive at TCS',
-            rating: 5,
-            avatar: 'PD',
-            review: 'Outstanding HR Generalist course! The comprehensive training from recruitment to payroll to labour laws prepared me perfectly for HR role. Got placed at TCS as HR Executive with ₹4.5 LPA package. The practical approach with real HR documents and case studies was exceptional. Highly recommend!'
-        },
-        {
-            name: 'Rajesh Kumar',
-            designation: 'HR Generalist at Infosys',
-            rating: 5,
-            avatar: 'RK',
-            review: 'Best HR training in Mumbai! The trainers have real corporate HR experience and taught practical HR operations. Learned everything from recruitment to compliance to payroll. Got job at Infosys as HR Generalist with ₹6 LPA. The placement support and mock interviews were excellent!'
-        },
-        {
-            name: 'Sneha Patil',
-            designation: 'Senior HR Executive at Wipro',
-            rating: 5,
-            avatar: 'SP',
-            review: 'Comprehensive HR Generalist program covering all HR functions! The labour laws module (PF, ESI, Gratuity) and payroll training were very detailed. Switched career from teaching to HR and now earning ₹5.5 LPA at Wipro. Best decision to join this course!'
-        },
-        {
-            name: 'Amit Shah',
-            designation: 'HR Coordinator at Deloitte',
-            rating: 5,
-            avatar: 'AS',
-            review: 'Excellent practical HR training! The recruitment simulations, performance management, and HR documentation practice prepared me for real HR work. Got placed at Deloitte Big 4 as HR Coordinator with ₹5 LPA package. The certification helped my resume stand out. Thank you!'
-        },
-        {
-            name: 'Neha Sharma',
-            designation: 'HR Manager at Startup',
-            rating: 5,
-            avatar: 'NS',
-            review: 'Perfect HR Generalist course for career changers! I was from sales background with zero HR knowledge. This course taught me end-to-end HR operations. Now working as HR Manager at startup with ₹7 LPA. The HRIS and Excel training was very useful. Highly valuable course!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -22628,6 +21579,11 @@ export const courses = [
 
 {
     slug: 'software-testing-course-in-mumbai',
+        seo: {
+            title: 'Software Testing Training Course in Mumbai',
+            description: 'Become a certified Software Tester with comprehensive training in Manual Testing, Automation Testing with Selenium WebDriver, TestNG, Cucumber, API Testing with Postman, Performance Testing with JMeter, Agile Testing, JIRA, SQL for Testers, Mobile Testing, and complete SDLC/STLC from experienced QA professionals',
+            keywords: 'Software Testing Training Course in Mumbai, Software Testing Training Course in Mumbai Course, Software Testing Training Course in Mumbai Training, Software Testing Training Course in Mumbai Certification, Best Software Testing Training Course in Mumbai Course'
+        },
     heroData: {
         title: 'Software Testing Training Course in Mumbai',
         subtitle: 'Master Manual & Automation Testing - QA Engineer Career',
@@ -23375,43 +22331,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Deshmukh',
-            designation: 'QA Engineer at TCS',
-            rating: 5,
-            avatar: 'PD',
-            review: 'Outstanding Software Testing course! Learned both manual and automation testing with hands-on projects. The Selenium framework development and API testing training were excellent. Got placed at TCS as QA Engineer with ₹5.2 LPA package within 2 weeks of course completion!'
-        },
-        {
-            name: 'Rahul Patil',
-            designation: 'Automation Tester at Infosys',
-            rating: 5,
-            avatar: 'RP',
-            review: 'Best testing institute in Mumbai! The trainers are experienced QA leads who taught practical industry concepts. Selenium WebDriver, TestNG, Cucumber BDD, API testing with Postman - everything covered. Got automation tester job at Infosys with ₹6.5 LPA. Highly recommend!'
-        },
-        {
-            name: 'Sneha Joshi',
-            designation: 'Senior QA at Cognizant',
-            rating: 5,
-            avatar: 'SJ',
-            review: 'Comprehensive testing course with 100% practical training! The real projects, JIRA training, and automation framework development prepared me perfectly. Switched from manual testing to automation and got 60% salary hike. Now earning ₹9 LPA at Cognizant as Senior QA!'
-        },
-        {
-            name: 'Amit Kumar',
-            designation: 'SDET at Amazon',
-            rating: 5,
-            avatar: 'AK',
-            review: 'Perfect course for developers wanting to become SDET! The Java, Selenium, REST Assured, and Jenkins training were exceptional. Built complete automation framework during course. Got SDET role at Amazon with ₹18 LPA package. The mock interviews and placement support were amazing!'
-        },
-        {
-            name: 'Neha Sharma',
-            designation: 'QA Lead at Wipro',
-            rating: 5,
-            avatar: 'NS',
-            review: 'Excellent testing training covering manual, automation, API, and performance testing! The ISTQB-aligned curriculum and industry tools (Selenium, JIRA, Postman, JMeter) made me job-ready. Got QA Lead position at Wipro with ₹12 LPA. Best investment in my career!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -23473,6 +22392,11 @@ export const courses = [
 
 {
     slug: 'salesforce-admin-developer-course-in-mumbai',
+        seo: {
+            title: 'Salesforce Admin + Developer (ADM + DEV) Course in Mumbai',
+            description: 'Become a certified Salesforce professional with comprehensive training in Salesforce Administration (ADM-201), Salesforce Development (Platform Developer I - PD-1), Apex Programming, Lightning Web Components (LWC), Visualforce, SOQL, SOSL, Integration, and complete Salesforce ecosystem from experienced Salesforce consultants and architects',
+            keywords: 'Salesforce Admin + Developer (ADM + DEV) Course in Mumbai, Salesforce Admin + Developer (ADM + DEV) Course in Mumbai Course, Salesforce Admin + Developer (ADM + DEV) Course in Mumbai Training, Salesforce Admin + Developer (ADM + DEV) Course in Mumbai Certification, Best Salesforce Admin + Developer (ADM + DEV) Course in Mumbai Course'
+        },
     heroData: {
         title: 'Salesforce Admin + Developer (ADM + DEV) Course in Mumbai',
         subtitle: 'Master Salesforce Administration & Development - PD-1 + Lightning Web Components',
@@ -23480,7 +22404,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '5 Months', color: 'bg-blue-500' },
             { icon: Users, label: '4800+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Placement', color: 'bg-blue-500' }
         ]
     },
@@ -23494,7 +22418,7 @@ export const courses = [
         title: 'About Salesforce ADM + DEV Course',
         description: 'Salesforce is the world\'s #1 CRM platform with massive demand for skilled administrators and developers offering exceptional career opportunities with salaries ranging ₹4-25 LPA in India. Our comprehensive Salesforce ADM + DEV Course in Mumbai is the most complete dual-certification program covering both Administration and Development preparing you for two official Salesforce certifications - Administrator (ADM-201) and Platform Developer I (PD-1). This industry-aligned course includes hands-on training in Salesforce fundamentals and CRM concepts, Salesforce Administration (ADM-201) - users, profiles, roles, OWD, sharing rules, workflows, process builder, flows, reports, dashboards, data management, security, Salesforce Development (PD-1) - Apex programming, triggers, batch apex, scheduled apex, SOQL and SOSL queries, Visualforce pages and controllers, Lightning Web Components (LWC) - modern UI development with JavaScript, Aura Components, Lightning App Builder, Salesforce integration with REST/SOAP APIs, governor limits and best practices, deployment using change sets and ANT, real-time Salesforce projects, ADM-201 and PD-1 certification preparation with mock exams, resume building and interview preparation with 100% placement support from Salesforce certified professionals with 10+ years of experience working in top consulting firms, product companies, and implementing Salesforce for Fortune 500 clients.',
         highlights: [
-            'Dual certification: ADM-201 (Administrator) + PD-1 (Platform Developer I) in single course',
+            'Certification: ADM-201 (Administrator) + PD-1 (Platform Developer I) in single course',
             '100% hands-on: Real Salesforce org, 10+ projects, declarative + programmatic development',
             'Complete stack: Admin, Apex, LWC, Visualforce, Integration, Security, Deployment',
             'Certification guarantee: Mock exams, dumps, guaranteed pass in ADM-201 and PD-1',
@@ -24364,7 +23288,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification',
+            title: 'Certification',
             description: 'ADM-201 Administrator + PD-1 Platform Developer I in single course',
             color: 'blue'
         },
@@ -24462,43 +23386,6 @@ export const courses = [
             seats: 'Available'
         }
     ],
-    reviews: [
-        {
-            name: 'Priya Mehta',
-            designation: 'Salesforce Developer at Deloitte',
-            rating: 5,
-            avatar: 'PM',
-            review: 'Outstanding Salesforce course! Comprehensive ADM + DEV training with hands-on projects. Cleared both ADM-201 and PD-1 certifications on first attempt. Got placed at Deloitte as Salesforce Developer with ₹9 LPA package. The Apex and LWC training were exceptional. Best investment!'
-        },
-        {
-            name: 'Rahul Sharma',
-            designation: 'Salesforce Consultant at Accenture',
-            rating: 5,
-            avatar: 'RS',
-            review: 'Best Salesforce training in Mumbai! The trainers are 5x certified Salesforce experts who taught real-world scenarios. Learned admin, Apex, LWC, integration - everything. Got Salesforce Consultant role at Accenture with ₹11 LPA. The certification preparation and placement support were amazing!'
-        },
-        {
-            name: 'Sneha Patil',
-            designation: 'Technical Lead at TCS',
-            rating: 5,
-            avatar: 'SP',
-            review: 'Comprehensive Salesforce ADM + DEV program covering administration and development! The Lightning Web Components and Apex triggers training were very detailed. Switched from Java development to Salesforce and now earning ₹15 LPA at TCS as Technical Lead. Highly recommend!'
-        },
-        {
-            name: 'Amit Kumar',
-            designation: 'Salesforce Architect at Capgemini',
-            rating: 5,
-            avatar: 'AK',
-            review: 'Perfect course for complete Salesforce mastery! The real-time projects, integration training, and deployment practice prepared me for complex implementations. Cleared ADM-201, PD-1, and later PD-2. Now Salesforce Architect at Capgemini earning ₹22 LPA. Excellent course structure!'
-        },
-        {
-            name: 'Neha Singh',
-            designation: 'Remote Salesforce Developer (US Client)',
-            rating: 5,
-            avatar: 'NS',
-            review: 'Excellent Salesforce training with dual certification! The LWC training was cutting-edge and industry-relevant. Got remote job with US company earning $65,000 (₹55 LPA) working from India. The Trailhead guidance and mock interviews were invaluable. Life-changing course!'
-        }
-    ],
     faqs: [
         {
             id: 1,
@@ -24560,6 +23447,11 @@ export const courses = [
 
 {
     slug: 'ui-ux-course-in-mumbai',
+        seo: {
+            title: 'UI/UX Course in Mumbai',
+            description: 'Become a certified UI/UX Designer with comprehensive training in User Research, Wireframing, Prototyping, Visual Design, Interaction Design, Figma, Adobe XD, Sketch, Usability Testing, Design Thinking, Responsive Design, Mobile App Design, and complete design process from experienced UI/UX designers working in top product companies',
+            keywords: 'UI/UX Course in Mumbai, UI/UX Course in Mumbai Course, UI/UX Course in Mumbai Training, UI/UX Course in Mumbai Certification, Best UI/UX Course in Mumbai Course'
+        },
     heroData: {
         title: 'UI/UX Course in Mumbai',
         subtitle: 'Master User Interface & User Experience Design',
@@ -25479,43 +24371,6 @@ export const courses = [
             schedule: '9:00 AM - 4:00 PM',
             location: 'Mumbai',
             seats: 'Available'
-        }
-    ],
-    reviews: [
-        {
-            name: 'Priya Desai',
-            designation: 'UI/UX Designer at Swiggy',
-            rating: 5,
-            avatar: 'PD',
-            review: 'Outstanding UI/UX course! Comprehensive training from user research to prototyping to visual design. Built 10+ projects for portfolio including food delivery and fintech apps. Got placed at Swiggy as UI/UX Designer with ₹8 LPA package. The Figma training and portfolio building were exceptional!'
-        },
-        {
-            name: 'Rahul Mehta',
-            designation: 'Product Designer at Paytm',
-            rating: 5,
-            avatar: 'RM',
-            review: 'Best UI/UX institute in Mumbai! The trainers are experienced designers who taught real-world design process. Learned Figma, Adobe XD, user research, wireframing, prototyping - everything. Got Product Designer role at Paytm with ₹10 LPA. The portfolio and interview prep were amazing!'
-        },
-        {
-            name: 'Sneha Patil',
-            designation: 'Senior UI Designer at Razorpay',
-            rating: 5,
-            avatar: 'SP',
-            review: 'Comprehensive UI/UX program covering both design and research! The mobile app design training (iOS/Android) and interaction design were very detailed. Switched from graphic design to UI/UX and now earning ₹12 LPA at Razorpay as Senior Designer. Highly recommend!'
-        },
-        {
-            name: 'Amit Kumar',
-            designation: 'Lead Designer at CRED',
-            rating: 5,
-            avatar: 'AK',
-            review: 'Perfect course for complete UI/UX mastery! The real projects, usability testing, and design systems training prepared me for product design roles. Built impressive portfolio with 10+ projects. Now Lead Designer at CRED earning ₹18 LPA. Excellent course structure and placement support!'
-        },
-        {
-            name: 'Neha Singh',
-            designation: 'Freelance UI/UX Designer',
-            rating: 5,
-            avatar: 'NS',
-            review: 'Excellent UI/UX training with portfolio building! The Figma mastery, prototyping, and case study creation were invaluable. Started freelancing after course earning ₹3,000-8,000 per screen. Now have US clients paying $80/hour. The freelancing guidance was game-changer. Life-changing course!'
         }
     ],
     faqs: [
