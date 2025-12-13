@@ -21,6 +21,7 @@ import {
 import { usePathname } from 'next/navigation';
 
 
+
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [openDropdowns, setOpenDropdowns] = useState({});
@@ -28,7 +29,9 @@ export default function Navbar() {
     const pathname = usePathname();
 
 
+
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
 
 
     const toggleDropdown = (index) => {
@@ -38,13 +41,22 @@ export default function Navbar() {
         }));
     };
 
+
     const toggleDesktopDropdown = (index) => {
         setDesktopOpenDropdown(desktopOpenDropdown === index ? null : index);
     };
 
+
     const closeDesktopDropdown = () => {
         setDesktopOpenDropdown(null);
     };
+
+    const handleMobileNavClick = (hasSubmenu) => {
+        if (!hasSubmenu) {
+            setIsMenuOpen(false);
+        }
+    };
+
 
 
     const navItems = [
@@ -133,7 +145,9 @@ export default function Navbar() {
   },
 
 
+
     ];
+
 
 
     return (
@@ -149,9 +163,11 @@ export default function Navbar() {
                 }
             `}</style>
 
+
             <nav className="bg-white shadow-sm sticky top-0 z-50 font-sans">
                 {/* Top Bar - Hidden on Mobile */}
             
+
 
 
                 {/* Main Navigation */}
@@ -168,6 +184,7 @@ export default function Navbar() {
                         </Link>
 
 
+
                         {/* Desktop Menu */}
                         <div className="hidden lg:flex h-full items-center">
                         {navItems.map((item, idx) => (
@@ -176,6 +193,7 @@ export default function Navbar() {
                 {item.name}
                 {item.submenu && <ChevronDown size={14} />}
             </Link>
+
 
 
             {/* Dropdown Menu */}
@@ -195,7 +213,9 @@ export default function Navbar() {
     ))}
 
 
+
     </div>
+
 
 
                         {/* Mobile Menu Button */}
@@ -206,18 +226,19 @@ export default function Navbar() {
                 </div>
 
 
+
                 {/* Mobile Menu Overlay */}
                 {isMenuOpen && (
                     <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-100 max-h-[80vh] overflow-y-auto hide-scrollbar">
                         <div className="flex flex-col p-4">
                             {navItems.map((item, idx) => (
                                 <div key={idx} className="border-b border-gray-100 last:border-0">
-                                    <button onClick={() => item.submenu && toggleDropdown(idx)} className="w-full py-3 px-2 font-semibold text-gray-800 flex justify-between items-center bg-gray-50 rounded mt-2 hover:bg-gray-100 transition-colors">
+                                    <Link href={item.link} onClick={() => { if (item.submenu) { toggleDropdown(idx); } else { handleMobileNavClick(false); } }} className="w-full py-3 px-2 font-semibold text-gray-800 flex justify-between items-center bg-gray-50 rounded mt-2 hover:bg-gray-100 transition-colors">
                                         {item.name}
                                         {item.submenu && (
                                             <ChevronDown size={16} className={`transition-transform duration-200 ${openDropdowns[idx] ? 'rotate-180' : ''}`} />
                                         )}
-                                    </button>
+                                    </Link>
                                     {item.submenu && openDropdowns[idx] && (
                                         <div className="pl-4 pb-2 bg-white">
                                             {item.submenu.map((subItem, subIdx) => (
