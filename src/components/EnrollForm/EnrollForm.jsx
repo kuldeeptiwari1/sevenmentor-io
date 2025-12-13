@@ -60,13 +60,9 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
         userEmailSubject: "Thanks for Enrolling",
       };
 
-      console.log("Sending payload:", payload);
-
-      await axios.post("/api/main-form", payload);
+      const response = await axios.post("/api/main-form", payload);
 
       console.log("API Response:", response.data);
-
-      // Show success popup
       setPopup({
         show: true,
         type: "success",
