@@ -431,11 +431,11 @@ export const courses = [
     heroData: {
         title: 'Certified Ethical Hacking (CEH v12) Course in Mumbai',
         subtitle: 'Master Advanced Penetration Testing, Vulnerability Assessment & Cybersecurity',
-        description: 'Become a Certified Ethical Hacker (CEH v12) with comprehensive hands-on training in penetration testing, network security, malware analysis, and advanced hacking techniques from EC-Council certified instructors',
+        description: 'Become a Certified Ethical Hacker (CEH v12) with comprehensive hands-on training in penetration testing, network security, malware analysis, and advanced hacking techniques from Certification instructors',
         badges: [
             { icon: Clock, label: '20 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '4200+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'EC-Council Certified', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -818,8 +818,8 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'EC-Council Certified Trainers',
-            description: 'Learn from official EC-Council certified instructors with 15+ years of real-world penetration testing experience',
+            title: 'Certification Trainers',
+            description: 'Learn from official Certification instructors with 15+ years of real-world penetration testing experience',
             color: 'blue'
         },
         {
@@ -926,7 +926,7 @@ export const courses = [
             designation: 'Security Analyst at HDFC Bank',
             rating: 5,
             avatar: 'PS',
-            review: 'The trainers are EC-Council certified and have deep industry knowledge. The course covers all 20 modules thoroughly with practical demonstrations. Got placed in HDFC Bank within 1 month of completing the course. Best investment for my career!'
+            review: 'The trainers are Certification and have deep industry knowledge. The course covers all 20 modules thoroughly with practical demonstrations. Got placed in HDFC Bank within 1 month of completing the course. Best investment for my career!'
         },
         {
             name: 'Karan Desai',
@@ -1027,7 +1027,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-purple-500' },
             { icon: Users, label: '3800+ Students', color: 'bg-purple-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-purple-700' },
+            { icon: Award, label: 'Certification', color: 'bg-purple-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-purple-500' }
         ]
     },
@@ -1041,7 +1041,7 @@ export const courses = [
         title: 'About SOC Analyst Training Course',
         description: 'Security Operations Center (SOC) Analyst is one of the most in-demand cybersecurity roles today. Our comprehensive SOC Analyst training in Mumbai prepares you to monitor, detect, analyze, and respond to cybersecurity incidents in real-time. This course covers everything from SOC fundamentals to advanced threat hunting, SIEM deployment, log analysis, incident response, and security automation using industry-standard tools like Splunk, QRadar, ELK Stack, and more.',
         highlights: [
-            'Dual Certification: EC-Council CSA + Institute Certified SOC Analyst',
+            'Certification: EC-Council CSA + Institute Certified SOC Analyst',
             'Hands-on training with Splunk, QRadar, ELK Stack, Wazuh, TheHive',
             'Real-world SOC environment simulation with 24/7 lab access',
             '45+ SIEM use cases covering all major attack scenarios',
@@ -1359,7 +1359,7 @@ export const courses = [
                 title: 'SOC Analyst Certification Preparation',
                 duration: '1 Week',
                 topics: [
-                    'EC-Council Certified SOC Analyst (CSA) Exam Overview',
+                    'Certification SOC Analyst (CSA) Exam Overview',
                     'Exam Format, Duration, and Passing Criteria',
                     'Mock Exams and Practice Questions',
                     'Exam Tips and Strategies',
@@ -1376,7 +1376,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification Program',
+            title: 'Certification Program',
             description: 'Earn EC-Council CSA + Institute Certification with 100% first-attempt pass guarantee',
             color: 'purple'
         },
@@ -1527,12 +1527,12 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications do I get after completing SOC training?',
-            answer: 'You will earn dual certifications: 1) EC-Council Certified SOC Analyst (CSA) - globally recognized certification, and 2) Institute Certified SOC Analyst with lifetime validity. Both certifications are highly valued by employers in India and internationally.'
+            answer: 'You will earn Certifications: 1) Certification SOC Analyst (CSA) - globally recognized certification, and 2) Institute Certified SOC Analyst with lifetime validity. Both certifications are highly valued by employers in India and internationally.'
         },
         {
             id: 5,
             question: 'What is the average salary for SOC Analyst in Mumbai?',
-            answer: 'Entry-level SOC Analysts in Mumbai earn ₹4-7 LPA, Mid-level (2-5 years experience) earn ₹8-14 LPA, and Senior SOC Analysts/Threat Hunters earn ₹15-25 LPA. Banking sector and MNCs offer higher packages. With dual certification, our students get 20-30% higher salary offers.'
+            answer: 'Entry-level SOC Analysts in Mumbai earn ₹4-7 LPA, Mid-level (2-5 years experience) earn ₹8-14 LPA, and Senior SOC Analysts/Threat Hunters earn ₹15-25 LPA. Banking sector and MNCs offer higher packages. With Certification, our students get 20-30% higher salary offers.'
         },
         {
             id: 6,
@@ -1562,7 +1562,7 @@ export const courses = [
         {
             id: 11,
             question: 'What is the EC-Council CSA exam format and passing criteria?',
-            answer: 'The EC-Council Certified SOC Analyst (CSA) exam consists of 100-150 multiple choice questions to be completed in 2-3 hours. The passing score is 70%. The exam can be taken at Pearson VUE centers or online proctored. Our training includes 500+ practice questions and 10+ full-length mock exams for guaranteed success.'
+            answer: 'The Certification SOC Analyst (CSA) exam consists of 100-150 multiple choice questions to be completed in 2-3 hours. The passing score is 70%. The exam can be taken at Pearson VUE centers or online proctored. Our training includes 500+ practice questions and 10+ full-length mock exams for guaranteed success.'
         },
         {
             id: 12,
@@ -1581,11 +1581,11 @@ export const courses = [
     heroData: {
         title: 'Computer Hacking Forensic Investigator (CHFI) Training Course in Mumbai',
         subtitle: 'Master Digital Forensics, Cybercrime Investigation, Evidence Collection & Forensic Analysis',
-        description: 'Become a Certified Hacking Forensic Investigator with comprehensive hands-on training in digital forensics, incident investigation, malware analysis, data recovery, and forensic reporting from EC-Council certified trainers',
+        description: 'Become a Certified Hacking Forensic Investigator with comprehensive hands-on training in digital forensics, incident investigation, malware analysis, data recovery, and forensic reporting from Certification trainers',
         badges: [
             { icon: Clock, label: '18 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '2500+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'CHFI v11 Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -1599,7 +1599,7 @@ export const courses = [
         title: 'About Computer Hacking Forensic Investigator (CHFI) Training Course',
         description: 'Computer Hacking Forensic Investigator (CHFI) is the leading global digital forensics certification designed by EC-Council for cybercrime investigation professionals. Our comprehensive CHFI v11 training in Mumbai prepares you to detect, investigate, analyze, and present digital evidence in cybercrime cases. This course covers the complete digital forensics investigation process from crime scene to courtroom, including hard disk forensics, memory forensics, network forensics, mobile forensics, malware analysis, cloud forensics, and expert witness testimony using industry-standard tools like EnCase, FTK, Autopsy, X-Ways Forensics, and more [web:3][web:6].',
         highlights: [
-            'EC-Council Certified Hacking Forensic Investigator (CHFI v11) - globally recognized certification',
+            'Certification Hacking Forensic Investigator (CHFI v11) - globally recognized certification',
             'Hands-on training with EnCase, FTK, Autopsy, X-Ways Forensics, Sleuth Kit, Volatility',
             'Real-world forensic lab environment with 50+ investigation scenarios',
             '40+ forensic case studies covering cybercrime, data breach, insider threat investigations',
@@ -1914,7 +1914,7 @@ export const courses = [
             },
             {
                 id: 18,
-                title: 'CHFI v11 Certification Exam Preparation',
+                title: 'Certification Exam Preparation',
                 duration: '1 Week',
                 topics: [
                     'EC-Council CHFI v11 Exam Overview and Format',
@@ -1934,7 +1934,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'EC-Council CHFI v11 Certification',
+            title: 'EC-Council Certification',
             description: 'Globally recognized certification with 100% first-attempt pass guarantee and lifetime validity',
             color: 'blue'
         },
@@ -2084,7 +2084,7 @@ export const courses = [
         },
         {
             id: 4,
-            question: 'What is the CHFI v11 certification exam format?',
+            question: 'What is the Certification exam format?',
             answer: 'The EC-Council CHFI v11 exam consists of 150 scenario-based multiple choice questions to be completed in 4 hours. The passing score is 70%. The exam can be taken at Pearson VUE testing centers or online proctored. Our training includes 500+ practice questions, 10+ mock exams, and hands-on lab scenarios for guaranteed success.'
         },
         {
@@ -2143,7 +2143,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '14 Weeks', color: 'bg-red-500' },
             { icon: Users, label: '4200+ Students', color: 'bg-red-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-red-700' },
+            { icon: Award, label: 'Certification', color: 'bg-red-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-red-500' }
         ]
     },
@@ -2157,7 +2157,7 @@ export const courses = [
         title: 'About Web Application Penetration Testing (WAPT) Training Course',
         description: 'Web Application Penetration Testing (WAPT) is the most sought-after cybersecurity skill focused on identifying and exploiting vulnerabilities in web applications and APIs [web:24][web:28]. Our comprehensive WAPT training in Mumbai prepares you to perform complete security assessments of web applications following OWASP methodology, from reconnaissance to exploitation and reporting. This course covers the complete OWASP Top 10 vulnerabilities, advanced exploitation techniques, API security testing, authentication bypass, privilege escalation, and automated vulnerability scanning using industry-standard tools like Burp Suite Professional, OWASP ZAP, sqlmap, Nikto, and custom Python scripts [web:24][web:28][web:31].',
         highlights: [
-            'Dual Certification: EC-Council CPENT + Institute Certified WAPT Professional',
+            'Certification: EC-Council CPENT + Institute Certified WAPT Professional',
             'Hands-on training with Burp Suite Professional, OWASP ZAP, sqlmap, Metasploit',
             'Real-world vulnerable web application labs with 50+ exploitation scenarios',
             'Complete OWASP Top 10 2023 + API Security vulnerabilities coverage [web:36][web:39]',
@@ -2526,7 +2526,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification Program',
+            title: 'Certification Program',
             description: 'Earn EC-Council CPENT + Institute Certification with 100% practical exam success guarantee',
             color: 'red'
         },
@@ -2735,7 +2735,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '20 Weeks', color: 'bg-cyan-500' },
             { icon: Users, label: '5000+ Students', color: 'bg-cyan-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-cyan-700' },
+            { icon: Award, label: 'Certification', color: 'bg-cyan-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-cyan-500' }
         ]
     },
@@ -2749,7 +2749,7 @@ export const courses = [
         title: 'About Cyber Security Analyst Program',
         description: 'Cyber Security Analyst is one of the most critical and in-demand roles protecting organizations from cyber threats in 2025 [web:41][web:45]. Our comprehensive Cyber Security Analyst Program in Mumbai is designed as a complete career transformation course covering all domains of cybersecurity including network security, application security, cloud security, threat detection, vulnerability management, incident response, security operations, compliance, and risk management [web:45][web:46]. This industry-aligned program prepares you for multiple job roles including Security Analyst, SOC Analyst, Vulnerability Analyst, Incident Responder, Security Engineer, and Compliance Analyst with hands-on training using enterprise tools like Splunk, Wireshark, Nessus, Metasploit, Burp Suite, and cloud security platforms [web:45][web:46].',
         highlights: [
-            'Triple Certification: CompTIA Security+ | CompTIA CySA+ | Institute Certified Security Analyst [web:42][web:45][web:46]',
+            'Certification: CompTIA Security+ | CompTIA CySA+ | Institute Certified Security Analyst [web:42][web:45][web:46]',
             'Complete cybersecurity toolkit training: SIEM, IDS/IPS, Vulnerability Scanners, Penetration Testing',
             'Real-world security operations with 24/7 SOC lab access and live threat scenarios',
             '60+ hands-on projects covering all cybersecurity domains [web:45]',
@@ -3118,7 +3118,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'CompTIA Security+ | CompTIA CySA+ | Institute Certification with guaranteed success [web:42][web:45][web:46]',
             color: 'cyan'
         },
@@ -3264,7 +3264,7 @@ export const courses = [
         {
             id: 3,
             question: 'Which certifications will I earn after completing this program?',
-            answer: 'You will earn triple certifications: 1) CompTIA Security+ - foundational security certification recognized globally [web:42][web:45], 2) CompTIA CySA+ - advanced analyst certification for SOC and incident response roles [web:46], and 3) Institute Certified Cyber Security Analyst with lifetime validity. All three certifications are highly valued by employers worldwide.'
+            answer: 'You will earn Certifications: 1) CompTIA Security+ - foundational security certification recognized globally [web:42][web:45], 2) CompTIA CySA+ - advanced analyst certification for SOC and incident response roles [web:46], and 3) Institute Certified Cyber Security Analyst with lifetime validity. All three certifications are highly valued by employers worldwide.'
         },
         {
             id: 4,
@@ -3328,7 +3328,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '24 Weeks', color: 'bg-indigo-500' },
             { icon: Users, label: '6500+ Students', color: 'bg-indigo-600' },
-            { icon: Award, label: 'Quad Certification', color: 'bg-indigo-700' },
+            { icon: Award, label: 'Certification', color: 'bg-indigo-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-indigo-500' }
         ]
     },
@@ -3342,7 +3342,7 @@ export const courses = [
         title: 'About Data Science, Machine Learning & AI Complete Program',
         description: 'Data Science, Machine Learning, and Artificial Intelligence are the most in-demand skills transforming every industry in 2025. Our comprehensive Data Science & AI Program in Mumbai is designed as a complete career transformation course covering the entire data science ecosystem from programming fundamentals to advanced deep learning applications. This industry-aligned program takes you from beginner to job-ready professional with hands-on training in Python programming, SQL database management, Probability & Statistics for data analysis, Machine Learning algorithms (supervised, unsupervised, ensemble methods), Deep Learning neural networks (CNN, RNN, transformers), Natural Language Processing, Computer Vision, and business intelligence with Power BI for data visualization and dashboards.',
         highlights: [
-            'Quad Certification: Python | Data Science | Machine Learning | AI Deep Learning',
+            'Certification: Python | Data Science | Machine Learning | AI Deep Learning',
             'Complete technology stack: Python, SQL, NumPy, Pandas, Scikit-learn, TensorFlow, Keras, PyTorch',
             'Real-world projects portfolio: 80+ hands-on projects including Kaggle competitions',
             'Live project training with real datasets from e-commerce, finance, healthcare, retail domains',
@@ -3796,7 +3796,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Quad Certification Package',
+            title: 'Certification Package',
             description: 'Python | Data Science | Machine Learning | AI Deep Learning certifications',
             color: 'indigo'
         },
@@ -3947,7 +3947,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive after completion?',
-            answer: 'You will earn quad certifications: 1) Python Programming Certification, 2) Data Science with Machine Learning Certification, 3) Artificial Intelligence with Deep Learning Certification, and 4) Institute Certified Data Scientist with lifetime validity. Additionally, you will build a strong GitHub portfolio with 80+ projects demonstrating your skills to employers.'
+            answer: 'You will earn Certifications: 1) Python Programming Certification, 2) Data Science with Machine Learning Certification, 3) Artificial Intelligence with Deep Learning Certification, and 4) Institute Certified Data Scientist with lifetime validity. Additionally, you will build a strong GitHub portfolio with 80+ projects demonstrating your skills to employers.'
         },
         {
             id: 5,
@@ -4006,7 +4006,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-teal-500' },
             { icon: Users, label: '7200+ Students', color: 'bg-teal-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-teal-700' },
+            { icon: Award, label: 'Certification', color: 'bg-teal-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-teal-500' }
         ]
     },
@@ -4020,7 +4020,7 @@ export const courses = [
         title: 'About Data Analytics with Python, SQL, Excel & Power BI Course',
         description: 'Data Analytics is the most in-demand business skill transforming decision-making across all industries in 2025. Our comprehensive Data Analytics Course in Mumbai is designed as a complete career program covering the entire analytics ecosystem from data collection to insights generation and visualization. This industry-aligned course prepares you to become a job-ready Data Analyst with hands-on training in Python for data analysis (NumPy, Pandas, Matplotlib), SQL for database querying and data extraction, Probability & Statistics for business decision-making, Advanced Excel for data modeling and dashboards, and Power BI for interactive business intelligence reports and visualizations used by Fortune 500 companies.',
         highlights: [
-            'Triple Certification: Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
+            'Certification: Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
             'Complete analytics toolkit: Python, SQL, Advanced Excel, Power BI, Tableau basics',
             'Real business datasets from retail, e-commerce, finance, healthcare, supply chain domains',
             '50+ hands-on projects including complete business analytics case studies',
@@ -4457,7 +4457,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
             color: 'teal'
         },
@@ -4608,7 +4608,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Python for Data Analytics Certification, 2) Microsoft Power BI Certification (recognized industry-wide), and 3) Institute Certified Data Analyst with lifetime validity. Additionally, you will build a strong portfolio on GitHub with 50+ projects demonstrating your analytics skills to employers.'
+            answer: 'You will earn Certifications: 1) Python for Data Analytics Certification, 2) Microsoft Power BI Certification (recognized industry-wide), and 3) Institute Certified Data Analyst with lifetime validity. Additionally, you will build a strong portfolio on GitHub with 50+ projects demonstrating your analytics skills to employers.'
         },
         {
             id: 5,
@@ -4667,7 +4667,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '8500+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -4681,7 +4681,7 @@ export const courses = [
         title: 'About Python Programming Course',
         description: 'Python is the #1 programming language in 2025 powering web applications, data science, machine learning, automation, DevOps, cybersecurity, and enterprise software development. Our comprehensive Python Programming Course in Mumbai is designed as a complete full-stack Python development program covering everything from programming fundamentals to advanced frameworks and real-world application development. This industry-aligned course prepares you to become a job-ready Python Developer with hands-on training in Python basics, advanced concepts, object-oriented programming, Django/Flask web frameworks, RESTful APIs, database integration (SQL, MongoDB), web scraping, automation scripts, data structures & algorithms, testing, deployment, and Git version control.',
         highlights: [
-            'Dual Certification: Python Programming | Python Web Development with Django/Flask',
+            'Certification: Python Programming | Python Web Development with Django/Flask',
             'Complete Python ecosystem: Core Python, Django, Flask, FastAPI, REST APIs, databases',
             'Real-world project portfolio: 60+ coding projects including 5 major capstone projects',
             'Live project development: E-commerce platform, Blog CMS, REST API, Automation tools',
@@ -5104,7 +5104,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification Package',
+            title: 'Certification Package',
             description: 'Python Programming Certification | Python Web Development Certification',
             color: 'blue'
         },
@@ -5255,7 +5255,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn dual certifications: 1) Python Programming Certification covering core Python, OOP, data structures, and algorithms, and 2) Python Web Development Certification covering Django, Flask, REST APIs, and database integration. Both certifications are industry-recognized with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects.'
+            answer: 'You will earn Certifications: 1) Python Programming Certification covering core Python, OOP, data structures, and algorithms, and 2) Python Web Development Certification covering Django, Flask, REST APIs, and database integration. Both certifications are industry-recognized with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects.'
         },
         {
             id: 5,
@@ -5314,7 +5314,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '22 Weeks', color: 'bg-purple-500' },
             { icon: Users, label: '6800+ Students', color: 'bg-purple-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-purple-700' },
+            { icon: Award, label: 'Certification', color: 'bg-purple-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-purple-500' }
         ]
     },
@@ -5328,7 +5328,7 @@ export const courses = [
         title: 'About Data Science Course',
         description: 'Data Science is the most sought-after career of the 21st century, combining statistics, programming, and domain expertise to solve complex business problems using data-driven approaches. Our comprehensive Data Science Course in Mumbai is designed as a complete career transformation program covering the entire data science lifecycle from data collection to model deployment. This industry-aligned course prepares you to become a job-ready Data Scientist with hands-on training in Python programming, advanced statistics, machine learning (supervised, unsupervised, ensemble), deep learning (CNN, RNN, transformers), natural language processing, computer vision, big data technologies (Spark, Hadoop), MLOps, and cloud deployment (AWS, Azure, GCP).',
         highlights: [
-            'Triple Certification: Python | Machine Learning | Deep Learning & AI',
+            'Certification: Python | Machine Learning | Deep Learning & AI',
             'Complete ML/DL stack: Scikit-learn, TensorFlow, Keras, PyTorch, Transformers',
             'Real industry projects: 75+ hands-on projects including Kaggle competitions',
             'Live deployment training: AWS SageMaker, Azure ML, Docker, MLOps pipelines',
@@ -5811,7 +5811,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification',
+            title: 'Certification',
             description: 'Python Programming | Machine Learning | Deep Learning & AI certifications',
             color: 'purple'
         },
@@ -6021,7 +6021,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-teal-500' },
             { icon: Users, label: '7200+ Students', color: 'bg-teal-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-teal-700' },
+            { icon: Award, label: 'Certification', color: 'bg-teal-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-teal-500' }
         ]
     },
@@ -6035,7 +6035,7 @@ export const courses = [
         title: 'About Data Analytics with Python, SQL, Excel & Power BI Course',
         description: 'Data Analytics is the most in-demand business skill transforming decision-making across all industries in 2025. Our comprehensive Data Analytics Course in Mumbai is designed as a complete career program covering the entire analytics ecosystem from data collection to insights generation and visualization. This industry-aligned course prepares you to become a job-ready Data Analyst with hands-on training in Python for data analysis (NumPy, Pandas, Matplotlib), SQL for database querying and data extraction, Probability & Statistics for business decision-making, Advanced Excel for data modeling and dashboards, and Power BI for interactive business intelligence reports and visualizations used by Fortune 500 companies.',
         highlights: [
-            'Triple Certification: Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
+            'Certification: Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
             'Complete analytics toolkit: Python, SQL, Advanced Excel, Power BI, Tableau basics',
             'Real business datasets from retail, e-commerce, finance, healthcare, supply chain domains',
             '50+ hands-on projects including complete business analytics case studies',
@@ -6472,7 +6472,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Python Data Analytics | Microsoft Power BI | Institute Certified Data Analyst',
             color: 'teal'
         },
@@ -6623,7 +6623,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Python for Data Analytics Certification, 2) Microsoft Power BI Certification (recognized industry-wide), and 3) Institute Certified Data Analyst with lifetime validity. Additionally, you will build a strong portfolio on GitHub with 50+ projects demonstrating your analytics skills to employers.'
+            answer: 'You will earn Certifications: 1) Python for Data Analytics Certification, 2) Microsoft Power BI Certification (recognized industry-wide), and 3) Institute Certified Data Analyst with lifetime validity. Additionally, you will build a strong portfolio on GitHub with 50+ projects demonstrating your analytics skills to employers.'
         },
         {
             id: 5,
@@ -6682,7 +6682,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '8 Weeks', color: 'bg-green-500' },
             { icon: Users, label: '9500+ Students', color: 'bg-green-600' },
-            { icon: Award, label: 'Microsoft Certification', color: 'bg-green-700' },
+            { icon: Award, label: 'Certification', color: 'bg-green-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-green-500' }
         ]
     },
@@ -7241,7 +7241,7 @@ export const courses = [
         },
         {
             id: 4,
-            question: 'Will I get Microsoft certification?',
+            question: 'Will I get Certification?',
             answer: 'This course prepares you completely for the Microsoft Office Specialist (MOS) Excel Expert certification exam [web:73]. We cover all exam topics with practice tests. The MOS certification is globally recognized and validates your advanced Excel skills to employers worldwide. Certification exam fee is separate and you can take it at authorized Pearson VUE centers.'
         },
         {
@@ -7301,7 +7301,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '18 Weeks', color: 'bg-purple-500' },
             { icon: Users, label: '6800+ Students', color: 'bg-purple-600' },
-            { icon: Award, label: 'Quad Certification', color: 'bg-purple-700' },
+            { icon: Award, label: 'Certification', color: 'bg-purple-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-purple-500' }
         ]
     },
@@ -7315,7 +7315,7 @@ export const courses = [
         title: 'About Python + SQL + Advanced Excel + Power BI Complete Course',
         description: 'This is the most comprehensive Business Analytics and Data Analysis program combining the four essential tools required by every organization in 2025 - Python for data analysis and automation, SQL for database querying and data extraction, Advanced Excel with VBA for business modeling and dashboards, and Power BI for interactive business intelligence and visualization. Our industry-aligned course prepares you to become a versatile Data Professional capable of handling end-to-end analytics projects from data collection, cleaning, analysis, visualization to automated reporting and business insights generation used by Fortune 500 companies.',
         highlights: [
-            'Quad Certification: Python | SQL | Advanced Excel | Power BI Developer',
+            'Certification: Python | SQL | Advanced Excel | Power BI Developer',
             'Complete analytics ecosystem: 4 most in-demand tools in one program',
             'Real business projects: 60+ hands-on projects from finance, retail, e-commerce, HR domains',
             'End-to-end analytics workflow: Extract data (SQL) → Analyze (Python/Excel) → Visualize (Power BI)',
@@ -7701,7 +7701,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Quad Certification Package',
+            title: 'Certification Package',
             description: 'Python Programming | SQL Database | Advanced Excel | Power BI Developer certifications',
             color: 'purple'
         },
@@ -7857,7 +7857,7 @@ export const courses = [
         {
             id: 5,
             question: 'What certifications will I receive?',
-            answer: 'You will earn quad certifications: 1) Python Programming for Data Analysis Certification, 2) SQL Database Management Certification, 3) Advanced Excel with VBA Certification, 4) Microsoft Power BI Developer Certification. All certifications are industry-recognized with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects demonstrating proficiency in all four tools.'
+            answer: 'You will earn Certifications: 1) Python Programming for Data Analysis Certification, 2) SQL Database Management Certification, 3) Advanced Excel with VBA Certification, 4) Microsoft Power BI Developer Certification. All certifications are industry-recognized with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects demonstrating proficiency in all four tools.'
         },
         {
             id: 6,
@@ -7911,7 +7911,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '22 Weeks', color: 'bg-orange-500' },
             { icon: Users, label: '5500+ Students', color: 'bg-orange-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-orange-700' },
+            { icon: Award, label: 'Certification', color: 'bg-orange-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-orange-500' }
         ]
     },
@@ -7925,7 +7925,7 @@ export const courses = [
         title: 'About Full Stack Java Developer Course',
         description: 'Full Stack Java Development is the most sought-after skill in enterprise software development with Java remaining the #1 choice for building scalable, secure, and high-performance applications in 2025. Our comprehensive Full Stack Java Developer Course in Mumbai is designed as a complete career transformation program covering the entire Java ecosystem from programming fundamentals to enterprise application development. This industry-aligned course prepares you to become a job-ready Full Stack Java Developer with hands-on training in Core Java, Advanced Java (JDBC, Servlets, JSP), Spring Framework (Spring Core, Spring MVC, Spring Boot), Hibernate ORM, RESTful web services, Microservices architecture, frontend technologies (React.js/Angular), databases (MySQL, MongoDB), version control (Git), Docker containerization, Kubernetes orchestration, and cloud deployment on AWS.',
         highlights: [
-            'Triple Certification: Core Java | Advanced Java & Spring Boot | Full Stack Developer',
+            'Certification: Core Java | Advanced Java & Spring Boot | Full Stack Developer',
             'Complete Java tech stack: Java 17, Spring Boot 3, Hibernate, React.js, Microservices',
             'Real enterprise projects: E-commerce platform, Banking app, Social media, Microservices',
             '70+ hands-on projects including 10 major full-stack applications with deployment',
@@ -8410,7 +8410,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Core Java | Advanced Java & Spring Boot | Full Stack Java Developer certifications',
             color: 'orange'
         },
@@ -8561,7 +8561,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Core Java Programming Certification covering Java fundamentals and OOP, 2) Advanced Java & Spring Boot Certification covering enterprise frameworks, 3) Full Stack Java Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 70+ projects and deployed applications demonstrating your full stack expertise.'
+            answer: 'You will earn Certifications: 1) Core Java Programming Certification covering Java fundamentals and OOP, 2) Advanced Java & Spring Boot Certification covering enterprise frameworks, 3) Full Stack Java Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 70+ projects and deployed applications demonstrating your full stack expertise.'
         },
         {
             id: 5,
@@ -8620,7 +8620,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '20 Weeks', color: 'bg-indigo-500' },
             { icon: Users, label: '6200+ Students', color: 'bg-indigo-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-indigo-700' },
+            { icon: Award, label: 'Certification', color: 'bg-indigo-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-indigo-500' }
         ]
     },
@@ -8634,7 +8634,7 @@ export const courses = [
         title: 'About Full Stack Python Developer Course',
         description: 'Full Stack Python Development is the fastest-growing career path in web development with Python being the #1 most loved programming language and powering applications at Google, Instagram, Netflix, Spotify, and thousands of startups in 2025. Our comprehensive Full Stack Python Developer Course in Mumbai is designed as a complete career transformation program covering the entire Python web development ecosystem from programming fundamentals to production-ready application development. This industry-aligned course prepares you to become a job-ready Full Stack Python Developer with hands-on training in Core Python, Object-Oriented Programming, Django framework (MVT architecture), Flask microframework, Django REST Framework for APIs, React.js for frontend, databases (MySQL, PostgreSQL, MongoDB), authentication & authorization, payment integration, web scraping, deployment with Docker, AWS cloud hosting, and Git version control.',
         highlights: [
-            'Triple Certification: Python Programming | Django Framework | Full Stack Python Developer',
+            'Certification: Python Programming | Django Framework | Full Stack Python Developer',
             'Complete Python stack: Python 3.12, Django 5, Flask 3, React.js, REST APIs, MongoDB',
             'Real production projects: E-commerce, Social media, LMS, Job portal, Microservices',
             '65+ hands-on projects including 8 major full-stack applications with live deployment',
@@ -9119,7 +9119,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Python Programming | Django Framework | Full Stack Python Developer certifications',
             color: 'indigo'
         },
@@ -9270,7 +9270,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Python Programming Certification covering Core Python and OOP, 2) Django Framework Certification covering web development and REST APIs, 3) Full Stack Python Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 65+ projects and 8 deployed full-stack applications demonstrating your expertise to employers.'
+            answer: 'You will earn Certifications: 1) Python Programming Certification covering Core Python and OOP, 2) Django Framework Certification covering web development and REST APIs, 3) Full Stack Python Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 65+ projects and 8 deployed full-stack applications demonstrating your expertise to employers.'
         },
         {
             id: 5,
@@ -9329,7 +9329,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-cyan-500' },
             { icon: Users, label: '8200+ Students', color: 'bg-cyan-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-cyan-700' },
+            { icon: Award, label: 'Certification', color: 'bg-cyan-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-cyan-500' }
         ]
     },
@@ -9343,7 +9343,7 @@ export const courses = [
         title: 'About Software Testing Course',
         description: 'Software Testing is the most recession-proof IT career with every software application requiring thorough testing before deployment, creating unlimited opportunities in 2025 [web:80][web:81][web:82]. Our comprehensive Software Testing Course in Mumbai is designed as a complete career program covering both Manual Testing and Automation Testing with industry-standard tools and frameworks [web:80][web:81][web:82]. This 100-day curriculum prepares you to become a job-ready QA Engineer with hands-on training in SDLC/STLC models, test planning and strategy, test case design techniques (BVA, Equivalence Partitioning, Decision Tables), defect management, Agile/Scrum methodology, Java programming for automation, Selenium WebDriver with frameworks, TestNG, Cucumber BDD, API testing with Postman and REST Assured, performance testing with JMeter, database testing with SQL, and CI/CD integration with Jenkins [web:80][web:81][web:82].',
         highlights: [
-            'Dual Certification: Manual Testing Expert | Selenium Automation Tester with ISTQB prep [web:82]',
+            'Certification: Manual Testing Expert | Selenium Automation Tester with ISTQB prep [web:82]',
             'Complete testing toolkit: Manual + Selenium + API + Performance + Mobile testing [web:80][web:81]',
             'Real project testing: E-commerce, Banking, Healthcare applications with live defects [web:82]',
             '55+ hands-on projects covering functional, regression, API, performance testing [web:81]',
@@ -9785,7 +9785,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification + ISTQB Prep',
+            title: 'Certification + ISTQB Prep',
             description: 'Manual Testing Expert | Selenium Automation Tester + ISTQB Foundation prep [web:82]',
             color: 'cyan'
         },
@@ -9936,7 +9936,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn dual certifications: 1) Manual Testing Expert Certification covering SDLC, STLC, test case design, defect management, 2) Selenium Automation Tester Certification covering Selenium, Java, TestNG, frameworks. We also provide ISTQB Foundation Level certification preparation with mock tests [web:82]. You will build a professional portfolio with 55+ testing projects on GitHub.'
+            answer: 'You will earn Certifications: 1) Manual Testing Expert Certification covering SDLC, STLC, test case design, defect management, 2) Selenium Automation Tester Certification covering Selenium, Java, TestNG, frameworks. We also provide ISTQB Foundation Level certification preparation with mock tests [web:82]. You will build a professional portfolio with 55+ testing projects on GitHub.'
         },
         {
             id: 5,
@@ -9995,7 +9995,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '18 Weeks', color: 'bg-emerald-500' },
             { icon: Users, label: '7800+ Students', color: 'bg-emerald-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-emerald-700' },
+            { icon: Award, label: 'Certification', color: 'bg-emerald-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-emerald-500' }
         ]
     },
@@ -10009,7 +10009,7 @@ export const courses = [
         title: 'About Web Full Stack Developer Course',
         description: 'Web Full Stack Development is the most versatile and in-demand tech career in 2025, powering every website, web application, and digital platform across industries. Our comprehensive Web Full Stack Developer Course in Mumbai is designed as a complete career transformation program covering the entire web development ecosystem from frontend to backend to deployment. This industry-aligned course prepares you to become a job-ready Full Stack Web Developer with hands-on training in HTML5 for structure, CSS3 and Tailwind CSS for styling, JavaScript ES6+ for interactivity, React.js for modern frontend, Node.js and Express.js for backend APIs, MongoDB and MySQL for databases, RESTful API development, authentication with JWT, Redux for state management, Next.js for server-side rendering, Git version control, Docker containerization, and deployment on AWS, Vercel, and Netlify.',
         highlights: [
-            'Triple Certification: Frontend Developer | Backend Developer | Full Stack Web Developer',
+            'Certification: Frontend Developer | Backend Developer | Full Stack Web Developer',
             'Complete MERN stack: MongoDB, Express.js, React.js, Node.js + MySQL, Next.js',
             'Real production projects: E-commerce, Social media, Blog CMS, SAAS dashboard, API development',
             '60+ hands-on projects including 10 major full-stack applications with live deployment',
@@ -10485,7 +10485,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Package',
+            title: 'Certification Package',
             description: 'Frontend Developer | Backend Developer | Full Stack Web Developer certifications',
             color: 'emerald'
         },
@@ -10636,7 +10636,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn triple certifications: 1) Frontend Developer Certification covering HTML, CSS, JavaScript, React, 2) Backend Developer Certification covering Node.js, Express, databases, APIs, 3) Full Stack Web Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects and 10 deployed full-stack applications.'
+            answer: 'You will earn Certifications: 1) Frontend Developer Certification covering HTML, CSS, JavaScript, React, 2) Backend Developer Certification covering Node.js, Express, databases, APIs, 3) Full Stack Web Developer Certification with lifetime validity. You will also build a professional GitHub portfolio with 60+ projects and 10 deployed full-stack applications.'
         },
         {
             id: 5,
@@ -10695,7 +10695,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '9200+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -10709,7 +10709,7 @@ export const courses = [
         title: 'About Web Development Course',
         description: 'Web Development is the foundational skill for building websites and web applications, powering billions of web pages and digital experiences worldwide in 2025. Our comprehensive Web Development Course in Mumbai is designed as a complete beginner-friendly program covering all essential technologies for creating modern, responsive, and interactive websites. This industry-aligned course prepares you to become a job-ready Frontend Web Developer with hands-on training in HTML5 for page structure, CSS3 for styling and layouts, JavaScript for interactivity, Bootstrap framework for responsive design, jQuery for DOM manipulation, Git for version control, WordPress for CMS development, SEO basics, and website deployment on live servers.',
         highlights: [
-            'Dual Certification: HTML/CSS/JavaScript Expert | Responsive Web Developer',
+            'Certification: HTML/CSS/JavaScript Expert | Responsive Web Developer',
             'Complete frontend toolkit: HTML5, CSS3, JavaScript, Bootstrap, jQuery, WordPress',
             'Real website projects: Business sites, Portfolios, E-commerce, Landing pages, Blogs',
             '40+ hands-on projects from simple pages to complete responsive websites',
@@ -11139,7 +11139,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification Package',
+            title: 'Certification Package',
             description: 'HTML/CSS/JavaScript Expert | Responsive Web Developer certifications',
             color: 'blue'
         },
@@ -11290,7 +11290,7 @@ export const courses = [
         {
             id: 4,
             question: 'What certifications will I receive?',
-            answer: 'You will earn dual certifications: 1) HTML/CSS/JavaScript Expert Certification covering web fundamentals, 2) Responsive Web Developer Certification covering Bootstrap, responsive design, and modern web development. Both certifications are industry-recognized with lifetime validity. You will also build a professional portfolio with 40+ websites.'
+            answer: 'You will earn Certifications: 1) HTML/CSS/JavaScript Expert Certification covering web fundamentals, 2) Responsive Web Developer Certification covering Bootstrap, responsive design, and modern web development. Both certifications are industry-recognized with lifetime validity. You will also build a professional portfolio with 40+ websites.'
         },
         {
             id: 5,
@@ -11349,7 +11349,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '20 Weeks', color: 'bg-red-500' },
             { icon: Users, label: '5200+ Students', color: 'bg-red-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-red-700' },
+            { icon: Award, label: 'Certification', color: 'bg-red-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-red-500' }
         ]
     },
@@ -11363,7 +11363,7 @@ export const courses = [
         title: 'About CCNA + Linux + AWS Course',
         description: 'This comprehensive Networking and Cloud Infrastructure course combines three of the most in-demand IT skills in 2025 - Cisco CCNA for enterprise networking, Linux for system administration, and AWS for cloud infrastructure. Our industry-aligned program prepares you to become a versatile Network & Cloud Engineer with hands-on training in network fundamentals, IP addressing and subnetting, routing protocols (OSPF, EIGRP, BGP), switching and VLANs, network security and ACLs, Linux operating system administration, shell scripting and automation, AWS cloud services, virtual private cloud (VPC) networking, EC2 compute instances, storage solutions (S3, EBS), IAM security, load balancing, auto-scaling, and infrastructure as code.',
         highlights: [
-            'Triple Certification: Cisco CCNA | Red Hat Linux | AWS Solutions Architect Associate prep',
+            'Certification: Cisco CCNA | Red Hat Linux | AWS Solutions Architect Associate prep',
             'Complete infrastructure stack: Networking, Linux servers, Cloud computing',
             'Real enterprise labs: Network topology design, Linux server setup, AWS infrastructure',
             '50+ hands-on labs on Cisco Packet Tracer, Linux virtual machines, AWS console',
@@ -11833,7 +11833,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Prep',
+            title: 'Certification Prep',
             description: 'Cisco CCNA | Red Hat Linux (RHCSA) | AWS Solutions Architect Associate preparation',
             color: 'red'
         },
@@ -12044,7 +12044,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-teal-500' },
             { icon: Users, label: '6800+ Students', color: 'bg-teal-600' },
-            { icon: Award, label: 'Cisco Certification', color: 'bg-teal-700' },
+            { icon: Award, label: 'Certification', color: 'bg-teal-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-teal-500' }
         ]
     },
@@ -12758,11 +12758,11 @@ export const courses = [
     heroData: {
         title: 'CCNA + Linux + CEH Networking & Security Course in Mumbai',
         subtitle: 'Master Cisco Networking, Linux Administration & Ethical Hacking',
-        description: 'Become a Certified Network & Security Professional with comprehensive hands-on training in Cisco CCNA (Routing, Switching, Network Security), Linux System Administration (RHEL, Ubuntu, Shell Scripting), and CEH - Certified Ethical Hacker (Penetration Testing, Vulnerability Assessment, Security Tools) from Cisco and EC-Council certified professionals',
+        description: 'Become a Certified Network & Security Professional with comprehensive hands-on training in Cisco CCNA (Routing, Switching, Network Security), Linux System Administration (RHEL, Ubuntu, Shell Scripting), and CEH - Certified Ethical Hacker (Penetration Testing, Vulnerability Assessment, Security Tools) from Cisco and Certification professionals',
         badges: [
             { icon: Clock, label: '24 Weeks', color: 'bg-purple-500' },
             { icon: Users, label: '4200+ Students', color: 'bg-purple-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-purple-700' },
+            { icon: Award, label: 'Certification', color: 'bg-purple-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-purple-500' }
         ]
     },
@@ -12776,7 +12776,7 @@ export const courses = [
         title: 'About CCNA + Linux + CEH Course',
         description: 'This comprehensive Networking and Cybersecurity course combines three of the most critical IT skills in 2025 - Cisco CCNA for enterprise networking infrastructure, Linux for system administration and security operations, and CEH (Certified Ethical Hacker) for offensive security and penetration testing. Our industry-aligned program prepares you to become a complete Network Security Professional with hands-on training in network fundamentals, IP addressing and subnetting, routing protocols (OSPF, EIGRP), switching and VLANs, network security with ACLs and firewalls, Linux operating system administration, shell scripting and automation, ethical hacking methodologies, reconnaissance and scanning, vulnerability assessment, penetration testing, web application hacking, wireless security, social engineering, cryptography, and incident response.',
         highlights: [
-            'Triple Certification: Cisco CCNA | Red Hat Linux (RHCSA) | EC-Council CEH v12 prep',
+            'Certification: Cisco CCNA | Red Hat Linux (RHCSA) | EC-Council CEH v12 prep',
             'Complete security stack: Network infrastructure, Linux servers, Penetration testing',
             'Real cyber labs: Network security, Linux hardening, Ethical hacking with Kali Linux',
             '60+ hands-on labs on Cisco equipment, Linux VMs, Kali Linux, penetration testing tools',
@@ -12794,7 +12794,7 @@ export const courses = [
             },
             {
                 heading: 'Best Networking & Security Training Institute in Mumbai',
-                content: 'Our institute offers Mumbai\'s most comprehensive network security training program designed by Cisco CCNA-certified trainers, Red Hat Certified Engineers (RHCE), and EC-Council Certified Ethical Hackers (CEH) with 15+ years of experience in SOC operations, penetration testing, and enterprise security. Unlike theory-heavy courses, we provide real hands-on labs with Cisco hardware, Linux server environments, Kali Linux penetration testing labs, and live security tools. Students get access to dedicated networking labs with Cisco routers/switches, Linux virtual machines, Kali Linux for ethical hacking, vulnerability scanners, penetration testing tools (Metasploit, Burp Suite, Nmap), and guaranteed interview opportunities with our 220+ hiring partners including cybersecurity firms, SOC centers, banks, IT companies, consulting firms, and penetration testing companies across Mumbai, Pune, Bangalore, and remote positions.'
+                content: 'Our institute offers Mumbai\'s most comprehensive network security training program designed by Cisco CCNA-certified trainers, Red Hat Certified Engineers (RHCE), and Certification Ethical Hackers (CEH) with 15+ years of experience in SOC operations, penetration testing, and enterprise security. Unlike theory-heavy courses, we provide real hands-on labs with Cisco hardware, Linux server environments, Kali Linux penetration testing labs, and live security tools. Students get access to dedicated networking labs with Cisco routers/switches, Linux virtual machines, Kali Linux for ethical hacking, vulnerability scanners, penetration testing tools (Metasploit, Burp Suite, Nmap), and guaranteed interview opportunities with our 220+ hiring partners including cybersecurity firms, SOC centers, banks, IT companies, consulting firms, and penetration testing companies across Mumbai, Pune, Bangalore, and remote positions.'
             }
         ]
     },
@@ -13333,7 +13333,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Prep',
+            title: 'Certification Prep',
             description: 'Cisco CCNA | Red Hat Linux (RHCSA) | EC-Council CEH v12 preparation',
             color: 'purple'
         },
@@ -13479,7 +13479,7 @@ export const courses = [
         {
             id: 3,
             question: 'Which certifications will this course prepare me for?',
-            answer: 'This course prepares you for three globally recognized certifications: 1) Cisco CCNA 200-301 for networking, 2) Red Hat Certified System Administrator (RHCSA) for Linux, 3) EC-Council Certified Ethical Hacker (CEH v12) for penetration testing. You will receive institute certifications immediately and be fully prepared to clear all official vendor certification exams.'
+            answer: 'This course prepares you for three globally recognized certifications: 1) Cisco CCNA 200-301 for networking, 2) Red Hat Certified System Administrator (RHCSA) for Linux, 3) Certification Ethical Hacker (CEH v12) for penetration testing. You will receive institute certifications immediately and be fully prepared to clear all official vendor certification exams.'
         },
         {
             id: 4,
@@ -13543,7 +13543,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '28 Weeks', color: 'bg-orange-500' },
             { icon: Users, label: '3800+ Students', color: 'bg-orange-600' },
-            { icon: Award, label: 'Quad Certification', color: 'bg-orange-700' },
+            { icon: Award, label: 'Certification', color: 'bg-orange-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-orange-500' }
         ]
     },
@@ -13557,7 +13557,7 @@ export const courses = [
         title: 'About CCNA + Linux + AWS + DevOps Course',
         description: 'This comprehensive Infrastructure and DevOps Engineering course combines four of the most in-demand IT skills in 2025 - Cisco CCNA for enterprise networking, Linux for system administration and automation, AWS for cloud infrastructure, and DevOps tools for continuous integration and deployment. Our industry-aligned program prepares you to become a complete DevOps Engineer with hands-on training in network fundamentals, IP addressing and subnetting, routing protocols (OSPF, EIGRP), switching and VLANs, network security, Linux operating system administration, shell scripting and automation, AWS cloud services (EC2, VPC, S3, RDS, Lambda, CloudFormation), containerization with Docker, orchestration with Kubernetes, CI/CD pipelines with Jenkins and GitLab CI, infrastructure as code with Terraform and Ansible, configuration management, monitoring with Prometheus and Grafana, and DevOps best practices.',
         highlights: [
-            'Quad Certification: Cisco CCNA | Red Hat Linux | AWS Solutions Architect | DevOps Engineer',
+            'Certification: Cisco CCNA | Red Hat Linux | AWS Solutions Architect | DevOps Engineer',
             'Complete DevOps stack: Networking, Linux, Cloud, Containers, CI/CD, IaC, Monitoring',
             'Real DevOps labs: Network automation, Linux servers, AWS infrastructure, Kubernetes clusters',
             '75+ hands-on labs on Cisco equipment, Linux VMs, AWS console, Docker, Kubernetes, Jenkins',
@@ -14129,7 +14129,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Quad Certification Prep',
+            title: 'Certification Prep',
             description: 'Cisco CCNA | Red Hat Linux | AWS Solutions Architect | Kubernetes (CKA/CKAD) prep',
             color: 'orange'
         },
@@ -14339,7 +14339,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '16 Weeks', color: 'bg-violet-500' },
             { icon: Users, label: '6400+ Students', color: 'bg-violet-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-violet-700' },
+            { icon: Award, label: 'Certification', color: 'bg-violet-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-violet-500' }
         ]
     },
@@ -14353,7 +14353,7 @@ export const courses = [
         title: 'About DevOps Engineer Course',
         description: 'DevOps is the most in-demand and highest-paying tech skill in 2025, bridging development and operations to enable continuous delivery and automation. Our comprehensive DevOps Engineer Course in Mumbai is designed as a complete career transformation program covering the entire DevOps lifecycle from code to production. This industry-aligned course prepares you to become a job-ready DevOps Engineer with hands-on training in Linux fundamentals and shell scripting, Git version control and branching strategies, Docker containerization and image management, Kubernetes container orchestration, Jenkins CI/CD pipelines, AWS cloud services (EC2, S3, VPC, IAM), Infrastructure as Code with Terraform, Configuration Management with Ansible, monitoring and logging with Prometheus, Grafana, and ELK stack, DevOps security (DevSecOps), and industry best practices for automation and continuous delivery.',
         highlights: [
-            'Triple Certification: Linux (RHCSA) | AWS Solutions Architect | Kubernetes (CKA) prep',
+            'Certification: Linux (RHCSA) | AWS Solutions Architect | Kubernetes (CKA) prep',
             'Complete DevOps toolkit: Linux, Git, Docker, Kubernetes, Jenkins, AWS, Terraform, Ansible',
             'Real DevOps projects: CI/CD pipelines, Kubernetes clusters, Infrastructure automation, Monitoring',
             '60+ hands-on labs on Linux VMs, Docker containers, K8s clusters, AWS cloud, Jenkins servers',
@@ -14853,7 +14853,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Prep',
+            title: 'Certification Prep',
             description: 'Linux (RHCSA) | AWS Solutions Architect | Kubernetes (CKA/CKAD) preparation',
             color: 'violet'
         },
@@ -15063,7 +15063,7 @@ export const courses = [
         badges: [
             { icon: Cloud, label: '18 Weeks', color: 'bg-indigo-500' },
             { icon: Users, label: '5400+ Students', color: 'bg-indigo-600' },
-            { icon: Award, label: 'Triple Certification', color: 'bg-indigo-700' },
+            { icon: Award, label: 'Certification', color: 'bg-indigo-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-indigo-500' }
         ]
     },
@@ -15077,7 +15077,7 @@ export const courses = [
         title: 'About Cloud Computing Course',
         description: 'Cloud Computing is the most transformative technology of the decade, powering 94% of enterprises worldwide and creating the highest-paying tech jobs in 2025. Our comprehensive Cloud Computing Course in Mumbai is designed as a complete career transformation program covering all three major cloud platforms - AWS (Amazon Web Services), Microsoft Azure, and Google Cloud Platform (GCP). This industry-aligned course prepares you to become a job-ready Multi-Cloud Engineer with hands-on training in cloud fundamentals and service models (IaaS, PaaS, SaaS), AWS core services (EC2, S3, VPC, IAM, RDS, Lambda, CloudFormation), Azure services (Virtual Machines, Blob Storage, App Services, Azure AD), GCP services (Compute Engine, Cloud Storage, Kubernetes Engine), cloud networking and security, serverless computing, containerization on cloud, Infrastructure as Code (Terraform, CloudFormation), cloud migration strategies, cost optimization, disaster recovery, and multi-cloud architecture design.',
         highlights: [
-            'Triple Certification: AWS Solutions Architect | Azure Administrator | GCP Associate Cloud Engineer',
+            'Certification: AWS Solutions Architect | Azure Administrator | GCP Associate Cloud Engineer',
             'Complete multi-cloud stack: AWS, Azure, GCP with hands-on implementation',
             'Real cloud projects: 3-tier architecture, Serverless apps, Kubernetes, Cloud migration',
             '65+ hands-on labs on AWS, Azure, GCP consoles with real cloud deployments',
@@ -15607,7 +15607,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Triple Certification Prep',
+            title: 'Certification Prep',
             description: 'AWS Solutions Architect | Azure Administrator | GCP Associate Cloud Engineer',
             color: 'indigo'
         },
@@ -15817,7 +15817,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-emerald-500' },
             { icon: Users, label: '3200+ Students', color: 'bg-emerald-600' },
-            { icon: Award, label: 'SAP Certification', color: 'bg-emerald-700' },
+            { icon: Award, label: 'Certification', color: 'bg-emerald-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-emerald-500' }
         ]
     },
@@ -15831,7 +15831,7 @@ export const courses = [
         title: 'About SAP MM S/4 HANA Course',
         description: 'SAP Materials Management (MM) is one of the most critical and widely implemented SAP modules, handling procurement, inventory management, and material valuation in organizations globally. Our comprehensive SAP MM S/4 HANA Course in Mumbai is designed as a complete career transformation program for aspiring SAP functional consultants. This industry-aligned course prepares you to become a job-ready SAP MM Consultant with hands-on training in enterprise structure configuration, master data management (material master, vendor master, purchasing info records), procurement process (purchase requisition, RFQ, purchase orders), inventory management and goods movements, material valuation and account determination, logistics invoice verification, physical inventory, special procurement types (subcontracting, consignment, third-party), integration with FI (Finance), SD (Sales & Distribution), and PP (Production Planning), S/4HANA-specific innovations (Business Partner, Fiori apps, embedded analytics), and complete preparation for SAP S/4HANA Sourcing and Procurement certification (C_TS452).',
         highlights: [
-            'SAP Certification: Complete preparation for C_TS452 (S/4HANA Sourcing & Procurement)',
+            'Certification: Complete preparation for C_TS452 (S/4HANA Sourcing & Procurement)',
             'Complete Procure-to-Pay (P2P) cycle: PR, RFQ, PO, GR, IR, Payment integration',
             'Real SAP S/4HANA system: Individual practice access with MM, FI, SD, PP modules',
             '40+ hands-on configuration labs on live SAP S/4HANA system with real scenarios',
@@ -16204,7 +16204,7 @@ export const courses = [
                     'Invoice Verification (8-12%)',
                     'Services Procurement (< 8%)',
                     'External Services Management (< 8%)',
-                    'SAP Certification Exam Registration',
+                    'Certification Exam Registration',
                     'Sample Questions and Mock Tests',
                     'Exam Tips and Time Management',
                     'Study Materials and Resources'
@@ -16219,7 +16219,7 @@ export const courses = [
                     'Building SAP MM Consultant Resume',
                     'SAP Project Experience Documentation',
                     'LinkedIn Profile for SAP Professionals',
-                    'SAP Certification Importance',
+                    'Certification Importance',
                     'Common SAP MM Interview Questions',
                     'Enterprise Structure Interview Questions',
                     'Master Data Interview Questions',
@@ -16239,7 +16239,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'SAP Certification Prep',
+            title: 'Certification Prep',
             description: 'Complete preparation for C_TS452 (S/4HANA Sourcing & Procurement) certification',
             color: 'emerald'
         },
@@ -16359,7 +16359,7 @@ export const courses = [
             designation: 'SAP MM Consultant at TCS',
             rating: 5,
             avatar: 'AP',
-            review: 'Excellent SAP MM course covering both configuration and real projects! The subcontracting, consignment, and account determination training was top-notch. Cleared SAP certification and joined TCS S/4HANA team with ₹10 LPA package. Great investment!'
+            review: 'Excellent SAP MM course covering both configuration and real projects! The subcontracting, consignment, and account determination training was top-notch. Cleared Certification and joined TCS S/4HANA team with ₹10 LPA package. Great investment!'
         },
         {
             name: 'Neha Mehta',
@@ -16383,7 +16383,7 @@ export const courses = [
         {
             id: 3,
             question: 'What certification will this course prepare me for?',
-            answer: 'This course prepares you for SAP Certified Application Associate - SAP S/4HANA Sourcing and Procurement (C_TS452) certification. This is the official SAP certification for MM consultants working on S/4HANA. The exam covers organizational structures, master data, purchasing, material valuation, inventory management, invoice verification, and procurement processes. We provide complete exam preparation with sample questions, mock tests, and study materials. SAP certification significantly increases job opportunities and salaries (30-40% higher than non-certified consultants).'
+            answer: 'This course prepares you for SAP Certified Application Associate - SAP S/4HANA Sourcing and Procurement (C_TS452) certification. This is the official Certification for MM consultants working on S/4HANA. The exam covers organizational structures, master data, purchasing, material valuation, inventory management, invoice verification, and procurement processes. We provide complete exam preparation with sample questions, mock tests, and study materials. Certification significantly increases job opportunities and salaries (30-40% higher than non-certified consultants).'
         },
         {
             id: 4,
@@ -16393,12 +16393,12 @@ export const courses = [
         {
             id: 5,
             question: 'What is the average salary for SAP MM consultants in Mumbai?',
-            answer: 'Entry-level SAP MM Consultants in Mumbai earn ₹5-9 LPA, Mid-level MM Functional Consultants earn ₹12-22 LPA, and Senior MM/Logistics Architects earn ₹25-50 LPA. With SAP certification (C_TS452), salaries increase 30-40%. SAP MM is one of the most in-demand SAP modules with 25% year-over-year growth due to ECC to S/4HANA migrations. International SAP consulting opportunities pay $50-120 per hour. Freelance SAP MM consultants charge ₹3,000-8,000 per day in India.'
+            answer: 'Entry-level SAP MM Consultants in Mumbai earn ₹5-9 LPA, Mid-level MM Functional Consultants earn ₹12-22 LPA, and Senior MM/Logistics Architects earn ₹25-50 LPA. With Certification (C_TS452), salaries increase 30-40%. SAP MM is one of the most in-demand SAP modules with 25% year-over-year growth due to ECC to S/4HANA migrations. International SAP consulting opportunities pay $50-120 per hour. Freelance SAP MM consultants charge ₹3,000-8,000 per day in India.'
         },
         {
             id: 6,
             question: 'Do you provide job placement assistance?',
-            answer: 'Yes! We provide 100% job placement assistance including SAP MM consultant resume building with project details, SAP certification badge display, LinkedIn profile optimization for SAP recruiters, technical interview preparation (MM configuration questions, procurement scenarios, integration questions), mock interviews with SAP consultants, and guaranteed interview opportunities with 180+ SAP hiring partners including Big 4 consulting firms (Deloitte, PwC, EY, KPMG), SAP partners (TCS, Infosys, Wipro, Tech Mahindra, Capgemini, IBM, Accenture), manufacturing companies, and enterprises implementing S/4HANA.'
+            answer: 'Yes! We provide 100% job placement assistance including SAP MM consultant resume building with project details, Certification badge display, LinkedIn profile optimization for SAP recruiters, technical interview preparation (MM configuration questions, procurement scenarios, integration questions), mock interviews with SAP consultants, and guaranteed interview opportunities with 180+ SAP hiring partners including Big 4 consulting firms (Deloitte, PwC, EY, KPMG), SAP partners (TCS, Infosys, Wipro, Tech Mahindra, Capgemini, IBM, Accenture), manufacturing companies, and enterprises implementing S/4HANA.'
         },
         {
             id: 7,
@@ -16447,7 +16447,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '14 Weeks', color: 'bg-blue-500' },
             { icon: Users, label: '4800+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'SAP Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-blue-500' }
         ]
     },
@@ -16461,7 +16461,7 @@ export const courses = [
         title: 'About SAP FICO S/4 HANA Course',
         description: 'SAP FICO (Finance and Controlling) is the most critical and widely implemented SAP module, handling all financial transactions, reporting, and cost management in organizations globally. Our comprehensive SAP FICO S/4 HANA Course in Mumbai is designed as a complete career transformation program for aspiring SAP finance consultants. This industry-aligned course prepares you to become a job-ready SAP FICO Consultant with hands-on training in enterprise structure for FI and CO, General Ledger accounting and new GL in S/4HANA, Accounts Payable and Vendor invoice processing, Accounts Receivable and Customer invoice processing, Bank Accounting and Cash Management, Asset Accounting and depreciation, Cost Element Accounting, Cost Center Accounting and planning, Internal Orders, Profit Center Accounting, Product Costing and Material Ledger, Profitability Analysis (CO-PA), integration with MM and SD modules, month-end and year-end closing activities, S/4HANA-specific innovations (Universal Journal, Central Finance, embedded analytics), and complete preparation for SAP S/4HANA Financial Accounting certification (C_TS4FI).',
         highlights: [
-            'SAP Certification: Complete preparation for C_TS4FI (S/4HANA Financial Accounting)',
+            'Certification: Complete preparation for C_TS4FI (S/4HANA Financial Accounting)',
             'Complete FI+CO coverage: GL, AP, AR, AA, Bank, Cost Center, Profit Center, Product Costing',
             'Real SAP S/4HANA system: Individual practice access with FICO, MM, SD integration',
             '50+ hands-on configuration labs on live SAP S/4HANA system with real scenarios',
@@ -16934,7 +16934,7 @@ export const courses = [
                     'Financial Closing (8-12%)',
                     'Integration (8-12%)',
                     'Document Parking and Workflows (< 8%)',
-                    'SAP Certification Exam Registration',
+                    'Certification Exam Registration',
                     'Sample Questions and Mock Exams',
                     'Exam Tips and Preparation Strategy',
                     'Time Management during Exam',
@@ -16950,7 +16950,7 @@ export const courses = [
                     'Building SAP FICO Resume',
                     'SAP Project Experience Documentation',
                     'LinkedIn Profile Optimization for SAP Professionals',
-                    'SAP Certification Importance and ROI',
+                    'Certification Importance and ROI',
                     'Common SAP FICO Interview Questions',
                     'Enterprise Structure Interview Questions',
                     'GL Accounting Interview Questions',
@@ -16972,7 +16972,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'SAP Certification Prep',
+            title: 'Certification Prep',
             description: 'Complete preparation for C_TS4FI (S/4HANA Financial Accounting) certification',
             color: 'blue'
         },
@@ -17092,7 +17092,7 @@ export const courses = [
             designation: 'SAP Finance Consultant at KPMG',
             rating: 5,
             avatar: 'AK',
-            review: 'Excellent SAP FICO course covering both FI and CO completely! The Universal Journal, integration with MM/SD, and financial reporting training was top-notch. Cleared SAP certification and joined KPMG Big 4 with ₹14 LPA package. Great investment!'
+            review: 'Excellent SAP FICO course covering both FI and CO completely! The Universal Journal, integration with MM/SD, and financial reporting training was top-notch. Cleared Certification and joined KPMG Big 4 with ₹14 LPA package. Great investment!'
         },
         {
             name: 'Neha Sharma',
@@ -17116,7 +17116,7 @@ export const courses = [
         {
             id: 3,
             question: 'What certification will this course prepare me for?',
-            answer: 'This course prepares you for SAP Certified Application Associate - SAP S/4HANA for Financial Accounting Associates (C_TS4FI) certification. This is the official SAP certification for FICO consultants working on S/4HANA covering General Ledger, AP, AR, Asset Accounting, Financial Closing, and Integration. The exam has 80 questions, 180 minutes duration, and passing score is typically 64-66%. We provide complete exam preparation with practice questions, mock tests, and study guides. SAP FICO certification increases job opportunities and salaries by 35-45%.'
+            answer: 'This course prepares you for SAP Certified Application Associate - SAP S/4HANA for Financial Accounting Associates (C_TS4FI) certification. This is the official Certification for FICO consultants working on S/4HANA covering General Ledger, AP, AR, Asset Accounting, Financial Closing, and Integration. The exam has 80 questions, 180 minutes duration, and passing score is typically 64-66%. We provide complete exam preparation with practice questions, mock tests, and study guides. SAP FICO certification increases job opportunities and salaries by 35-45%.'
         },
         {
             id: 4,
@@ -17126,7 +17126,7 @@ export const courses = [
         {
             id: 5,
             question: 'What is the average salary for SAP FICO consultants in Mumbai?',
-            answer: 'Entry-level SAP FICO Consultants in Mumbai earn ₹6-11 LPA, Mid-level FICO Functional Consultants earn ₹14-28 LPA, and Senior FICO/Finance Architects earn ₹30-60 LPA. SAP FICO is the highest-paying SAP module commanding 20-30% premium over other modules. With SAP certification (C_TS4FI), salaries increase 35-45%. Big 4 consulting firms pay ₹12-18 LPA for freshers with certification. International SAP FICO consulting pays $60-140 per hour. Freelance FICO consultants charge ₹4,000-10,000 per day in India. Demand has grown 30% year-over-year due to S/4HANA migrations.'
+            answer: 'Entry-level SAP FICO Consultants in Mumbai earn ₹6-11 LPA, Mid-level FICO Functional Consultants earn ₹14-28 LPA, and Senior FICO/Finance Architects earn ₹30-60 LPA. SAP FICO is the highest-paying SAP module commanding 20-30% premium over other modules. With Certification (C_TS4FI), salaries increase 35-45%. Big 4 consulting firms pay ₹12-18 LPA for freshers with certification. International SAP FICO consulting pays $60-140 per hour. Freelance FICO consultants charge ₹4,000-10,000 per day in India. Demand has grown 30% year-over-year due to S/4HANA migrations.'
         },
         {
             id: 6,
@@ -17180,7 +17180,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '12 Weeks', color: 'bg-cyan-500' },
             { icon: Users, label: '5200+ Students', color: 'bg-cyan-600' },
-            { icon: Award, label: 'SAP Certification', color: 'bg-cyan-700' },
+            { icon: Award, label: 'Certification', color: 'bg-cyan-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-cyan-500' }
         ]
     },
@@ -17194,7 +17194,7 @@ export const courses = [
         title: 'About SAP FICO Course',
         description: 'SAP FICO (Finance and Controlling) is the most in-demand and highest-paying SAP module, forming the financial backbone of organizations worldwide. Our comprehensive SAP FICO Course in Mumbai is designed as a complete career transformation program for aspiring finance consultants. This industry-aligned course prepares you to become a job-ready SAP FICO Consultant with hands-on training in enterprise structure configuration for finance and controlling, General Ledger accounting with chart of accounts design, Accounts Payable processing and vendor management, Accounts Receivable processing and customer management, Asset Accounting with depreciation methods, Bank Accounting and cash management, Cost Element Accounting, Cost Center Accounting with planning and reporting, Internal Orders for project tracking, Profit Center Accounting for segment reporting, Product Costing and variance analysis, Profitability Analysis (CO-PA), integration with MM and SD modules, month-end and year-end closing procedures, financial reporting and analytics, taxation (GST, TDS, Withholding Tax), and coverage of both SAP ECC and S/4HANA platforms with preparation for SAP FICO certification.',
         highlights: [
-            'SAP Certification: Complete preparation for SAP FICO certification (ECC/S/4HANA)',
+            'Certification: Complete preparation for SAP FICO certification (ECC/S/4HANA)',
             'Complete FI+CO coverage: GL, AP, AR, AA, Bank, Cost Center, Profit Center, Costing, CO-PA',
             'Real SAP system: Individual practice access on both ECC and S/4HANA environments',
             '45+ hands-on configuration labs on live SAP systems with real-world scenarios',
@@ -17809,7 +17809,7 @@ export const courses = [
                     'Financial Closing Operations (8-12%)',
                     'Integration (8-12%)',
                     'Document Parking and Workflow (< 8%)',
-                    'SAP Certification Registration Process',
+                    'Certification Registration Process',
                     'SAP Learning Hub and Training Materials',
                     'Sample Questions and Practice Tests',
                     'Mock Exams (200+ Questions)',
@@ -17832,7 +17832,7 @@ export const courses = [
                     'Highlighting SAP Projects and Certifications',
                     'SAP Project Experience Documentation',
                     'LinkedIn Profile Optimization for SAP Professionals',
-                    'SAP Certification Badge Display',
+                    'Certification Badge Display',
                     'Networking in SAP Community',
                     'Common SAP FICO Interview Questions (100+)',
                     'Enterprise Structure Questions',
@@ -17860,7 +17860,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'SAP Certification Prep',
+            title: 'Certification Prep',
             description: 'Complete preparation for SAP FICO certification (C_TFIN52 ECC / C_TS4FI S/4HANA)',
             color: 'cyan'
         },
@@ -17980,7 +17980,7 @@ export const courses = [
             designation: 'SAP Finance Consultant at KPMG',
             rating: 5,
             avatar: 'AS',
-            review: 'Excellent SAP FICO course covering both FI and CO completely! The AP/AR cycles, bank accounting, and cost center training was top-notch. Cleared SAP certification and joined KPMG Big 4 with ₹13 LPA package. Great ROI!'
+            review: 'Excellent SAP FICO course covering both FI and CO completely! The AP/AR cycles, bank accounting, and cost center training was top-notch. Cleared Certification and joined KPMG Big 4 with ₹13 LPA package. Great ROI!'
         },
         {
             name: 'Neha Desai',
@@ -18014,7 +18014,7 @@ export const courses = [
         {
             id: 5,
             question: 'What is the average salary for SAP FICO consultants in Mumbai?',
-            answer: 'Entry-level SAP FICO Consultants in Mumbai earn ₹6-11 LPA, Mid-level FICO Consultants earn ₹14-26 LPA, and Senior FICO/Finance Architects earn ₹28-55 LPA. SAP FICO is the highest-paying SAP functional module with 20-30% premium over other modules. With SAP certification, freshers get ₹12-18 LPA at Big 4. Big 4 consulting firms (Deloitte, PwC, EY, KPMG) pay the highest starting from ₹12-16 LPA for certified freshers. International SAP FICO consulting pays $60-130 per hour. Freelance FICO consultants charge ₹4,000-10,000 per day. Demand has grown 28% year-over-year due to S/4HANA migrations. FICO consultants with 5+ years experience easily earn ₹25-35 LPA.'
+            answer: 'Entry-level SAP FICO Consultants in Mumbai earn ₹6-11 LPA, Mid-level FICO Consultants earn ₹14-26 LPA, and Senior FICO/Finance Architects earn ₹28-55 LPA. SAP FICO is the highest-paying SAP functional module with 20-30% premium over other modules. With Certification, freshers get ₹12-18 LPA at Big 4. Big 4 consulting firms (Deloitte, PwC, EY, KPMG) pay the highest starting from ₹12-16 LPA for certified freshers. International SAP FICO consulting pays $60-130 per hour. Freelance FICO consultants charge ₹4,000-10,000 per day. Demand has grown 28% year-over-year due to S/4HANA migrations. FICO consultants with 5+ years experience easily earn ₹25-35 LPA.'
         },
         {
             id: 6,
@@ -18068,7 +18068,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '10 Weeks', color: 'bg-teal-500' },
             { icon: Users, label: '3600+ Students', color: 'bg-teal-600' },
-            { icon: Award, label: 'SAP Certification', color: 'bg-teal-700' },
+            { icon: Award, label: 'Certification', color: 'bg-teal-700' },
             { icon: Briefcase, label: '100% Job Support', color: 'bg-teal-500' }
         ]
     },
@@ -18082,7 +18082,7 @@ export const courses = [
         title: 'About SAP MM Course',
         description: 'SAP Materials Management (MM) is one of the most critical and widely implemented SAP logistics modules, handling procurement, inventory, and material valuation across manufacturing, pharma, FMCG, retail, and distribution industries. Our comprehensive SAP MM Course in Mumbai is designed as a complete career transformation program for aspiring SAP logistics consultants. This industry-aligned course prepares you to become a job-ready SAP MM Consultant with hands-on training in enterprise structure configuration (plant, storage location, purchasing organization), master data management (material master, vendor master, purchasing info records, source list), procurement process (purchase requisition, RFQ, purchase orders, goods receipt), inventory management and goods movements (stock types, movement types, stock transfers), material valuation and account determination (price control, valuation class, automatic posting), logistics invoice verification (MIRO, GR/IR clearing), physical inventory procedures, special procurement types (subcontracting, consignment, third-party, stock transport orders), batch management and serial numbers, MRP basics, integration with FI (Finance), SD (Sales), and PP (Production), and coverage of both SAP ECC and S/4HANA platforms with preparation for SAP MM certification.',
         highlights: [
-            'SAP Certification: Complete preparation for SAP MM certification (ECC/S/4HANA)',
+            'Certification: Complete preparation for SAP MM certification (ECC/S/4HANA)',
             'Complete Procure-to-Pay (P2P) cycle: PR, RFQ, PO, GR, IR, Payment integration',
             'Real SAP system: Individual practice access on both ECC and S/4HANA environments',
             '35+ hands-on configuration labs on live SAP systems with real procurement scenarios',
@@ -18629,7 +18629,7 @@ export const courses = [
                     'Invoice Verification (8-12%)',
                     'Services Procurement (< 8%)',
                     'External Services Management (< 8%)',
-                    'SAP Certification Registration',
+                    'Certification Registration',
                     'SAP Learning Hub Access',
                     'Sample Questions (200+ Practice Questions)',
                     'Mock Exams and Practice Tests',
@@ -18652,7 +18652,7 @@ export const courses = [
                     'Resume for Freshers with Certification',
                     'Resume for Experienced Professionals',
                     'Highlighting SAP Projects and Achievements',
-                    'SAP Certification Badge Display',
+                    'Certification Badge Display',
                     'LinkedIn Profile Optimization',
                     'SAP Community Networking',
                     'Common SAP MM Interview Questions (150+)',
@@ -18686,7 +18686,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'SAP Certification Prep',
+            title: 'Certification Prep',
             description: 'Complete preparation for C_TSCM52 (ECC) / C_TS452 (S/4HANA) MM certification',
             color: 'teal'
         },
@@ -18806,7 +18806,7 @@ export const courses = [
             designation: 'SAP MM Consultant at Tech Mahindra',
             rating: 5,
             avatar: 'AD',
-            review: 'Excellent SAP MM course covering complete procurement and inventory! The subcontracting, consignment, and account determination training was top-notch. Cleared SAP certification and joined Tech Mahindra with ₹9 LPA package. Great career investment!'
+            review: 'Excellent SAP MM course covering complete procurement and inventory! The subcontracting, consignment, and account determination training was top-notch. Cleared Certification and joined Tech Mahindra with ₹9 LPA package. Great career investment!'
         },
         {
             name: 'Neha Joshi',
@@ -18840,7 +18840,7 @@ export const courses = [
         {
             id: 5,
             question: 'What is the average salary for SAP MM consultants in Mumbai?',
-            answer: 'Entry-level SAP MM Consultants in Mumbai earn ₹5-9 LPA, Mid-level MM Consultants earn ₹12-22 LPA, and Senior MM/Logistics Architects earn ₹24-48 LPA. With SAP certification (C_TS452), freshers can get ₹8-12 LPA at SAP partners and consulting firms. Manufacturing companies (pharma, FMCG, automotive) pay well for MM consultants due to heavy inventory and procurement operations. International SAP MM consulting pays $50-110 per hour. Freelance MM consultants charge ₹3,000-8,000 per day. Demand has grown 25% year-over-year due to supply chain digitization and ECC to S/4HANA migrations. MM consultants with 5+ years experience easily earn ₹18-28 LPA.'
+            answer: 'Entry-level SAP MM Consultants in Mumbai earn ₹5-9 LPA, Mid-level MM Consultants earn ₹12-22 LPA, and Senior MM/Logistics Architects earn ₹24-48 LPA. With Certification (C_TS452), freshers can get ₹8-12 LPA at SAP partners and consulting firms. Manufacturing companies (pharma, FMCG, automotive) pay well for MM consultants due to heavy inventory and procurement operations. International SAP MM consulting pays $50-110 per hour. Freelance MM consultants charge ₹3,000-8,000 per day. Demand has grown 25% year-over-year due to supply chain digitization and ECC to S/4HANA migrations. MM consultants with 5+ years experience easily earn ₹18-28 LPA.'
         },
         {
             id: 6,
@@ -20504,7 +20504,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '6 Months', color: 'bg-orange-500' },
             { icon: Users, label: '4200+ Students', color: 'bg-orange-600' },
-            { icon: Award, label: 'Goethe Certificate', color: 'bg-orange-700' },
+            { icon: Award, label: 'Certification', color: 'bg-orange-700' },
             { icon: Briefcase, label: 'Study Abroad', color: 'bg-orange-500' }
         ]
     },
@@ -20960,7 +20960,7 @@ export const courses = [
         {
             id: 3,
             question: 'What is Goethe-Zertifikat and why is it important?',
-            answer: 'Goethe-Zertifikat is the official German language certification issued by Goethe-Institut (Germany\'s worldwide cultural institute) recognized globally by universities, employers, and governments. Levels: A1 (Beginner), A2 (Elementary), B1 (Intermediate), B2 (Upper Intermediate), C1 (Advanced), C2 (Mastery). Why Goethe certificate is important: 1) University admission: German universities require Goethe certificate (typically B1-B2 for bachelor, B2-C1 for master) as proof of German proficiency for programs taught in German. Without certificate, admission denied. 2) Germany visa: Student visa, work visa, and permanent residency applications require Goethe certificate proving German language skills. A1 for spouse visa, B1 for citizenship. 3) Job requirements: Many jobs in Germany and German MNCs require Goethe certificate for hiring. 4) Standardized assessment: Goethe exam tests all four skills - listening, reading, writing, speaking - ensuring comprehensive language ability. 5) International recognition: Accepted worldwide unlike local certificates which lack credibility. 6) Lifetime validity: Goethe certificates don\'t expire (though universities may require recent certificates). Exam structure: 4 modules (listening, reading, writing, speaking) each worth 100 points, need 60/100 (60%) in each module to pass. Exam fees: A1 (₹7,000-9,000), A2 (₹9,000-11,000). Our course includes complete Goethe exam preparation with mock tests ensuring 95% pass rate.'
+            answer: 'Goethe-Zertifikat is the official German language certification issued by Goethe-Institut (Germany\'s worldwide cultural institute) recognized globally by universities, employers, and governments. Levels: A1 (Beginner), A2 (Elementary), B1 (Intermediate), B2 (Upper Intermediate), C1 (Advanced), C2 (Mastery). Why Certification is important: 1) University admission: German universities require Certification (typically B1-B2 for bachelor, B2-C1 for master) as proof of German proficiency for programs taught in German. Without certificate, admission denied. 2) Germany visa: Student visa, work visa, and permanent residency applications require Certification proving German language skills. A1 for spouse visa, B1 for citizenship. 3) Job requirements: Many jobs in Germany and German MNCs require Certification for hiring. 4) Standardized assessment: Goethe exam tests all four skills - listening, reading, writing, speaking - ensuring comprehensive language ability. 5) International recognition: Accepted worldwide unlike local certificates which lack credibility. 6) Lifetime validity: Certifications don\'t expire (though universities may require recent certificates). Exam structure: 4 modules (listening, reading, writing, speaking) each worth 100 points, need 60/100 (60%) in each module to pass. Exam fees: A1 (₹7,000-9,000), A2 (₹9,000-11,000). Our course includes complete Goethe exam preparation with mock tests ensuring 95% pass rate.'
         },
         {
             id: 4,
@@ -21678,7 +21678,7 @@ export const courses = [
         {
             id: 3,
             question: 'What is Goethe-Zertifikat A1 and do I need it?',
-            answer: 'Goethe-Zertifikat A1: Fit in Deutsch 1 (for youth) and Goethe-Zertifikat A1: Start Deutsch 1 (for adults) are official German language certifications issued by Goethe-Institut (Germany\'s worldwide cultural institute) proving A1 level proficiency. The certificate is recognized globally by universities, employers, governments, and immigration authorities. When you NEED Goethe A1: 1) Germany spouse/family reunion visa: If your spouse works in Germany and you want to join them, German embassy requires Goethe A1 certificate as proof of basic German for visa approval. Without A1 certificate, visa will be rejected. 2) Foundation for higher levels: While universities require B1-B2 and jobs require B2-C1, you cannot skip levels. Must start with A1, then A2, B1, B2 systematically. Goethe A1 certificate proves you completed beginner level. 3) Job applications: Some German MNCs in India prefer candidates with Goethe certificates proving systematic German learning (not just claiming "I know German"). 4) Personal achievement: Official certification validating your German learning effort and proficiency. When you DON\'T strictly need Goethe A1: If learning German purely for personal interest/travel without visa/job requirements, certification is optional (though recommended). Our course includes complete Goethe A1 exam preparation regardless of whether you take exam. Many students complete A1 training, skip A1 exam, continue to A2, and take both A2 and B1 exams together saving exam fees. However, we STRONGLY recommend taking Goethe A1 exam because: validates learning, builds exam confidence for higher levels, looks good on resume/LinkedIn, and relatively affordable (₹7,000-9,000). Our students have 96% pass rate!'
+            answer: 'Goethe-Zertifikat A1: Fit in Deutsch 1 (for youth) and Goethe-Zertifikat A1: Start Deutsch 1 (for adults) are official German language certifications issued by Goethe-Institut (Germany\'s worldwide cultural institute) proving A1 level proficiency. The certificate is recognized globally by universities, employers, governments, and immigration authorities. When you NEED Goethe A1: 1) Germany spouse/family reunion visa: If your spouse works in Germany and you want to join them, German embassy requires Goethe A1 certificate as proof of basic German for visa approval. Without A1 certificate, visa will be rejected. 2) Foundation for higher levels: While universities require B1-B2 and jobs require B2-C1, you cannot skip levels. Must start with A1, then A2, B1, B2 systematically. Goethe A1 certificate proves you completed beginner level. 3) Job applications: Some German MNCs in India prefer candidates with Certifications proving systematic German learning (not just claiming "I know German"). 4) Personal achievement: Official certification validating your German learning effort and proficiency. When you DON\'T strictly need Goethe A1: If learning German purely for personal interest/travel without visa/job requirements, certification is optional (though recommended). Our course includes complete Goethe A1 exam preparation regardless of whether you take exam. Many students complete A1 training, skip A1 exam, continue to A2, and take both A2 and B1 exams together saving exam fees. However, we STRONGLY recommend taking Goethe A1 exam because: validates learning, builds exam confidence for higher levels, looks good on resume/LinkedIn, and relatively affordable (₹7,000-9,000). Our students have 96% pass rate!'
         },
         {
             id: 4,
@@ -23480,7 +23480,7 @@ export const courses = [
         badges: [
             { icon: Clock, label: '5 Months', color: 'bg-blue-500' },
             { icon: Users, label: '4800+ Students', color: 'bg-blue-600' },
-            { icon: Award, label: 'Dual Certification', color: 'bg-blue-700' },
+            { icon: Award, label: 'Certification', color: 'bg-blue-700' },
             { icon: Briefcase, label: '100% Placement', color: 'bg-blue-500' }
         ]
     },
@@ -23494,7 +23494,7 @@ export const courses = [
         title: 'About Salesforce ADM + DEV Course',
         description: 'Salesforce is the world\'s #1 CRM platform with massive demand for skilled administrators and developers offering exceptional career opportunities with salaries ranging ₹4-25 LPA in India. Our comprehensive Salesforce ADM + DEV Course in Mumbai is the most complete dual-certification program covering both Administration and Development preparing you for two official Salesforce certifications - Administrator (ADM-201) and Platform Developer I (PD-1). This industry-aligned course includes hands-on training in Salesforce fundamentals and CRM concepts, Salesforce Administration (ADM-201) - users, profiles, roles, OWD, sharing rules, workflows, process builder, flows, reports, dashboards, data management, security, Salesforce Development (PD-1) - Apex programming, triggers, batch apex, scheduled apex, SOQL and SOSL queries, Visualforce pages and controllers, Lightning Web Components (LWC) - modern UI development with JavaScript, Aura Components, Lightning App Builder, Salesforce integration with REST/SOAP APIs, governor limits and best practices, deployment using change sets and ANT, real-time Salesforce projects, ADM-201 and PD-1 certification preparation with mock exams, resume building and interview preparation with 100% placement support from Salesforce certified professionals with 10+ years of experience working in top consulting firms, product companies, and implementing Salesforce for Fortune 500 clients.',
         highlights: [
-            'Dual certification: ADM-201 (Administrator) + PD-1 (Platform Developer I) in single course',
+            'Certification: ADM-201 (Administrator) + PD-1 (Platform Developer I) in single course',
             '100% hands-on: Real Salesforce org, 10+ projects, declarative + programmatic development',
             'Complete stack: Admin, Apex, LWC, Visualforce, Integration, Security, Deployment',
             'Certification guarantee: Mock exams, dumps, guaranteed pass in ADM-201 and PD-1',
@@ -24364,7 +24364,7 @@ export const courses = [
     features: [
         {
             icon: Shield,
-            title: 'Dual Certification',
+            title: 'Certification',
             description: 'ADM-201 Administrator + PD-1 Platform Developer I in single course',
             color: 'blue'
         },
@@ -24496,7 +24496,7 @@ export const courses = [
             designation: 'Remote Salesforce Developer (US Client)',
             rating: 5,
             avatar: 'NS',
-            review: 'Excellent Salesforce training with dual certification! The LWC training was cutting-edge and industry-relevant. Got remote job with US company earning $65,000 (₹55 LPA) working from India. The Trailhead guidance and mock interviews were invaluable. Life-changing course!'
+            review: 'Excellent Salesforce training with Certification! The LWC training was cutting-edge and industry-relevant. Got remote job with US company earning $65,000 (₹55 LPA) working from India. The Trailhead guidance and mock interviews were invaluable. Life-changing course!'
         }
     ],
     faqs: [
