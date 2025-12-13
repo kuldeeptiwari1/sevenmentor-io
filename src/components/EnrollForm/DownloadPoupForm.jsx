@@ -68,7 +68,7 @@ const DownloadPopupForm = ({ mailTo, course, contactNumber, onClose }) => {
       console.log("Sending API request with payload:", payload);
 
       // Use relative path for API endpoint instead of localhost
-      await axios.post("http://localhost:8080/api/main-form", payload);
+      await axios.post("/api/main-form", payload);
 
       console.log("API call successful");
 

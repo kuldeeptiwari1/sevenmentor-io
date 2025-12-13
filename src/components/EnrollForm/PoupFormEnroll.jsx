@@ -55,7 +55,7 @@ const PoupFormEnroll = ({ mailTo, course, contactNumber, onClose }) => {
         userEmailSubject: "Thanks for Enrolling",
       };
 
-      await axios.post("http://localhost:8080/api/main-form", payload);
+      await axios.post("/api/main-form", payload);
 
       setPopup({
         show: true,
