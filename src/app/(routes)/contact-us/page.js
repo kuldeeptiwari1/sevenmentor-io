@@ -67,7 +67,7 @@ export default function ContactUsPage() {
         userEmailSubject: "Thanks for Contacting Us",
       };
 
-      await axios.post("http://localhost:8080/api/main-form", payload);
+      await axios.post("/api/main-form", payload);
 
       setPopup({
         show: true,
@@ -175,9 +175,9 @@ export default function ContactUsPage() {
               href="tel:02248904395"
               className="text-2xl font-bold text-orange-600 hover:text-orange-700 transition-colors block mb-2"
             >
-             022-48904395
+              022-48904395
             </a>
-            
+
           </div>
 
           <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
@@ -198,11 +198,11 @@ export default function ContactUsPage() {
             >
               +91 8421176876
             </a>
-           
+
           </div>
         </div>
 
-      <div className="grid lg:grid-cols-2 gap-12 mb-12">
+        <div className="grid lg:grid-cols-2 gap-12 mb-12">
           <section className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
             <div className="bg-gradient-to-r from-orange-50 to-white p-6 border-b border-gray-100">
               <div className="flex items-center gap-3">
@@ -300,26 +300,11 @@ export default function ContactUsPage() {
                     <div className="relative">
                       <Award className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                       <Field
-                        as="select"
                         name="Course"
-                        className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-xl bg-white outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all appearance-none"
-                      >
-                        <option value="">Select a Course</option>
-                        <option value="Cyber Security Analyst">
-                          Cyber Security Analyst
-                        </option>
-                        <option value="Ethical Hacking">
-                          Ethical Hacking (CEH)
-                        </option>
-                        <option value="WAPT">
-                          Web Application Penetration Testing
-                        </option>
-                        <option value="SOC Training">SOC Training</option>
-                        <option value="CHFI">Computer Hacking Forensics</option>
-                        <option value="Network Security">
-                          Network Security
-                        </option>
-                      </Field>
+                        type="text"
+                        className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none transition-all"
+                        placeholder="Enter course name"
+                      />
                     </div>
                     <ErrorMessage
                       name="Course"
@@ -331,7 +316,7 @@ export default function ContactUsPage() {
 
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Message (Optional)
+                      Message
                     </label>
                     <Field
                       as="textarea"
@@ -360,7 +345,7 @@ export default function ContactUsPage() {
             <section className="bg-gradient-to-br from-orange-500 via-orange-600 to-red-600 rounded-2xl shadow-2xl p-10 text-white relative overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-5 rounded-full -mr-32 -mt-32"></div>
               <div className="absolute bottom-0 left-0 w-48 h-48 bg-white opacity-5 rounded-full -ml-24 -mb-24"></div>
-              
+
               <div className="relative z-10">
                 <div className="flex items-center gap-3 mb-8">
                   <div className="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center">

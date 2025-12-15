@@ -117,7 +117,7 @@ const PoupFormEnroll = ({ mailTo, course, contactNumber, onClose }) => {
                 <MessageSquare className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h2 className="text-3xl font-bold">Enroll Now</h2>
+                <h2 className="text-3xl font-bold">Request a Call Back</h2>
                 <p className="text-sm opacity-80">
                   Fill the form and our team will contact you
                 </p>

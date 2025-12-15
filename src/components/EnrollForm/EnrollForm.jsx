@@ -122,7 +122,7 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
               <MessageSquare className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-gray-900">Enroll Now</h2>
+              <h2 className="text-3xl font-bold text-gray-900">Request a Call Back</h2>
               <p className="text-sm text-gray-600">
                 Fill the form and our team will contact you
               </p>

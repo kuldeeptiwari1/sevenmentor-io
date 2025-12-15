@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import axios from "axios";
 
-const DownloadPopupForm = ({ mailTo, course, contactNumber, onClose,pdf }) => {
+const DownloadPopupForm = ({ mailTo, course, contactNumber, onClose, pdf }) => {
   // Define your PDF link - IMPORTANT: Add your actual PDF URL here
   const pdfLink = pdf;
   console.log(pdf)
@@ -74,7 +74,8 @@ const DownloadPopupForm = ({ mailTo, course, contactNumber, onClose,pdf }) => {
       console.log("API call successful");
 
       // Download PDF AFTER successful form submission
-      downloadPDF();
+      // Download PDF AFTER successful form submission
+      await downloadPDF();
 
       // Show success popup
       setPopup({
@@ -111,33 +112,35 @@ const DownloadPopupForm = ({ mailTo, course, contactNumber, onClose,pdf }) => {
     }
   };
 
-  const downloadPDF = () => {
+  const downloadPDF = async () => {
     if (!pdfLink) {
       console.error("PDF link is not defined!");
       return;
     }
 
     try {
+      const response = await fetch(pdfLink);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `Course-Brochure-${course || "SevenMentor"}.pdf`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+      console.log("PDF download triggered");
+    } catch (error) {
+      console.error("Error downloading PDF:", error);
+      // Fallback
       const link = document.createElement("a");
       link.href = pdfLink;
       link.download = `Course-Brochure-${course || "SevenMentor"}.pdf`;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
-
-      // Append to body
       document.body.appendChild(link);
-
-      // Trigger download
       link.click();
-
-      // Clean up
-      setTimeout(() => {
-        document.body.removeChild(link);
-      }, 100);
-
-      console.log("PDF download triggered");
-    } catch (error) {
-      console.error("Error downloading PDF:", error);
+      document.body.removeChild(link);
     }
   };
 
