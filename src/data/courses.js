@@ -24468,6 +24468,4 @@ export const courses = [
     pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/UI-UX_1_11zon-1763097958904.pdf'
 }
 
-
-
 ];

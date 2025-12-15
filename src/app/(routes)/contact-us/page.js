@@ -140,17 +140,20 @@ export default function ContactUsPage() {
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Visit Our Office
             </h3>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <a
+              href="https://maps.app.goo.gl/wHWLQcDJERg3jEqp9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 leading-relaxed mb-4 hover:text-orange-600 transition-colors block"
+            >
               Office no. 101 & part office no.1,
               <br />
               Civic Centre, MMGS Marg,
               <br />
               Dadar East, Dadar, Mumbai,
               <br />
-              <span className="text-orange-600 font-semibold">
-                Maharashtra 400014
-              </span>
-            </p>
+              <span className="font-semibold">Maharashtra 400014</span>
+            </a>
             {/* <a
               href="https://maps.google.com"
               target="_blank"

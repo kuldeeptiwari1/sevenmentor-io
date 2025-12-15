@@ -53,10 +53,10 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 border-t border-gray-800 pt-6">
             {/* About SevenMentor */}
-           
+
             <div>
               <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
-              Data Science
+                Data Science
               </h4>
               <ul className="space-y-3 mt-4">
                 <li>
@@ -120,8 +120,8 @@ export default function Footer() {
                     href="/ccna-linux-aws-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
-                    <span className="text-orange-500">›</span> 
-CCNA + Linux + AWS
+                    <span className="text-orange-500">›</span>
+                    CCNA + Linux + AWS
 
                   </Link>
                 </li>
@@ -335,27 +335,50 @@ CCNA + Linux + AWS
                 </li>
               </ul>
             </div>
-            
+
             {/* Contact/Other */}
             <div>
               <h4 className="text-white font-bold text-lg mb-6 pb-2 border-b-2 border-orange-500 inline-block">
                 Contact Us
               </h4>
               <ul className="space-y-3 mt-4 text-gray-400 text-sm">
-                <li>Office no. 101 & part office no.1, Civic Centre</li>
                 <li>
-                  MMGS Marg, Dadar East, Dadar, Mumbai, Maharashtra 400014
+                  <a
+                    href="https://maps.app.goo.gl/wHWLQcDJERg3jEqp9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-orange-500 transition-colors"
+                  >
+                    Office no. 101 & part office no.1, Civic Centre, MMGS Marg,
+                    Dadar East, Dadar, Mumbai, Maharashtra 400014
+                  </a>
                 </li>
-                <li>Phone: 022-48904395</li>
-                <li>Email: mumbaileads@sevenmentor.com</li>
+                <li>
+                  Phone:{" "}
+                  <a
+                    href="tel:02248904395"
+                    className="hover:text-orange-500 transition-colors"
+                  >
+                    022-48904395
+                  </a>
+                </li>
+                <li>
+                  Email:{" "}
+                  <a
+                    href="mailto:mumbaileads@sevenmentor.com"
+                    className="hover:text-orange-500 transition-colors"
+                  >
+                    mumbaileads@sevenmentor.com
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
             <a
-            href="https://www.sevenmentor.com/"
-            target="_blank"
+              href="https://www.sevenmentor.com/"
+              target="_blank"
             >
               © {new Date().getFullYear()} SevenMentor & Training Pvt Ltd. All
               Rights Reserved.
