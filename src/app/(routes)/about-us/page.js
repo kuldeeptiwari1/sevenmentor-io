@@ -375,19 +375,24 @@ export default function AboutUsPage() {
                   <div className="flex items-start gap-3">
                     <MapPin className="w-6 h-6 text-orange-400 flex-shrink-0 mt-1" />
                     <div>
-                      <p className="text-gray-300 leading-relaxed">
+                      <a
+                        href="https://maps.app.goo.gl/wHWLQcDJERg3jEqp9"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-300 leading-relaxed hover:text-orange-400 transition-colors block"
+                      >
                         Office no. 101 & part office no.1,<br />
                         Civic Centre, MMGS Marg,<br />
                         Dadar East, Dadar, Mumbai,<br />
-                        <span className="text-orange-400 font-semibold">Maharashtra 400014</span>
-                      </p>
+                        <span className="font-semibold">Maharashtra 400014</span>
+                      </a>
                     </div>
                   </div>
                   <div className="border-t border-gray-700 pt-4">
-                    <div className="flex items-center gap-3 mb-3">
+                    {/* <div className="flex items-center gap-3 mb-3">
                       <Clock className="w-5 h-5 text-orange-400" />
                       <span className="text-gray-300 font-medium">Mon - Sat: 9:00 AM - 7:00 PM</span>
-                    </div>
+                    </div> */}
                     {/* <div className="flex items-center gap-3">
                       <Phone className="w-5 h-5 text-orange-400" />
                       <span className="text-white font-bold text-lg">022-48904395</span>
@@ -402,7 +407,7 @@ export default function AboutUsPage() {
 
       <footer className="bg-gray-900 text-white py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gray-400">© 2025 SevenMentor - Training Institute Mumbai. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 <a href="https://www.sevenmentor.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">SevenMentor</a> - Training Institute Mumbai. All rights reserved.</p>
         </div>
       </footer>
     </div>
