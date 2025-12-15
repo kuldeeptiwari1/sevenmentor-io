@@ -232,7 +232,7 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
                 {/* Message */}
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Message (Optional)
+                    Message
                   </label>
                   <Field
                     as="textarea"

@@ -159,7 +159,10 @@ export default function Navbar() {
                 { name: "HR Generalist", link: "/hr-generalist-course-in-mumbai" },
             ]
         },
-
+        {
+            name: "Corporate Training",
+            link: '/corporate-training'
+        },
         {
             name: "Contact us",
             link: 'contact-us'
@@ -195,20 +198,20 @@ export default function Navbar() {
 
 
                 {/* Main Navigation */}
-                <div className="max-w-7xl mx-auto ">
-                    <div className="flex items-center justify-around h-16 md:h-20">
+                <div className="max-w-7xl mx-auto px-4 xl:px-0">
+                    <div className="flex items-center justify-center gap-32 h-16 md:h-20">
                         {/* Logo */}
                         <Link href="/" className="flex items-center gap-2">
-  <img
-    src="/assets/sevenMLogo.webp"
-    alt="SevenMentor Logo"
-    className="w-10 h-10 md:w-12 md:h-12 object-contain"
-  />
+                            <img
+                                src="/assets/sevenMLogo.webp"
+                                alt="SevenMentor Logo"
+                                className="w-10 h-10 md:w-12 md:h-12 object-contain"
+                            />
 
-  <span className="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600">
-    SevenMentor
-  </span>
-</Link>
+                            <span className="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600">
+                                SevenMentor
+                            </span>
+                        </Link>
 
 
 
@@ -216,23 +219,23 @@ export default function Navbar() {
 
 
                         {/* Desktop Menu */}
-                        <div className="hidden lg:flex h-full items-center">
+                        <div className="hidden lg:flex h-full items-center gap-1">
                             {navItems.map((item, idx) => (
                                 <div key={idx} className="relative h-full flex items-center" onMouseEnter={() => item.submenu && setDesktopOpenDropdown(idx)} onMouseLeave={() => item.submenu && setDesktopOpenDropdown(null)}>
                                     {item.submenu ? (
                                         item.link && item.link !== '#' ? (
-                                            <Link href={item.link} className={`flex items-center gap-3 px-2 h-10 rounded-md transition-all duration-300 font-medium text-gray-700 hover:text-white hover:bg-[#009bf5] ${desktopOpenDropdown === idx ? 'bg-[#009bf5] text-white' : ''}`}>
+                                            <Link href={item.link} className={`flex items-center gap-1 px-3 h-10 rounded-md transition-all duration-300 font-semibold text-[15px] text-gray-700 hover:text-white hover:bg-[#009bf5] whitespace-nowrap ${desktopOpenDropdown === idx ? 'bg-[#009bf5] text-white' : ''}`}>
                                                 {item.name}
                                                 <ChevronDown size={14} />
                                             </Link>
                                         ) : (
-                                            <button className={`flex items-center gap-3 px-2 h-10 rounded-md transition-all duration-300 font-medium text-gray-700 hover:text-white hover:bg-[#009bf5] ${desktopOpenDropdown === idx ? 'bg-[#009bf5] text-white' : ''}`}>
+                                            <button className={`flex items-center gap-1 px-3 h-10 rounded-md transition-all duration-300 font-semibold text-[15px] text-gray-700 hover:text-white hover:bg-[#009bf5] whitespace-nowrap ${desktopOpenDropdown === idx ? 'bg-[#009bf5] text-white' : ''}`}>
                                                 {item.name}
                                                 <ChevronDown size={14} />
                                             </button>
                                         )
                                     ) : (
-                                        <Link href={item.link} className="flex items-center gap-3 px-2 h-10 rounded-md transition-all duration-300 font-medium text-gray-700 hover:text-white hover:bg-[#009bf5]">
+                                        <Link href={item.link} className="flex items-center gap-1 px-3 h-10 rounded-md transition-all duration-300 font-semibold text-[15px] text-gray-700 hover:text-white hover:bg-[#009bf5] whitespace-nowrap">
                                             {item.name}
                                         </Link>
                                     )}
