@@ -161,7 +161,7 @@ export default function Navbar() {
         },
         {
             name: "Corporate Training",
-            link: '/corporate-training'
+            link: '/corporate-training-in-mumbai'
         },
         {
             name: "Contact us",
