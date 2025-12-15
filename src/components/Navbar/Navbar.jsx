@@ -198,17 +198,18 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto ">
                     <div className="flex items-center justify-around h-16 md:h-20">
                         {/* Logo */}
-                        <Link href="/" className="flex-shrink-0 flex items-center gap-2">
+                        <Link href="/" className="flex items-center gap-2">
   <img
     src="/assets/sevenMLogo.webp"
     alt="SevenMentor Logo"
-    className="w-12 h-12 object-contain"
+    className="w-10 h-10 md:w-12 md:h-12 object-contain"
   />
 
-  <span className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600">
+  <span className="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600">
     SevenMentor
   </span>
 </Link>
+
 
 
 
