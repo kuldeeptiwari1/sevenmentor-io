@@ -215,21 +215,11 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
                     <div className="relative">
                       <Award className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                       <Field
-                        as="select"
                         name="Course"
-                        className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-xl bg-white outline-none focus:ring-2 focus:ring-orange-500"
-                      >
-                        <option value="">Select a Course</option>
-                        <option value="Cyber Security">Cyber Security</option>
-                        <option value="Ethical Hacking">Ethical Hacking</option>
-                        <option value="Network Security">
-                          Network Security
-                        </option>
-                        <option value="CEH Certification">
-                          CEH Certification
-                        </option>
-                        {course && <option value={course}>{course}</option>}
-                      </Field>
+                        type="text"
+                        className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-xl outline-none focus:ring-2 focus:ring-orange-500"
+                        placeholder="Enter course name"
+                      />
                     </div>
                     <ErrorMessage
                       name="Course"
@@ -258,9 +248,8 @@ const EnrollForm = ({ mailTo, course, contactNumber }) => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className={`bg-gradient-to-r from-orange-500 to-orange-600 hover:scale-105 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg transition-all ${
-                      isSubmitting ? "opacity-70 cursor-not-allowed" : ""
-                    }`}
+                    className={`bg-gradient-to-r from-orange-500 to-orange-600 hover:scale-105 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg transition-all ${isSubmitting ? "opacity-70 cursor-not-allowed" : ""
+                      }`}
                   >
                     {isSubmitting ? "Submitting..." : "Submit"}
                   </button>
