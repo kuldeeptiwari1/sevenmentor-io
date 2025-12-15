@@ -60,52 +60,52 @@ export default function Footer() {
               </h4>
               <ul className="space-y-3 mt-4">
                 <li>
-                  <a
+                  <Link
                     href="/data-science-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Data Science
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/data-analytics-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Data Analytics
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/advanced-excel-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Advanced Excel
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/python-sql-excel-powerbi-complete-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Python + SQL + Adv. Excel + Power BI
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/python-sql-prob-stat-ds-machine-learning-ai-deep-learning-power-bi"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Python + Sql + Prob & Stat + DS(Machine Learning) + AI(Deep Learning) Power bi
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/python-sql-probability-with-statistics-advexcel-power-bi"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Python +SQL+ Probability with statistics+Adv excel +Power bi
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -116,70 +116,70 @@ export default function Footer() {
               </h4>
               <ul className="space-y-3 mt-4">
                 <li>
-                  <a
+                  <Link
                     href="/ccna-linux-aws-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> 
 CCNA + Linux + AWS
 
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/ccna-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> CCNA
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/ccna-linux-ceh-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> CCNA + Linux + CEH
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/cyber-security-analyst-program-training-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Cyber Security Analyst Program
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/salesforce-admin-developer-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Salesforce ADM+DEV (PD-1+LWC)
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/devops-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Devops
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/cloud-computing-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Cloud Computing
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/ethical-hacking-training-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>Certified Ethical Hacking (CEH v12) Course in Mumbai
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -191,60 +191,60 @@ CCNA + Linux + AWS
               </h4>
               <ul className="space-y-3 mt-4">
                 <li>
-                  <a
+                  <Link
                     href="/full-stack-java-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Full Stack Java
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/full-stack-python-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Full Stack Python
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/software-testing-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Software Testing
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/ui-ux-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> UI UX
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/web-full-stack-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Web Full Stack
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/web-development-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Web Development
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/web-application-penetration-testing-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Web Application Penetration Testing (WAPT) Training Course in Mumbai
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -254,36 +254,36 @@ CCNA + Linux + AWS
               </h4>
               <ul className="space-y-3 mt-4">
                 <li>
-                  <a
+                  <Link
                     href="/sap-mm-s4-hana-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> SAP MM S4 HANA
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/sap-fico-s4-hana-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> SAP Fico S4 HANA
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/sap-fico-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> SAP FICO
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/sap-mm-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>SAP MM
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -294,44 +294,44 @@ CCNA + Linux + AWS
               </h4>
               <ul className="space-y-3 mt-4">
                 <li>
-                  <a
+                  <Link
                     href="/soft-skills-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Softskill
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/soft-skills-personality-development-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> Softskill & Personality Development
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/german-a1-a2-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span> German A1 and A2
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/german-a1-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>German A1
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/hr-generalist-course-in-mumbai"
                     className="text-gray-400 hover:text-white transition flex items-center gap-2"
                   >
                     <span className="text-orange-500">›</span>HR Generalist
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -12,9 +12,10 @@ import {
 } from "lucide-react";
 import axios from "axios";
 
-const DownloadPopupForm = ({ mailTo, course, contactNumber, onClose }) => {
+const DownloadPopupForm = ({ mailTo, course, contactNumber, onClose,pdf }) => {
   // Define your PDF link - IMPORTANT: Add your actual PDF URL here
-  const pdfLink = "https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/comp-new-HR-Audit_11zon-1762952119864.pdf";
+  const pdfLink = pdf;
+  console.log(pdf)
 
   const initialValues = {
     Name: "",

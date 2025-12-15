@@ -399,7 +399,8 @@ export const courses = [
         contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-        whatsappMessage: 'Hi+I+am+looking+for+Cyber+Security+Course+in+Mumbai+course'
+        whatsappMessage: 'Hi+I+am+looking+for+Cyber+Security+Course+in+Mumbai+course',
+        pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Certified-Ethical-Hacking-VI3-Course-1743666362398.pdf"
     },
     {
     slug: 'ethical-hacking-training-in-mumbai',
@@ -959,7 +960,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Certified+Ethical+Hacking+CEH+v12+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Certified+Ethical+Hacking+CEH+v12+Course+in+Mumbai',
+     pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Certified-Ethical-Hacking-VI3-Course-1743666362398.pdf"
 },
 {
     slug: 'soc-course-in-mumbai',
@@ -1485,7 +1487,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+SOC+Analyst+Training+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+SOC+Analyst+Training+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Security-Operations-Center-1745823494158.pdf'
 },
 {
     slug: 'chfi-course-in-mumbai',
@@ -2011,7 +2014,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+CHFI+Training+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+CHFI+Training+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Hacking-Forensic-Investigator_compressed-1743604276306.pdf'
 },
 {
     slug: 'web-application-penetration-testing-course-in-mumbai',
@@ -2571,7 +2575,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+WAPT+Training+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+WAPT+Training+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/comp-new-Web-Application-Penetration-Testing-Compress-(2)-1745673747689_4_11zon-1762949407605.pdf'
 },
 {
     slug: 'cyber-security-analyst-program-training-in-mumbai',
@@ -3131,7 +3136,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Cyber+Security+Analyst+Program+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Cyber+Security+Analyst+Program+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/comp-new-Cyber-Security-Analyst-1745674911137_3_11zon-1762949538483.pdf'
 },
 
 {
@@ -3777,7 +3783,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Data+Science+ML+AI+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Data+Science+ML+AI+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Data-Science-With-AI-(1)-1745830960556.pdf'
 },
 
 {
@@ -4406,7 +4413,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Data+Analytics+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Data+Analytics+Course+in+Mumbai',
+    pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/comp-new-Work-Day-training_11zon-1762952773092.pdf"
 },
 
 {
@@ -5021,7 +5029,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Python+Programming+Course+in+Mumbai'
+        whatsappMessage: 'Hi+I+am+looking+for+Python+Programming+Course+in+Mumbai',
+        pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Python-1745657609278.pdf"
 },
 
 {
@@ -5696,7 +5705,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Data+Science+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Data+Science+Course+in+Mumbai',
+    pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Data-Science-With-AI-(1)-1745830960556_11_11zon-1762953590076.pdf"
 },
 
 {
@@ -6325,7 +6335,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Data+Analytics+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Data+Analytics+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Data-Analytics-Syllabus-1743600423529_8_11zon-1762953830380.pdf'
 },
 
 {
@@ -6912,7 +6923,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Advanced+Excel+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Advanced+Excel+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Advance-Excel-1745840919096_4_11zon-1762955708017.pdf'
 },
 
 {
@@ -7490,7 +7502,8 @@ export const courses = [
      contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Python+SQL+Excel+PowerBI+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Python+SQL+Excel+PowerBI+Course+in+Mumbai',
+    pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/PL-SQL-1745658273417_3_11zon-1762955219962.pdf"
 },
 
 {
@@ -8167,7 +8180,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Full+Stack+Java+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Full+Stack+Java+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Java-Full-Stack-Job-Oriented-Programe-1745823647634_7_11zon-1763042873175.pdf'
 },
 
 {
@@ -8844,7 +8858,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Full+Stack+Python+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Full+Stack+Python+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Python-FullStack-1745823200806_7_11zon-1762954447076.pdf'
 },
 
 {
@@ -9478,7 +9493,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Software+Testing+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Software+Testing+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Software-Testing-1741768253648_11zon-1763097569848.pdf'
 },
 
 {
@@ -10146,7 +10162,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Web+Full+Stack+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Web+Full+Stack+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Web-FullStack-Job-Oriented-Internship-Package-1745823849646.pdf'
 },
 
 {
@@ -10768,7 +10785,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Web+Development+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Web+Development+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Web-Development-1760963453863_2_11zon-1763096994531.pdf'
 },
 
 {
@@ -11427,10 +11445,12 @@ export const courses = [
         }
     ],
     courseName: 'CCNA + Linux + AWS Networking & Cloud',
+
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+CCNA+Linux+AWS+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+CCNA+Linux+AWS+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/CCNA-1745676125391_11zon-1763098917353.pdf'
 },
 
 
@@ -12117,7 +12137,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+CCNA+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+CCNA+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/CCNA-1745676125391_11zon-1763098917353.pdf'
 },
 
 {
@@ -13630,7 +13651,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+CCNA+Linux+AWS+DevOps+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+CCNA+Linux+AWS+DevOps+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/CCNA-1745676125391_11zon-1763098917353.pdf'
 },
 
 {
@@ -14322,7 +14344,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+DevOps+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+DevOps+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Devops-1745677038348_11zon-1763099118917.pdf'
 },
 
 {
@@ -15044,7 +15067,8 @@ export const courses = [
  contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Cloud+Computing+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Cloud+Computing+Course+in+Mumbai',
+    pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Cloud-Computing-1745677229939_11zon-1763098648770.pdf"
 },
 
 {
@@ -15642,7 +15666,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+SAP+MM+S4+HANA+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+SAP+MM+S4+HANA+Course+in+Mumbai',
+    pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/SAP-MM-(1)-1745674857675_14_11zon-1763039280918.pdf"
 },
 
 {
@@ -16343,7 +16368,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+SAP+FICO+S4+HANA+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+SAP+FICO+S4+HANA+Course+in+Mumbai',
+    pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/SAP-FICO-(1)-1745674690492_13_11zon-1763011382745.pdf"
 },
 
 {
@@ -17199,7 +17225,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+SAP+FICO+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+SAP+FICO+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/SAP-FICO-(1)-1745674690492_13_11zon-1763011382745.pdf'
 },
 
 {
@@ -17993,7 +18020,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+SAP+MM+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+SAP+MM+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/SAP-MM-(1)-1745674857675_14_11zon-1763039280918.pdf'
 },
 
 {
@@ -18686,7 +18714,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Soft+Skills+Training+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Soft+Skills+Training+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Personality-Development-1745674984013_38_11zon-1763041597033.pdf'
 },
 
 {
@@ -19539,7 +19568,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Soft+Skills+and+Personality+Development+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Soft+Skills+and+Personality+Development+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Personality-Development-1745674984013_38_11zon-1763041597033.pdf'
 },
 
 {
@@ -20027,7 +20057,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+German+A1+and+A2+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+German+A1+and+A2+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/German-language-1745676680312_35_11zon-1763041717377.pdf'
 },
 
 {
@@ -20698,7 +20729,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+German+A1+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+German+A1+Course+in+Mumbai',
+     pdf:  "https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/German-language-1745676680312_35_11zon-1763041717377.pdf"
 },
 
 {
@@ -21574,7 +21606,8 @@ export const courses = [
    contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+German+A1+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+German+A1+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/comp-new-HR-Training-_11zon-1762951155679.pdf'
 },
 
 {
@@ -22387,7 +22420,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Software+Testing+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Software+Testing+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/CORE-JAVA-FOR-AUTOMATION-TESTING-1754306350452.pdf'
 },
 
 {
@@ -23442,7 +23476,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+Salesforce+Admin+Developer+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+Salesforce+Admin+Developer+Course+in+Mumbai',
+    pdf:"https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/Salesforce-Admin-1745658757782_11zon-1763099292238.pdf"
 },
 
 {
@@ -24429,7 +24464,8 @@ export const courses = [
     contactEmail: 'mumbaileads@sevenmentor.com',
         contactNumber: '02248904395',
         whatsappNumber: '+918421176876',
-    whatsappMessage: 'Hi+I+am+looking+for+UI+UX+Design+Course+in+Mumbai'
+    whatsappMessage: 'Hi+I+am+looking+for+UI+UX+Design+Course+in+Mumbai',
+    pdf:'https://sevenmentor-website.s3.eu-north-1.amazonaws.com/uploads/pdf/UI-UX_1_11zon-1763097958904.pdf'
 }
 
 
