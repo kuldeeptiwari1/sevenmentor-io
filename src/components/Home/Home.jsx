@@ -9,6 +9,7 @@ import {
   categories,
 } from './CourseCardData';
 import Link from 'next/link';
+import { Phone, MessageCircle } from 'lucide-react';
 
 function Home() {
   return (
@@ -77,7 +78,7 @@ function Home() {
 
       {/* Software Courses */}
       <div className="bg-white">
-       
+
       </div>
 
       {/* Data Science Courses */}
@@ -122,7 +123,28 @@ function Home() {
           </div>
         </div>
       </section>
-    </div>
+
+
+      {/* Floating Contact Buttons */}
+      <div className="fixed left-6 bottom-6 z-50 flex flex-col gap-3">
+        <a
+          href="tel:02248904395"
+          className="w-14 h-14 bg-red-600 hover:bg-red-700 rounded-xl flex items-center justify-center shadow-2xl transform hover:scale-110 transition-all duration-300 group"
+          aria-label="Call us"
+        >
+          <Phone className="w-7 h-7 text-white" />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=918421176876&text=Hi+I+am+looking+for+Course"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-14 h-14 bg-green-600 hover:bg-green-700 rounded-xl flex items-center justify-center shadow-2xl transform hover:scale-110 transition-all duration-300 group"
+          aria-label="WhatsApp us"
+        >
+          <MessageCircle className="w-7 h-7 text-white" />
+        </a>
+      </div>
+    </div >
   );
 }
 

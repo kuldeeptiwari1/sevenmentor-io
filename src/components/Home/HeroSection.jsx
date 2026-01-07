@@ -10,16 +10,24 @@ import {
   Star,
   BookOpen,
   Target,
+  Phone,
 } from "lucide-react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { courses } from "./CourseCardData";
+import PoupFormEnroll from "../EnrollForm/PoupFormEnroll";
 
 export default function HeroSection() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [showForm, setShowForm] = useState(false);
+
+  // Default contact info for Home Page
+  const contactEmail = "mumbaileads@sevenmentor.com";
+  const contactNumber = "02248904395";
+  const courseName = "Data Science";
 
   const handleSearch = () => {
     if (!searchQuery.trim()) return;
@@ -202,13 +210,7 @@ export default function HeroSection() {
               )}
             </div>
 
-            {/* CTA Buttons */}
-            {/* <div className="flex flex-wrap gap-4">
-              <button className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-semibold text-base transition-all duration-300 shadow-lg transform hover:scale-105 flex items-center gap-2">
-                Explore All Courses
-                <Play className="w-5 h-5" />
-              </button>
-            </div> */}
+
           </div>
 
           {/* Right Content - Completely Redesigned Cards */}
@@ -322,17 +324,12 @@ export default function HeroSection() {
                     </div>
                   </div>
                 </div>
-                <div className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-sm rounded-xl border border-white/10">
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-400 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <BookOpen className="w-6 h-6 text-white" />
-                  </div>
-                  <div className="flex-1">
-                    <div className="font-semibold">Lifetime Access</div>
-                    <div className="text-sm text-gray-300">
-                      Learn at your own pace
-                    </div>
-                  </div>
-                </div>
+                <button
+                  onClick={() => setShowForm(true)}
+                  className="w-full bg-gradient-to-r from-orange-500 to-orange-400 hover:from-orange-600 hover:to-orange-500 text-white p-4 rounded-xl font-semibold transition-all duration-300 shadow-lg flex items-center justify-center gap-2 group">
+                  <span>Request a Call Back</span>
+                  <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
+                </button>
               </div>
             </div>
 
@@ -342,6 +339,14 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+      {showForm && (
+        <PoupFormEnroll
+          mailTo={contactEmail}
+          course={courseName}
+          contactNumber={contactNumber}
+          onClose={() => setShowForm(false)}
+        />
+      )}
     </div>
   );
 }
